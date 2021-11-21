@@ -1,4 +1,4 @@
-# py311 Tratamiento y visualización de datos con Pandas y Matplotlib.
+# py311 Gestión de datos con Numpy, Pandas y Matplotlib.
 
 ## Temario:
 
