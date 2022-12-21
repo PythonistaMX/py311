@@ -105,7 +105,6 @@ venv.bak/
 
 # excel files
 *.xlsx
-*.csv
 arreglo.*
 arreglos.*
 grafica.png
