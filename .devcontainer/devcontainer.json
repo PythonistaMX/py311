@@ -1,0 +1,48 @@
+{
+  "name": "Ingeniería de Datos con Python (Py311)",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.11-bullseye",
+  
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": "true",
+      "configureZshAsDefaultShell": "true"
+    }
+  },
+
+  // Configuración de puertos para que sean accesibles desde el navegador
+  "forwardPorts": [8501, 8787],
+  "portsAttributes": {
+    "8501": {
+      "label": "Streamlit App",
+      "onAutoForward": "notify"
+    },
+    "8787": {
+      "label": "Dask Dashboard",
+      "onAutoForward": "notify"
+    }
+  },
+
+  // Comandos que se ejecutan al crear el contenedor
+  "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt",
+
+  // Personalización de VS Code
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "python.formatting.provider": "black",
+        "editor.formatOnSave": true
+      },
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.jupyter-keymap",
+        "ms-toolsai.jupyter-renderers",
+        "tamasfe.even-better-toml",
+        "njpwerner.autodocstring"
+      ]
+    }
+  }
+}
