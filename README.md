@@ -95,7 +95,7 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6
 
 1. Haz clic en el botón **"Code"** (verde) arriba a la derecha.
 2. Ve a la pestaña **"Codespaces"**.
-3. Haz clic en **"Create codespace on main"**.
+3. Haz clic en **"Create codespace on master"**.
 
 El entorno se iniciará automáticamente con:
 * Python 3.11
@@ -154,3 +154,4 @@ Véase el archivo [LICENSE](LICENSE) para los términos completos.
 ## 👨‍💼 Autor
 
 Material educativo oficial del programa de Ingeniería de Datos.
+
