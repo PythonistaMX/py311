@@ -1,22 +1,22 @@
 # Core Científico
-numpy
-scipy
-pandas>=2.1.0        # Necesario para soporte robusto de PyArrow
-pyarrow              # Motor de backend
-polars               # Nuevo motor DataFrame
+numpy>=1.26.0
+scipy>=1.12.0
+pandas>=2.2.0        # Necesario para soporte robusto de PyArrow
+pyarrow>=15.0.0      # Motor de backend
+polars>=0.20.0       # Nuevo motor DataFrame
 
 # Visualización
-matplotlib
-seaborn
-plotnine             # Opcional, pero estaba en tus notebooks originales
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotnine>=0.13.0     # Gramática de gráficos estilo ggplot2
 
 # Computación Distribuida y Formatos
-dask[complete]       # Instala dask, distributed, dashboard, etc.
-fastparquet          # Para lectura/escritura eficiente de Parquet
-zstandard            # Compresión usada comúnmente en Parquet
+dask[complete]>=2024.1.0  # Instala dask, distributed, dashboard, etc.
+fastparquet>=2024.1.0     # Para lectura/escritura eficiente de Parquet
+zstandard>=0.22.0    # Compresión usada comúnmente en Parquet
 
-# Aplicaciones y Notebooks
-streamlit            # Para la sesión 12
-jupyter
-ipykernel
-watchdog             # Mejora el reload automático de Streamlit
+# Aplicaciones Web y Notebooks
+streamlit>=1.30.0    # Framework web para apps interactivas
+jupyter>=1.0.0
+ipykernel>=6.28.0
+watchdog>=3.0.0      # Mejora el reload automático de Streamlit
