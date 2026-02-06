@@ -25,15 +25,16 @@ Todo el entorno se ejecuta en la nube mediante **GitHub Codespaces**, eliminando
 
 ## 📅 Temario y Estructura
 
-El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 5 bloques estratégicos:
+El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6 bloques estratégicos:
 
 | Bloque | Temática Principal | Tecnologías Clave |
 | :--- | :--- | :--- |
 | **I. Fundamentos** | Computación numérica y álgebra lineal vectorial. | `NumPy`, `SciPy` |
-| **II. Estructura** | Pandas Moderno: Backend PyArrow y optimización. | `Pandas 2.0`, `PyArrow` |
-| **III. Analítica** | ETL, Limpieza avanzada, Windowing y Crosstabs. | `Pandas`, `Window Ops` |
-| **IV. Ingeniería** | Formatos binarios, Polars y Computación Distribuida. | `Parquet`, `Polars`, `Dask` |
-| **V. Producto** | Visualización estadística y Data Apps interactivas. | `Seaborn`, `Streamlit` |
+| **II. Pandas Moderno** | Backend PyArrow, manipulación y limpieza de datos. | `Pandas 2.0`, `PyArrow` |
+| **III. Visualización** | Gramática de gráficos y visualización estadística. | `Matplotlib`, `Seaborn` |
+| **IV. Ingeniería Moderna** | Arrow, Polars y optimización de memoria. | `PyArrow`, `Polars` |
+| **V. Data Apps** | Dashboards interactivos sin necesidad de web development. | `Streamlit` |
+| **VI. Escalado** | Procesamiento paralelo y escalabilidad distribuida. | `Dask` |
 
 ### 📚 Lista de Contenidos (Notebooks)
 
@@ -48,35 +49,41 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 5
 * `08` - Álgebra lineal aplicada a datos.
 
 #### 🔹 Módulo 2: Pandas Moderno y Estructura
-* `09` - Introducción a Pandas y el backend **PyArrow**.
+* `09` - Introducción a Pandas.
 * `10` - Tipos de datos y optimización (`category` vs `object`).
 * `11` - Operaciones estructurales en DataFrames.
 * `12` - Índices jerárquicos y optimización de búsquedas.
-* `13` - Relaciones entre datos: Uniones y Concatenaciones.
+* `13` - Datos categóricos y relaciones.
 * `14` - `Merge` avanzado y comparativas de rendimiento.
-
-#### 🔹 Módulo 3: ETL y Analítica Avanzada
-* `15` - Filtrado complejo y consultas (`query`, `filter`).
-* `16` - Transformaciones personalizadas (`apply`, `map`).
-* `17` - **Técnicas de Ventana (Windowing):** Rolling, Expanding y Shift.
+* `15` - Filtrado complejo (`filter`, `query`).
+* `16` - Transformaciones personalizadas (`apply`, `transform`).
+* `17` - Técnicas de enmascaramiento avanzado.
 * `18` - Gestión de calidad de datos.
 * `19` - Estrategias de imputación y manejo de nulos.
-* `20` - Transformación y limpieza de strings/objetos.
-* `21` - Agregaciones avanzadas: `groupby`, `crosstab` y `pivot_table`.
+* `20` - Uniones y mezclas de DataFrames.
+* `21` - Transformación y limpieza de objetos.
+* `22` - Agregaciones avanzadas: `groupby`, `crosstab` y `pivot_table`.
+* `23` - Extracción y almacenamiento de datos.
+* `24` - Visualización de datos con Pandas.
 
-#### 🔹 Módulo 4: Ingeniería de Alto Rendimiento
-* `22` - **I/O Eficiente:** Formato **Parquet** vs CSV.
-* `30` - **Introducción a Polars:** El futuro de los DataFrames rápidos.
-* `31` - **Computación Distribuida con Dask:** Procesamiento Out-of-Core.
+#### 🔹 Módulo 3: Visualización Estadística
+* `25` - Introducción a Matplotlib.
+* `26` - Elementos de un gráfico (títulos, ejes, leyendas).
+* `27` - Tipos básicos de gráficos.
+* `28` - Introducción a Plotnine (Gramática de gráficos).
+* `29` - Introducción a Seaborn.
+* `30` - Objetos especializados en Seaborn.
 
-#### 🔹 Módulo 5: Visualización y Despliegue
-* `23` - Visualización rápida con Pandas.
-* `24` - La gramática de gráficos: Matplotlib.
-* `25` - Personalización de elementos gráficos.
-* `26` - Tipos de gráficos fundamentales.
-* `28` - Visualización estadística con **Seaborn**.
-* `29` - Objetos y temas en Seaborn.
-* `32` - **Proyecto Final:** Data Apps interactivas con **Streamlit**.
+#### 🔹 Módulo 4: Ingeniería de Datos Moderna
+* `31` - **Introducción a PyArrow:** Arrays, Tables y Backend Pandas.
+* `32` - **Introducción a Polars:** API expresiva y evaluación lazy.
+* `33` - **Polars Avanzado:** Window functions, optimización y decisiones arquitectónicas.
+
+#### 🔹 Módulo 5: Data Apps Interactivas
+* `34` - **Introducción a Streamlit:** Dashboards web sin HTML/CSS/JavaScript.
+
+#### 🔹 Módulo 6: Computación Distribuida
+* `36` - **Dask:** Procesamiento paralelo y escalabilidad out-of-core.
 
 ---
 
