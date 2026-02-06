@@ -62,7 +62,7 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6
 * `19` - Estrategias de imputación y manejo de nulos.
 * `20` - Uniones y mezclas de DataFrames.
 * `21` - Transformación y limpieza de objetos.
-* `22` - Agregaciones avanzadas: `groupby`, `crosstab` y `pivot_table`.
+* `22` - Agregaciones avanzadas: `groupby`, `crosstab`, `pivot_table` y `window functions`.
 * `23` - Extracción y almacenamiento de datos.
 * `24` - Visualización de datos con Pandas.
 
@@ -83,7 +83,7 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6
 * `34` - **Introducción a Streamlit:** Dashboards web sin HTML/CSS/JavaScript.
 
 #### 🔹 Módulo 6: Computación Distribuida
-* `36` - **Dask:** Procesamiento paralelo y escalabilidad out-of-core.
+* `36` - **Introducción a Dask:** Procesamiento paralelo y escalabilidad out-of-core.
 
 ---
 
@@ -91,9 +91,9 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6
 
 ¡Olvídate de configurar entornos locales! Este repositorio está configurado para **GitHub Codespaces**.
 
-1.  Haz clic en el botón **"Code"** (verde) arriba a la derecha.
-2.  Ve a la pestaña **"Codespaces"**.
-3.  Haz clic en **"Create codespace on main"**.
+1. Haz clic en el botón **"Code"** (verde) arriba a la derecha.
+2. Ve a la pestaña **"Codespaces"**.
+3. Haz clic en **"Create codespace on main"**.
 
 El entorno se iniciará automáticamente con:
 * Python 3.11
@@ -106,7 +106,7 @@ Si prefieres trabajar en tu máquina:
 
 ```bash
 # Clonar el repositorio
-git clone [https://github.com/tusuario/py311.git](https://github.com/tusuario/py311.git)
+git clone https://github.com/tusuario/py311.git
 cd py311
 
 # Crear entorno virtual
@@ -118,3 +118,25 @@ pip install -r requirements.txt
 
 # Iniciar Jupyter
 jupyter lab
+```
+
+---
+
+## 📖 Recursos Adicionales
+
+* **Documentación oficial de Pandas:** https://pandas.pydata.org/docs/
+* **Documentación oficial de Polars:** https://docs.pola.rs/
+* **Documentación oficial de Dask:** https://docs.dask.org/
+* **Documentación oficial de Streamlit:** https://docs.streamlit.io/
+
+---
+
+## 📝 Licencia
+
+Este proyecto está bajo la licencia MIT. Véase el archivo [LICENSE](LICENSE) para más detalles.
+
+---
+
+## 👨‍💼 Autor
+
+Material educativo oficial del programa de Ingeniería de Datos.
