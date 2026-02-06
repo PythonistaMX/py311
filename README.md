@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Codespaces](https://img.shields.io/badge/GitHub-Codespaces-brightgreen?style=for-the-badge&logo=github&logoColor=white)](https://github.com/features/codespaces)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+[![License](https://img.shields.io/badge/License-CC--BY%204.0-blue.svg?style=for-the-badge)](LICENSE)
 [![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![Polars](https://img.shields.io/badge/Backend-Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white)](https://pola.rs/)
 
@@ -31,7 +31,7 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6
 | :--- | :--- | :--- |
 | **I. Fundamentos** | Computación numérica y álgebra lineal vectorial. | `NumPy`, `SciPy` |
 | **II. Pandas Moderno** | Backend PyArrow, manipulación y limpieza de datos. | `Pandas 2.0`, `PyArrow` |
-| **III. Visualización** | Gramática de gráficos y visualización estadística. | `Matplotlib`, `Seaborn` |
+| **III. Visualización** | Gramática de gráficos (ggplot2-like), estadística y control fino. | `Matplotlib`, `Seaborn`, `Plotnine` |
 | **IV. Ingeniería Moderna** | Arrow, Polars y optimización de memoria. | `PyArrow`, `Polars` |
 | **V. Data Apps** | Dashboards interactivos sin necesidad de web development. | `Streamlit` |
 | **VI. Escalado** | Procesamiento paralelo y escalabilidad distribuida. | `Dask` |
@@ -67,12 +67,14 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6
 * `24` - Visualización de datos con Pandas.
 
 #### 🔹 Módulo 3: Visualización Estadística
-* `25` - Introducción a Matplotlib.
-* `26` - Elementos de un gráfico (títulos, ejes, leyendas).
-* `27` - Tipos básicos de gráficos.
-* `28` - Introducción a Plotnine (Gramática de gráficos).
-* `29` - Introducción a Seaborn.
-* `30` - Objetos especializados en Seaborn.
+* `25` - Introducción a Matplotlib (fundamentos).
+* `26` - Elementos de un gráfico (títulos, ejes, leyendas, estilos).
+* `27` - Tipos básicos de gráficos (scatter, line, bar, histogramas).
+* `28` - Plotnine (Gramática de gráficos para profesionales - reproducibilidad).
+* `29` - Introducción a Seaborn (visualización estadística rápida).
+* `30` - Objetos especializados en Seaborn (regresión, correlación, distribuciones).
+
+> **📊 Nota Profesional:** Plotnine (basado en ggplot2) es ideal para reportes reproducibles y migración desde R. Seaborn para exploración iterativa. Matplotlib para control fino de bajo nivel.
 
 #### 🔹 Módulo 4: Ingeniería de Datos Moderna
 * `31` - **Introducción a PyArrow:** Arrays, Tables y Backend Pandas.
@@ -133,7 +135,19 @@ jupyter lab
 
 ## 📝 Licencia
 
-Este proyecto está bajo la licencia MIT. Véase el archivo [LICENSE](LICENSE) para más detalles.
+Este proyecto está bajo la licencia **Creative Commons Atribución 4.0 Internacional (CC-BY 4.0)**.
+
+**Eres libre de:**
+- ✅ Compartir el material en cualquier medio o formato
+- ✅ Adaptar, remezclar y crear contenido derivado
+- ✅ Usar con fines comerciales
+
+**Con la condición de:**
+- 📌 **Atribución:** Debes dar crédito apropiado, proporcionar un enlace a la licencia e indicar si se han realizado cambios
+
+Para más información, visita: https://creativecommons.org/licenses/by/4.0/
+
+Véase el archivo [LICENSE](LICENSE) para los términos completos.
 
 ---
 
