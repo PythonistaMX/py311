@@ -38,6 +38,14 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6
 
 ### 📚 Lista de Contenidos (Notebooks)
 
+#### 🧭 Tabla de contenidos (enlaces rápidos)
+- Módulo 1: [01](01_el_proyecto_scipy.ipynb) [02](02_conceptos_basicos_de_numpy.ipynb) [03](03_gestion_de_arreglos_de_numpy.ipynb) [04](04_arreglos_con_contenido_aleatorio.ipynb) [05](05_operaciones_basicas_con_arreglos.ipynb) [06](06_manipulacion_de_arreglos_de_numpy.ipynb) [07](07_gestion_y_analisis_de_datos_de_numpy.ipynb) [08](08_algebra_lineal_con_numpy.ipynb)
+- Módulo 2: [09](09_introduccion_a_pandas.ipynb) [10](10_tipos_de_datos_de_pandas.ipynb) [11](11_operaciones_basicas_con_dataframes.ipynb) [12](12_indices_y_multiindices.ipynb) [13](13_datos_categoricos.ipynb) [14](14_uniones_y_mezclas_de_dataframes.ipynb) [15](15_metodo_merge.ipynb) [16](16_metodo_filter.ipynb) [17](17_metodos_apply_y_transform.ipynb) [18](18_metodos_de_enmascaramiento.ipynb) [19](19_gestion_de_datos.ipynb) [20](20_limpieza_y_datos_faltantes.ipynb) [21](21_transformacion_de_objetos.ipynb) [22](22_metodos_groupby.ipynb) [23](23_extraccion_y_almacenamiento.ipynb) [24](24_visualizacion_de_datos_con_pandas.ipynb)
+- Módulo 3: [25](25_introduccion_a_matplotlib.ipynb) [26](26_elementos_de_un_grafico.ipynb) [27](27_tipos_basicos_de_graficos.ipynb) [28](28_introduccion_a_plotnine.ipynb) [29](29_introduccion_a_seaborn.ipynb) [30](30_objetos_de_seaborn.ipynb)
+- Módulo 4: [31](31_introduccion_a_pyarrow.ipynb) [32](32_introduccion_a_polars.ipynb) [33](33_polars_avanzado.ipynb)
+- Módulo 5: [34](34_introduccion_a_streamlit.ipynb)
+- Módulo 6: [35](35_introduccion_a_dask.ipynb)
+
 #### 🔹 Módulo 1: Fundamentos Numéricos
 * `01` - El proyecto SciPy y el ecosistema de datos.
 * `02` - Conceptos básicos de NumPy (Arreglos y Vectores).
@@ -54,13 +62,13 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6
 * `11` - Operaciones estructurales en DataFrames.
 * `12` - Índices jerárquicos y optimización de búsquedas.
 * `13` - Datos categóricos y relaciones.
-* `14` - `Merge` avanzado y comparativas de rendimiento.
-* `15` - Filtrado complejo (`filter`, `query`).
-* `16` - Transformaciones personalizadas (`apply`, `transform`).
-* `17` - Técnicas de enmascaramiento avanzado.
-* `18` - Gestión de calidad de datos.
-* `19` - Estrategias de imputación y manejo de nulos.
-* `20` - Uniones y mezclas de DataFrames.
+* `14` - Uniones y mezclas de DataFrames.
+* `15` - `Merge` avanzado y comparativas de rendimiento.
+* `16` - Filtrado complejo (`filter`, `query`).
+* `17` - Transformaciones personalizadas (`apply`, `transform`).
+* `18` - Técnicas de enmascaramiento avanzado.
+* `19` - Gestión de calidad de datos.
+* `20` - Estrategias de imputación y manejo de nulos.
 * `21` - Transformación y limpieza de objetos.
 * `22` - Agregaciones avanzadas: `groupby`, `crosstab`, `pivot_table` y `window functions`.
 * `23` - Extracción y almacenamiento de datos.
@@ -85,7 +93,7 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6
 * `34` - **Introducción a Streamlit:** Dashboards web sin HTML/CSS/JavaScript.
 
 #### 🔹 Módulo 6: Computación Distribuida
-* `36` - **Introducción a Dask:** Procesamiento paralelo y escalabilidad out-of-core.
+* `35` - **Introducción a Dask:** Procesamiento paralelo y escalabilidad out-of-core.
 
 ---
 
@@ -148,10 +156,3 @@ Este proyecto está bajo la licencia **Creative Commons Atribución 4.0 Internac
 Para más información, visita: https://creativecommons.org/licenses/by/4.0/
 
 Véase el archivo [LICENSE](LICENSE) para los términos completos.
-
----
-
-## 👨‍💼 Autor
-
-Material educativo oficial del programa de Ingeniería de Datos.
-
