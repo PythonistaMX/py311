@@ -1,4 +1,4 @@
-# Introducción a Ingeniería y Analítica de Datos con Python (Py311)
+# Fundamentos de Python para Ingeniería y Analítica de Datos (Py311)
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Codespaces](https://img.shields.io/badge/GitHub-Codespaces-brightgreen?style=for-the-badge&logo=github&logoColor=white)](https://github.com/features/codespaces)
@@ -8,18 +8,36 @@
 
 > **Próxima Edición:** 23 de Febrero | Lunes a Jueves | 12 Sesiones Online
 
-Este repositorio contiene el material oficial del curso **"Introducción a Ingeniería y Analítica de Datos con Python"**. Un programa intensivo diseñado para transformar tu perfil técnico, pasando de la manipulación básica de datos a la construcción de pipelines de ingeniería modernos y escalables.
+Este repositorio contiene el material oficial del curso **Py311**, primer curso de la ruta de Ingeniería de Datos con Python. Cubre los fundamentos de computación numérica, manipulación y visualización de datos, y presenta las herramientas modernas de análisis y escalado que se usarán a lo largo de toda la ruta.
+
+---
+
+## 🗺️ Ruta de Aprendizaje
+
+Py311 es el punto de entrada de una ruta progresiva de cinco cursos:
+
+| Curso | Título | Estado |
+| :--- | :--- | :--- |
+| **Py311** | Fundamentos de Python para Ingeniería y Analítica de Datos | ✅ Este curso |
+| Py321 | Orquestación con Apache Airflow | Próximamente |
+| Py331 | Pipelines con Apache Beam | Próximamente |
+| Py341 | Ingeniería de datos y data lakes con Spark y PySpark | Próximamente |
+| Py351 | Técnicas y buenas prácticas de ingeniería de datos | Próximamente |
+
+---
 
 ## 🚀 Acerca del Curso
 
-Este no es otro curso básico de Pandas. Es una formación en **Ingeniería de Datos Moderna** donde aprenderás a:
+Un programa intensivo orientado a construir la base técnica necesaria para trabajar como ingeniero o analista de datos en entornos modernos. Al completarlo serás capaz de:
 
-* **Optimizar Memoria:** Uso de backends modernos (PyArrow) y tipos de datos eficientes.
-* **Escalar Procesos:** Transición de Pandas a **Polars** y **Dask** para Big Data.
-* **Construir Productos:** Despliegue de dashboards interactivos con **Streamlit**.
-* **Analizar Profundamente:** Técnicas de *Windowing*, ETL avanzado y visualización estadística.
+* **Dominar el ecosistema numérico:** NumPy, SciPy y álgebra lineal aplicada a datos.
+* **Manipular datos con Pandas moderno:** Tipos eficientes, limpieza, agregaciones y ventanas.
+* **Visualizar con precisión estadística:** Matplotlib, Seaborn y Plotnine (gramática de gráficos).
+* **Optimizar memoria y rendimiento:** PyArrow como backend y Polars para análisis de alto rendimiento.
+* **Construir productos de datos:** Dashboards interactivos con Streamlit sin necesidad de desarrollo web.
+* **Escalar más allá de la memoria local:** Procesamiento paralelo y distribuido con Dask.
 
-Todo el entorno se ejecuta en la nube mediante **GitHub Codespaces**, eliminando problemas de instalación local.
+Todo el entorno se ejecuta en la nube mediante **GitHub Codespaces**, sin necesidad de instalación local.
 
 ---
 
@@ -29,14 +47,14 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6
 
 | Bloque | Temática Principal | Tecnologías Clave |
 | :--- | :--- | :--- |
-| **I. Fundamentos** | Computación numérica y álgebra lineal vectorial. | `NumPy`, `SciPy` |
-| **II. Pandas Moderno** | Backend PyArrow, manipulación y limpieza de datos. | `Pandas 2.0`, `PyArrow` |
-| **III. Visualización** | Gramática de gráficos (ggplot2-like), estadística y control fino. | `Matplotlib`, `Seaborn`, `Plotnine` |
-| **IV. Ingeniería Moderna** | Arrow, Polars y optimización de memoria. | `PyArrow`, `Polars` |
-| **V. Data Apps** | Dashboards interactivos sin necesidad de web development. | `Streamlit` |
-| **VI. Escalado** | Procesamiento paralelo y escalabilidad distribuida. | `Dask` |
+| **I. Fundamentos** | Computación numérica y álgebra lineal vectorial | `NumPy`, `SciPy` |
+| **II. Pandas Moderno** | Backend PyArrow, manipulación y limpieza de datos | `Pandas 2.0`, `PyArrow` |
+| **III. Visualización** | Gramática de gráficos, estadística y control fino | `Matplotlib`, `Seaborn`, `Plotnine` |
+| **IV. Herramientas Modernas** | Formato Arrow, Polars y optimización de memoria | `PyArrow`, `Polars` |
+| **V. Data Apps** | Dashboards interactivos sin desarrollo web | `Streamlit` |
+| **VI. Escalado** | Procesamiento paralelo y escalabilidad distribuida | `Dask` |
 
-### 📚 Lista de Contenidos (Notebooks)
+### 📚 Contenidos
 
 #### 🧭 Tabla de contenidos (enlaces rápidos)
 - Módulo 1: [01](01_el_proyecto_scipy.ipynb) [02](02_conceptos_basicos_de_numpy.ipynb) [03](03_gestion_de_arreglos_de_numpy.ipynb) [04](04_arreglos_con_contenido_aleatorio.ipynb) [05](05_operaciones_basicas_con_arreglos.ipynb) [06](06_manipulacion_de_arreglos_de_numpy.ipynb) [07](07_gestion_y_analisis_de_datos_de_numpy.ipynb) [08](08_algebra_lineal_con_numpy.ipynb)
@@ -48,23 +66,23 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6
 
 #### 🔹 Módulo 1: Fundamentos Numéricos
 * `01` - El proyecto SciPy y el ecosistema de datos.
-* `02` - Conceptos básicos de NumPy (Arreglos y Vectores).
-* `03` - Gestión de memoria y tipos de datos en NumPy.
+* `02` - Conceptos básicos de NumPy (arreglos y vectores).
+* `03` - Creación de arreglos con funciones especializadas y lectura/escritura de archivos.
 * `04` - Generación de datos sintéticos y aleatorios.
-* `05` - Aritmética vectorizada (Broadcasting).
+* `05` - Indexado, rebanado, modificación de arreglos y *broadcasting*.
 * `06` - Manipulación y transformación de arreglos.
 * `07` - Análisis numérico y estadístico básico.
 * `08` - Álgebra lineal aplicada a datos.
 
 #### 🔹 Módulo 2: Pandas Moderno y Estructura
 * `09` - Introducción a Pandas.
-* `10` - Tipos de datos y optimización (`category` vs `object`).
+* `10` - Tipos de datos de Pandas y funciones de conversión de tipos.
 * `11` - Operaciones estructurales en DataFrames.
-* `12` - Índices jerárquicos y optimización de búsquedas.
+* `12` - Índices simples (`pd.Index`) y multiíndices (`pd.MultiIndex`).
 * `13` - Datos categóricos y relaciones.
 * `14` - Uniones y mezclas de DataFrames.
-* `15` - `Merge` avanzado y comparativas de rendimiento.
-* `16` - Filtrado complejo (`filter`, `query`).
+* `15` - El método `merge()`: uniones inner, outer, left y right.
+* `16` - El método `filter()`: filtrado de columnas e índices por etiqueta.
 * `17` - Transformaciones personalizadas (`apply`, `transform`).
 * `18` - Técnicas de enmascaramiento avanzado.
 * `19` - Gestión de calidad de datos.
@@ -78,22 +96,22 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6
 * `25` - Introducción a Matplotlib (fundamentos).
 * `26` - Elementos de un gráfico (títulos, ejes, leyendas, estilos).
 * `27` - Tipos básicos de gráficos (scatter, line, bar, histogramas).
-* `28` - Plotnine (Gramática de gráficos para profesionales - reproducibilidad).
+* `28` - Plotnine (gramática de gráficos para reportes reproducibles).
 * `29` - Introducción a Seaborn (visualización estadística rápida).
 * `30` - Objetos especializados en Seaborn (regresión, correlación, distribuciones).
 
-> **📊 Nota Profesional:** Plotnine (basado en ggplot2) es ideal para reportes reproducibles y migración desde R. Seaborn para exploración iterativa. Matplotlib para control fino de bajo nivel.
+> **📊 Nota:** Plotnine (basado en ggplot2) es ideal para reportes reproducibles y migración desde R. Seaborn para exploración iterativa. Matplotlib para control fino de bajo nivel.
 
-#### 🔹 Módulo 4: Ingeniería de Datos Moderna
-* `31` - **Introducción a PyArrow:** Arrays, Tables y Backend Pandas.
+#### 🔹 Módulo 4: Herramientas Modernas de Datos
+* `31` - **Introducción a PyArrow:** arrays, tablas y backend para Pandas.
 * `32` - **Introducción a Polars:** API expresiva y evaluación lazy.
-* `33` - **Polars Avanzado:** Window functions, optimización y decisiones arquitectónicas.
+* `33` - **Polars Avanzado:** window functions, optimización y decisiones arquitectónicas.
 
 #### 🔹 Módulo 5: Data Apps Interactivas
-* `34` - **Introducción a Streamlit:** Dashboards web sin HTML/CSS/JavaScript.
+* `34` - **Introducción a Streamlit:** dashboards web sin HTML/CSS/JavaScript.
 
 #### 🔹 Módulo 6: Computación Distribuida
-* `35` - **Introducción a Dask:** Procesamiento paralelo y escalabilidad out-of-core.
+* `35` - **Introducción a Dask:** procesamiento paralelo y escalabilidad out-of-core.
 
 ---
 
@@ -103,13 +121,13 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6
 
 1. Haz clic en el botón **"Code"** (verde) arriba a la derecha.
 2. Ve a la pestaña **"Codespaces"**.
-3. Haz clic en **"Create codespace on master"**.
+3. Haz clic en **"Create codespace on main"**.
 
 El entorno se iniciará automáticamente con:
 * Python 3.11
 * JupyterLab
-* Todas las librerías instaladas (Polars, Dask, Streamlit, etc).
-* Puertos configurados para ver tus apps.
+* Todas las librerías instaladas (Polars, Dask, Streamlit, etc.)
+* Puertos configurados para visualizar tus apps.
 
 ### Ejecución Local (Opcional)
 Si prefieres trabajar en tu máquina:
@@ -134,10 +152,10 @@ jupyter lab
 
 ## 📖 Recursos Adicionales
 
-* **Documentación oficial de Pandas:** https://pandas.pydata.org/docs/
-* **Documentación oficial de Polars:** https://docs.pola.rs/
-* **Documentación oficial de Dask:** https://docs.dask.org/
-* **Documentación oficial de Streamlit:** https://docs.streamlit.io/
+* [Documentación oficial de Pandas](https://pandas.pydata.org/docs/)
+* [Documentación oficial de Polars](https://docs.pola.rs/)
+* [Documentación oficial de Dask](https://docs.dask.org/)
+* [Documentación oficial de Streamlit](https://docs.streamlit.io/)
 
 ---
 
@@ -151,7 +169,7 @@ Este proyecto está bajo la licencia **Creative Commons Atribución 4.0 Internac
 - ✅ Usar con fines comerciales
 
 **Con la condición de:**
-- 📌 **Atribución:** Debes dar crédito apropiado, proporcionar un enlace a la licencia e indicar si se han realizado cambios
+- 📌 **Atribución:** Debes dar crédito apropiado, proporcionar un enlace a la licencia e indicar si se han realizado cambios.
 
 Para más información, visita: https://creativecommons.org/licenses/by/4.0/
 
