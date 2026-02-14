@@ -14,15 +14,27 @@ Este repositorio contiene el material oficial del curso **Py311**, primer curso 
 
 ## 🗺️ Ruta de Aprendizaje
 
+### Prerequisitos recomendados
+
+Este curso asume conocimiento previo de Python. Si necesitas construir esa base primero:
+
+| Curso | Título | Repositorio |
+| :--- | :--- | :--- |
+| Py101 | Introducción a la Programación con Python | [PythonistaMX/py101](https://github.com/PythonistaMX/py101) |
+| Py111 | Programación Orientada a Objetos con Python | [PythonistaMX/py111](https://github.com/PythonistaMX/py111) |
+
+### Continuación de la ruta
+
 Py311 es el punto de entrada de una ruta progresiva de cinco cursos:
 
 | Curso | Título | Estado |
 | :--- | :--- | :--- |
 | **Py311** | Fundamentos de Python para Ingeniería y Analítica de Datos | ✅ Este curso |
 | Py321 | Orquestación con Apache Airflow | Próximamente |
-| Py331 | Pipelines con Apache Beam | Próximamente |
-| Py341 | Ingeniería de datos y data lakes con Spark y PySpark | Próximamente |
-| Py351 | Técnicas y buenas prácticas de ingeniería de datos | Próximamente |
+| Py331 | Pipelines batch y streaming con Apache Beam | Próximamente |
+| Py341 | Ciclo de vida de los datos con Spark y PySpark | Próximamente |
+| Py351 | Streams con Apache Kafka | Próximamente |
+| Py361 | Conceptos y prácticas de ingeniería de datos | Próximamente |
 
 ---
 

@@ -103,6 +103,9 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+# archivos locales de trabajo
+classroom_estructura.md
+
 # excel files
 *.xlsx
 arreglo.*
