@@ -105,6 +105,8 @@ venv.bak/
 
 # archivos locales de trabajo
 classroom_estructura.md
+plan_series.md
+contexto_proyecto.md
 
 # excel files
 *.xlsx

@@ -33,8 +33,7 @@ Py311 es el punto de entrada de una ruta progresiva de cinco cursos:
 | Py321 | Orquestación con Apache Airflow | Próximamente |
 | Py331 | Pipelines batch y streaming con Apache Beam | Próximamente |
 | Py341 | Ciclo de vida de los datos con Spark y PySpark | Próximamente |
-| Py351 | Streams con Apache Kafka | Próximamente |
-| Py361 | Conceptos y prácticas de ingeniería de datos | Próximamente |
+| Py351 | Buenas prácticas de Ingeniería de Datos | Próximamente |
 
 ---
 
