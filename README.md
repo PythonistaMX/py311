@@ -145,7 +145,7 @@ Si prefieres trabajar en tu máquina:
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tusuario/py311.git
+git clone https://github.com/PythonistaMX/py311.git
 cd py311
 
 # Crear entorno virtual
