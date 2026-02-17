@@ -25,15 +25,17 @@ Este curso asume conocimiento previo de Python. Si necesitas construir esa base 
 
 ### Continuación de la ruta
 
-Py311 es el punto de entrada de una ruta progresiva de cinco cursos:
+Py311 es el punto de entrada de una ruta progresiva de ingeniería de datos moderna:
 
 | Curso | Título | Estado |
 | :--- | :--- | :--- |
 | **Py311** | Fundamentos de Python para Ingeniería y Analítica de Datos | ✅ Este curso |
 | Py321 | Orquestación con Apache Airflow | Próximamente |
-| Py331 | Pipelines batch y streaming con Apache Beam | Próximamente |
-| Py341 | Ciclo de vida de los datos con Spark y PySpark | Próximamente |
-| Py351 | Buenas prácticas de Ingeniería de Datos | Próximamente |
+| Py331 | Procesamiento distribuido con Apache Spark | Próximamente |
+| Py341 | Pipelines unificados con Apache Beam | Próximamente |
+| Py351 | Streaming Systems (Kafka/RabbitMQ) | Próximamente |
+| Py361 | Data Apps (Streamlit/FastAPI) | Próximamente |
+| Py371 | Buenas prácticas de Ingeniería de Datos (DataOps) | Próximamente |
 
 ---
 
