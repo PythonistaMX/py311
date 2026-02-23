@@ -19,4 +19,5 @@ zstandard>=0.22.0    # Compresión usada comúnmente en Parquet
 streamlit>=1.30.0    # Framework web para apps interactivas
 jupyter>=1.0.0
 ipykernel>=6.28.0
+jupyterlab
 watchdog>=3.0.0      # Mejora el reload automático de Streamlit
