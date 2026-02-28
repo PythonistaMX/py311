@@ -69,13 +69,43 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6
 
 ### 📚 Contenidos
 
+
 #### 🧭 Tabla de contenidos (enlaces rápidos)
-- Módulo 1: [01](01_el_proyecto_scipy.ipynb) [02](02_conceptos_basicos_de_numpy.ipynb) [03](03_gestion_de_arreglos_de_numpy.ipynb) [04](04_arreglos_con_contenido_aleatorio.ipynb) [05](05_operaciones_basicas_con_arreglos.ipynb) [06](06_manipulacion_de_arreglos_de_numpy.ipynb) [07](07_gestion_y_analisis_de_datos_de_numpy.ipynb) [08](08_algebra_lineal_con_numpy.ipynb)
-- Módulo 2: [09](09_introduccion_a_pandas.ipynb) [10](10_tipos_de_datos_de_pandas.ipynb) [11](11_operaciones_basicas_con_dataframes.ipynb) [12](12_indices_y_multiindices.ipynb) [13](13_datos_categoricos.ipynb) [14](14_uniones_y_mezclas_de_dataframes.ipynb) [15](15_metodo_merge.ipynb) [16](16_metodo_filter.ipynb) [17](17_metodos_apply_y_transform.ipynb) [18](18_metodos_de_enmascaramiento.ipynb) [19](19_gestion_de_datos.ipynb) [20](20_limpieza_y_datos_faltantes.ipynb) [21](21_transformacion_de_objetos.ipynb) [22](22_metodos_groupby.ipynb) [23](23_extraccion_y_almacenamiento.ipynb) [24](24_visualizacion_de_datos_con_pandas.ipynb)
-- Módulo 3: [25](25_introduccion_a_matplotlib.ipynb) [26](26_elementos_de_un_grafico.ipynb) [27](27_tipos_basicos_de_graficos.ipynb) [28](28_introduccion_a_plotnine.ipynb) [29](29_introduccion_a_seaborn.ipynb) [30](30_objetos_de_seaborn.ipynb)
-- Módulo 4: [31](31_introduccion_a_pyarrow.ipynb) [32](32_introduccion_a_polars.ipynb) [33](33_polars_avanzado.ipynb)
-- Módulo 5: [34](34_introduccion_a_streamlit.ipynb)
-- Módulo 6: [35](35_introduccion_a_dask.ipynb)
+- [01_el_proyecto_scipy.ipynb](01_el_proyecto_scipy.ipynb)
+- [02_conceptos_basicos_de_numpy.ipynb](02_conceptos_basicos_de_numpy.ipynb)
+- [03_gestion_de_arreglos_de_numpy.ipynb](03_gestion_de_arreglos_de_numpy.ipynb)
+- [04_arreglos_con_contenido_aleatorio.ipynb](04_arreglos_con_contenido_aleatorio.ipynb)
+- [05_operaciones_basicas_con_arreglos.ipynb](05_operaciones_basicas_con_arreglos.ipynb)
+- [06_manipulacion_de_arreglos_de_numpy.ipynb](06_manipulacion_de_arreglos_de_numpy.ipynb)
+- [07_gestion_y_analisis_de_datos_de_numpy.ipynb](07_gestion_y_analisis_de_datos_de_numpy.ipynb)
+- [08_algebra_lineal_con_numpy.ipynb](08_algebra_lineal_con_numpy.ipynb)
+- [09_introduccion_a_pandas.ipynb](09_introduccion_a_pandas.ipynb)
+- [10_tipos_de_datos_de_pandas.ipynb](10_tipos_de_datos_de_pandas.ipynb)
+- [11_operaciones_basicas_con_dataframes.ipynb](11_operaciones_basicas_con_dataframes.ipynb)
+- [12_indices_y_multiindices.ipynb](12_indices_y_multiindices.ipynb)
+- [13_datos_categoricos.ipynb](13_datos_categoricos.ipynb)
+- [14_uniones_y_mezclas_de_dataframes.ipynb](14_uniones_y_mezclas_de_dataframes.ipynb)
+- [15_metodo_merge.ipynb](15_metodo_merge.ipynb)
+- [16_metodo_filter.ipynb](16_metodo_filter.ipynb)
+- [17_metodos_apply_y_transform.ipynb](17_metodos_apply_y_transform.ipynb)
+- [18_metodos_de_enmascaramiento.ipynb](18_metodos_de_enmascaramiento.ipynb)
+- [19_herramientas_de_analisis_de_datos.ipynb](19_herramientas_de_analisis_de_datos.ipynb)
+- [20_limpieza_y_datos_faltantes.ipynb](20_limpieza_y_datos_faltantes.ipynb)
+- [21_transformacion_de_objetos.ipynb](21_transformacion_de_objetos.ipynb)
+- [22_metodos_groupby.ipynb](22_metodos_groupby.ipynb)
+- [23_extraccion_y_almacenamiento.ipynb](23_extraccion_y_almacenamiento.ipynb)
+- [24_visualizacion_de_datos_con_pandas.ipynb](24_visualizacion_de_datos_con_pandas.ipynb)
+- [25_introduccion_a_matplotlib.ipynb](25_introduccion_a_matplotlib.ipynb)
+- [26_elementos_de_un_grafico.ipynb](26_elementos_de_un_grafico.ipynb)
+- [27_tipos_basicos_de_graficos.ipynb](27_tipos_basicos_de_graficos.ipynb)
+- [28_introduccion_a_plotnine.ipynb](28_introduccion_a_plotnine.ipynb)
+- [29_introduccion_a_seaborn.ipynb](29_introduccion_a_seaborn.ipynb)
+- [30_objetos_de_seaborn.ipynb](30_objetos_de_seaborn.ipynb)
+- [31_introduccion_a_pyarrow.ipynb](31_introduccion_a_pyarrow.ipynb)
+- [32_introduccion_a_polars.ipynb](32_introduccion_a_polars.ipynb)
+- [33_polars_avanzado.ipynb](33_polars_avanzado.ipynb)
+- [34_introduccion_a_streamlit.ipynb](34_introduccion_a_streamlit.ipynb)
+- [35_introduccion_a_dask.ipynb](35_introduccion_a_dask.ipynb)
 
 #### 🔹 Módulo 1: Fundamentos Numéricos
 * `01` - El proyecto SciPy y el ecosistema de datos.
@@ -98,7 +128,7 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6
 * `16` - El método `filter()`: filtrado de columnas e índices por etiqueta.
 * `17` - Transformaciones personalizadas (`apply`, `transform`).
 * `18` - Técnicas de enmascaramiento avanzado.
-* `19` - Gestión de calidad de datos.
+* `19` - Herramientas de análisis de datos.
 * `20` - Estrategias de imputación y manejo de nulos.
 * `21` - Transformación y limpieza de objetos.
 * `22` - Agregaciones avanzadas: `groupby`, `crosstab`, `pivot_table` y `window functions`.
