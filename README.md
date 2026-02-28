@@ -64,8 +64,8 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6
 | **II. Pandas Moderno** | Backend PyArrow, manipulación y limpieza de datos | `Pandas 2.0`, `PyArrow` |
 | **III. Visualización** | Gramática de gráficos, estadística y control fino | `Matplotlib`, `Seaborn`, `Plotnine` |
 | **IV. Herramientas Modernas** | Formato Arrow, Polars y optimización de memoria | `PyArrow`, `Polars` |
-| **V. Data Apps** | Dashboards interactivos sin desarrollo web | `Streamlit` |
-| **VI. Escalado** | Procesamiento paralelo y escalabilidad distribuida | `Dask` |
+| **V. Escalado** | Procesamiento paralelo y escalabilidad distribuida | `Dask` |
+| **VI. Data Apps** | Dashboards interactivos sin desarrollo web | `Streamlit` |
 
 ### 📚 Contenidos
 
@@ -92,20 +92,22 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6
 - [19_herramientas_de_analisis_de_datos.ipynb](19_herramientas_de_analisis_de_datos.ipynb)
 - [20_limpieza_y_datos_faltantes.ipynb](20_limpieza_y_datos_faltantes.ipynb)
 - [21_transformacion_de_objetos.ipynb](21_transformacion_de_objetos.ipynb)
-- [22_metodos_groupby.ipynb](22_metodos_groupby.ipynb)
-- [23_extraccion_y_almacenamiento.ipynb](23_extraccion_y_almacenamiento.ipynb)
-- [24_visualizacion_de_datos_con_pandas.ipynb](24_visualizacion_de_datos_con_pandas.ipynb)
-- [25_introduccion_a_matplotlib.ipynb](25_introduccion_a_matplotlib.ipynb)
-- [26_elementos_de_un_grafico.ipynb](26_elementos_de_un_grafico.ipynb)
-- [27_tipos_basicos_de_graficos.ipynb](27_tipos_basicos_de_graficos.ipynb)
-- [28_introduccion_a_plotnine.ipynb](28_introduccion_a_plotnine.ipynb)
-- [29_introduccion_a_seaborn.ipynb](29_introduccion_a_seaborn.ipynb)
-- [30_objetos_de_seaborn.ipynb](30_objetos_de_seaborn.ipynb)
-- [31_introduccion_a_pyarrow.ipynb](31_introduccion_a_pyarrow.ipynb)
-- [32_introduccion_a_polars.ipynb](32_introduccion_a_polars.ipynb)
-- [33_polars_avanzado.ipynb](33_polars_avanzado.ipynb)
-- [34_introduccion_a_streamlit.ipynb](34_introduccion_a_streamlit.ipynb)
-- [35_introduccion_a_dask.ipynb](35_introduccion_a_dask.ipynb)
+- [22_gestion_de_fechas.ipynb](22_gestion_de_fechas.ipynb)
+- [23_metodos_groupby.ipynb](23_metodos_groupby.ipynb)
+- [24_funciones de ventana.ipynb](<24_funciones de ventana.ipynb>)
+- [25_extraccion_y_almacenamiento.ipynb](25_extraccion_y_almacenamiento.ipynb)
+- [26_visualizacion_de_datos_con_pandas.ipynb](26_visualizacion_de_datos_con_pandas.ipynb)
+- [27_introduccion_a_matplotlib.ipynb](27_introduccion_a_matplotlib.ipynb)
+- [28_elementos_de_un_grafico.ipynb](28_elementos_de_un_grafico.ipynb)
+- [29_tipos_basicos_de_graficos.ipynb](29_tipos_basicos_de_graficos.ipynb)
+- [30_introduccion_a_plotnine.ipynb](30_introduccion_a_plotnine.ipynb)
+- [31_introduccion_a_seaborn.ipynb](31_introduccion_a_seaborn.ipynb)
+- [32_objetos_de_seaborn.ipynb](32_objetos_de_seaborn.ipynb)
+- [33_introduccion_a_pyarrow.ipynb](33_introduccion_a_pyarrow.ipynb)
+- [34_introduccion_a_polars.ipynb](34_introduccion_a_polars.ipynb)
+- [35_polars_avanzado.ipynb](35_polars_avanzado.ipynb)
+- [36_introduccion_a_dask.ipynb](36_introduccion_a_dask.ipynb)
+- [37_introduccion_a_streamlit.ipynb](37_introduccion_a_streamlit.ipynb)
 
 #### 🔹 Módulo 1: Fundamentos Numéricos
 * `01` - El proyecto SciPy y el ecosistema de datos.
@@ -131,30 +133,32 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6
 * `19` - Herramientas de análisis de datos.
 * `20` - Estrategias de imputación y manejo de nulos.
 * `21` - Transformación y limpieza de objetos.
-* `22` - Agregaciones avanzadas: `groupby`, `crosstab`, `pivot_table` y `window functions`.
-* `23` - Extracción y almacenamiento de datos.
-* `24` - Visualización de datos con Pandas.
+* `22` - Gestión de fechas y series temporales con `pd.dt`.
+* `23` - Agregaciones avanzadas: `groupby`, `crosstab` y `pivot_table`.
+* `24` - Window functions (funciones de ventana): `shift`, `rolling` y `expanding`.
+* `25` - Extracción y almacenamiento de datos.
+* `26` - Visualización de datos con Pandas.
 
 #### 🔹 Módulo 3: Visualización Estadística
-* `25` - Introducción a Matplotlib (fundamentos).
-* `26` - Elementos de un gráfico (títulos, ejes, leyendas, estilos).
-* `27` - Tipos básicos de gráficos (scatter, line, bar, histogramas).
-* `28` - Plotnine (gramática de gráficos para reportes reproducibles).
-* `29` - Introducción a Seaborn (visualización estadística rápida).
-* `30` - Objetos especializados en Seaborn (regresión, correlación, distribuciones).
+* `27` - Introducción a Matplotlib (fundamentos).
+* `28` - Elementos de un gráfico (títulos, ejes, leyendas, estilos).
+* `29` - Tipos básicos de gráficos (scatter, line, bar, histogramas).
+* `30` - Plotnine (gramática de gráficos para reportes reproducibles).
+* `31` - Introducción a Seaborn (visualización estadística rápida).
+* `32` - Objetos especializados en Seaborn (regresión, correlación, distribuciones).
 
 > **📊 Nota:** Plotnine (basado en ggplot2) es ideal para reportes reproducibles y migración desde R. Seaborn para exploración iterativa. Matplotlib para control fino de bajo nivel.
 
 #### 🔹 Módulo 4: Herramientas Modernas de Datos
-* `31` - **Introducción a PyArrow:** arrays, tablas y backend para Pandas.
-* `32` - **Introducción a Polars:** API expresiva y evaluación lazy.
-* `33` - **Polars Avanzado:** window functions, optimización y decisiones arquitectónicas.
+* `33` - **Introducción a PyArrow:** arrays, tablas y backend para Pandas.
+* `34` - **Introducción a Polars:** API expresiva y evaluación lazy.
+* `35` - **Polars Avanzado:** window functions, optimización y decisiones arquitectónicas.
 
-#### 🔹 Módulo 5: Data Apps Interactivas
-* `34` - **Introducción a Streamlit:** dashboards web sin HTML/CSS/JavaScript.
+#### 🔹 Módulo 5: Computación Distribuida
+* `36` - **Introducción a Dask:** procesamiento paralelo y escalabilidad out-of-core.
 
-#### 🔹 Módulo 6: Computación Distribuida
-* `35` - **Introducción a Dask:** procesamiento paralelo y escalabilidad out-of-core.
+#### 🔹 Módulo 6: Data Apps Interactivas
+* `37` - **Introducción a Streamlit:** dashboards web sin HTML/CSS/JavaScript.
 
 ---
 
