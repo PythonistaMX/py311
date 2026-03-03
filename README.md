@@ -92,8 +92,8 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6
 - [19_herramientas_de_analisis_de_datos.ipynb](19_herramientas_de_analisis_de_datos.ipynb)
 - [20_limpieza_y_datos_faltantes.ipynb](20_limpieza_y_datos_faltantes.ipynb)
 - [21_transformacion_de_objetos.ipynb](21_transformacion_de_objetos.ipynb)
-- [22_gestion_de_fechas.ipynb](22_gestion_de_fechas.ipynb)
-- [23_metodos_groupby.ipynb](23_metodos_groupby.ipynb)
+- [22_metodos_groupby.ipynb](22_metodos_groupby.ipynb)
+- [23_gestion_de_fechas.ipynb](23_gestion_de_fechas.ipynb)
 - [24_funciones de ventana.ipynb](<24_funciones de ventana.ipynb>)
 - [25_extraccion_y_almacenamiento.ipynb](25_extraccion_y_almacenamiento.ipynb)
 - [26_visualizacion_de_datos_con_pandas.ipynb](26_visualizacion_de_datos_con_pandas.ipynb)
@@ -133,8 +133,8 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6
 * `19` - Herramientas de análisis de datos.
 * `20` - Estrategias de imputación y manejo de nulos.
 * `21` - Transformación y limpieza de objetos.
-* `22` - Gestión de fechas y series temporales con `pd.dt`.
-* `23` - Agregaciones avanzadas: `groupby`, `crosstab` y `pivot_table`.
+* `22` - Agregaciones avanzadas: `groupby`, `crosstab` y `pivot_table`.
+* `23` - Gestión de fechas: `pd.date_range()`, `.dt`, indexación temporal y `resample()`.
 * `24` - Window functions (funciones de ventana): `shift`, `rolling` y `expanding`.
 * `25` - Extracción y almacenamiento de datos.
 * `26` - Visualización de datos con Pandas.
