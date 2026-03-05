@@ -114,6 +114,9 @@ arreglo.*
 arreglos.*
 grafica.png
 imagen.jpg
+datos.csv
+datos_filtrados.csv
+*.parquet
 
 
 # Planes de lecciones
