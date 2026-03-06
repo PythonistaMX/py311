@@ -105,21 +105,19 @@ venv.bak/
 
 # archivos locales de trabajo
 classroom_estructura.md
-plan_series.md
+plan*.md
 contexto_proyecto.md
 
 # excel files
+ITAEE.*
+*.xls
 *.xlsx
-arreglo.*
-arreglos.*
-grafic*.png
-output*.csv
-imagen*.jpg
-datos*.csv
-datos_filtrados*.csv
-*.parquet
-
-
 # Planes de lecciones
 PLAN_*.md
 .claude/
+
+# Datos de ejemplo
+data/
+
+# Graficos de ejemplo
+graficos/
