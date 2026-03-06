@@ -1,0 +1,3 @@
+[submodule "streamlit-project"]
+	path = streamlit-project
+	url = https://github.com/PythonistaMX/streamlit-project.git
