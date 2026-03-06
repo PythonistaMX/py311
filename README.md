@@ -92,22 +92,23 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6
 - [19_herramientas_de_analisis_de_datos.ipynb](19_herramientas_de_analisis_de_datos.ipynb)
 - [20_limpieza_y_datos_faltantes.ipynb](20_limpieza_y_datos_faltantes.ipynb)
 - [21_transformacion_de_objetos.ipynb](21_transformacion_de_objetos.ipynb)
-- [22_metodos_groupby.ipynb](22_metodos_groupby.ipynb)
-- [23_gestion_de_fechas.ipynb](23_gestion_de_fechas.ipynb)
-- [24_funciones de ventana.ipynb](<24_funciones de ventana.ipynb>)
+- [22_gestion_de_fechas.ipynb](22_gestion_de_fechas.ipynb)
+- [23_metodos_groupby.ipynb](23_metodos_groupby.ipynb)
+- [24_funciones_de_ventana.ipynb](24_funciones_de_ventana.ipynb)
 - [25_extraccion_y_almacenamiento.ipynb](25_extraccion_y_almacenamiento.ipynb)
 - [26_visualizacion_de_datos_con_pandas.ipynb](26_visualizacion_de_datos_con_pandas.ipynb)
 - [27_introduccion_a_matplotlib.ipynb](27_introduccion_a_matplotlib.ipynb)
 - [28_elementos_de_un_grafico.ipynb](28_elementos_de_un_grafico.ipynb)
 - [29_tipos_basicos_de_graficos.ipynb](29_tipos_basicos_de_graficos.ipynb)
-- [30_introduccion_a_plotnine.ipynb](30_introduccion_a_plotnine.ipynb)
-- [31_introduccion_a_seaborn.ipynb](31_introduccion_a_seaborn.ipynb)
-- [32_objetos_de_seaborn.ipynb](32_objetos_de_seaborn.ipynb)
+- [30_introduccion_a_seaborn.ipynb](30_introduccion_a_seaborn.ipynb)
+- [31_objetos_de_seaborn.ipynb](31_objetos_de_seaborn.ipynb)
+- [32_introduccion_a_plotnine.ipynb](32_introduccion_a_plotnine.ipynb)
 - [33_introduccion_a_pyarrow.ipynb](33_introduccion_a_pyarrow.ipynb)
 - [34_introduccion_a_polars.ipynb](34_introduccion_a_polars.ipynb)
-- [35_polars_avanzado.ipynb](35_polars_avanzado.ipynb)
-- [36_introduccion_a_dask.ipynb](36_introduccion_a_dask.ipynb)
-- [37_introduccion_a_streamlit.ipynb](37_introduccion_a_streamlit.ipynb)
+- [35_expresiones_de_polars.ipynb](35_expresiones_de_polars.ipynb)
+- [36_polars_avanzado.ipynb](36_polars_avanzado.ipynb)
+- [37_introduccion_a_dask.ipynb](37_introduccion_a_dask.ipynb)
+- [38_introduccion_a_streamlit.ipynb](38_introduccion_a_streamlit.ipynb)
 
 #### 🔹 Módulo 1: Fundamentos Numéricos
 * `01` - El proyecto SciPy y el ecosistema de datos.
@@ -133,8 +134,8 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6
 * `19` - Herramientas de análisis de datos.
 * `20` - Estrategias de imputación y manejo de nulos.
 * `21` - Transformación y limpieza de objetos.
-* `22` - Agregaciones avanzadas: `groupby`, `crosstab` y `pivot_table`.
-* `23` - Gestión de fechas: `pd.date_range()`, `.dt`, indexación temporal y `resample()`.
+* `22` - Gestión de fechas: `pd.date_range()`, `.dt`, indexación temporal y `resample()`.
+* `23` - Agregaciones avanzadas: `groupby`, `crosstab` y `pivot_table`.
 * `24` - Window functions (funciones de ventana): `shift`, `rolling` y `expanding`.
 * `25` - Extracción y almacenamiento de datos.
 * `26` - Visualización de datos con Pandas.
@@ -143,22 +144,23 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6
 * `27` - Introducción a Matplotlib (fundamentos).
 * `28` - Elementos de un gráfico (títulos, ejes, leyendas, estilos).
 * `29` - Tipos básicos de gráficos (scatter, line, bar, histogramas).
-* `30` - Plotnine (gramática de gráficos para reportes reproducibles).
-* `31` - Introducción a Seaborn (visualización estadística rápida).
-* `32` - Objetos especializados en Seaborn (regresión, correlación, distribuciones).
+* `30` - Introducción a Seaborn (visualización estadística rápida).
+* `31` - Objetos especializados en Seaborn (regresión, correlación, distribuciones).
+* `32` - Plotnine (gramática de gráficos para reportes reproducibles).
 
 > **📊 Nota:** Plotnine (basado en ggplot2) es ideal para reportes reproducibles y migración desde R. Seaborn para exploración iterativa. Matplotlib para control fino de bajo nivel.
 
 #### 🔹 Módulo 4: Herramientas Modernas de Datos
 * `33` - **Introducción a PyArrow:** arrays, tablas y backend para Pandas.
 * `34` - **Introducción a Polars:** API expresiva y evaluación lazy.
-* `35` - **Polars Avanzado:** window functions, optimización y decisiones arquitectónicas.
+* `35` - **Expresiones en Polars:** sistema de expresiones, tipos de datos, namespaces `.str` y `.dt`, y guía de traducción Pandas → Polars.
+* `36` - **Polars Avanzado:** window functions, optimización y decisiones arquitectónicas.
 
 #### 🔹 Módulo 5: Computación Distribuida
-* `36` - **Introducción a Dask:** procesamiento paralelo y escalabilidad out-of-core.
+* `37` - **Introducción a Dask:** procesamiento paralelo y escalabilidad out-of-core.
 
 #### 🔹 Módulo 6: Data Apps Interactivas
-* `37` - **Introducción a Streamlit:** dashboards web sin HTML/CSS/JavaScript.
+* `38` - **Introducción a Streamlit:** dashboards web sin HTML/CSS/JavaScript.
 
 ---
 

@@ -112,10 +112,11 @@ contexto_proyecto.md
 *.xlsx
 arreglo.*
 arreglos.*
-grafica.png
-imagen.jpg
-datos.csv
-datos_filtrados.csv
+grafic*.png
+output*.csv
+imagen*.jpg
+datos*.csv
+datos_filtrados*.csv
 *.parquet
 
 
