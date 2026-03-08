@@ -109,7 +109,6 @@ plan*.md
 contexto_proyecto.md
 
 # excel files
-ITAEE.*
 *.xls
 *.xlsx
 # Planes de lecciones
@@ -117,7 +116,7 @@ PLAN_*.md
 .claude/
 
 # Datos de ejemplo
-data/
+data_tmp/ # carpeta con datos de ejemplo, no se sube al repositorio
 
 # Graficos de ejemplo
-graficos/
+graph_tmp/ # carpeta con datos de ejemplo, no se sube al repositorio
