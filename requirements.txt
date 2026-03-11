@@ -3,7 +3,7 @@ numpy>=1.26.0
 scipy>=1.12.0
 pandas>=2.2.0        # Necesario para soporte robusto de PyArrow
 pyarrow>=15.0.0      # Motor de backend
-polars>=0.20.0       # Nuevo motor DataFrame
+polars>=1.0.0        # Nuevo motor DataFrame
 openpyxl>=3.1.0      # Para leer/escribir archivos Excel
 xlrd>=2.0.0         # Para leer archivos Excel antiguos
 xlsxwriter>=3.1.0   # Para escribir archivos Excel con formato avanzado
@@ -19,7 +19,7 @@ fastparquet>=2024.1.0     # Para lectura/escritura eficiente de Parquet
 zstandard>=0.22.0    # Compresión usada comúnmente en Parquet
 
 # Aplicaciones Web y Notebooks
-streamlit>=1.30.0    # Framework web para apps interactivas
+streamlit>=1.35.0    # Framework web para apps interactivas
 jupyter>=1.0.0
 ipykernel>=6.28.0
 jupyterlab
