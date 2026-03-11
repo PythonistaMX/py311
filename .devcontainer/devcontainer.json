@@ -18,7 +18,7 @@
     }
   },
 
-  "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt",
+  "postCreateCommand": "git submodule update --init --recursive && pip install --upgrade pip && pip install -r requirements.txt",
 
   "customizations": {
     "vscode": {

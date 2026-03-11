@@ -121,16 +121,16 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6
 #### 🔹 Módulo 2: Pandas Moderno y Estructura
 * `09` - Introducción a Pandas.
 * `10` - Tipos de datos de Pandas y funciones de conversión de tipos.
-* `11` - Operaciones estructurales en DataFrames.
+* `11` - Operaciones estructurales en DataFrames: `sort_values()`, `sort_index()`, `rename()` y métodos de indexado.
 * `12` - Índices simples (`pd.Index`) y multiíndices (`pd.MultiIndex`).
-* `13` - Datos categóricos y relaciones.
+* `13` - Datos categóricos: `pd.cut()`, `pd.qcut()` y `pd.get_dummies()`.
 * `14` - Uniones y mezclas de DataFrames.
 * `15` - El método `merge()`: uniones inner, outer, left y right.
 * `16` - El método `filter()`: filtrado de columnas e índices por etiqueta.
-* `17` - Transformaciones personalizadas (`apply`, `transform`).
-* `18` - Técnicas de enmascaramiento avanzado.
-* `19` - Herramientas de análisis de datos.
-* `20` - Estrategias de imputación y manejo de nulos.
+* `17` - Transformaciones personalizadas: `apply()`, `transform()`, `map()` y `pipe()`.
+* `18` - Técnicas de enmascaramiento avanzado: `mask()`, `where()` y `clip()`.
+* `19` - Herramientas de análisis de datos: `value_counts()`, `corr()`, `cov()`, `eval()`, `assign()` y más.
+* `20` - Valores nulos (`np.nan`, `pd.NA`, `pd.NaT`) y estrategias de imputación.
 * `21` - Transformación y limpieza de objetos.
 * `22` - Gestión de fechas: `pd.date_range()`, `.dt`, indexación temporal y `resample()`.
 * `23` - Agregaciones avanzadas: `groupby`, `crosstab` y `pivot_table`.
