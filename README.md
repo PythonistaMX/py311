@@ -6,8 +6,6 @@
 [![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![Polars](https://img.shields.io/badge/Backend-Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white)](https://pola.rs/)
 
-> **Próxima Edición:** 23 de Febrero | Lunes a Jueves | 12 Sesiones Online
-
 Este repositorio contiene el material oficial del curso **Py311**, primer curso de la ruta de Ingeniería de Datos con Python. Cubre los fundamentos de computación numérica, manipulación y visualización de datos, y presenta las herramientas modernas de análisis y escalado que se usarán a lo largo de toda la ruta.
 
 ---
@@ -71,7 +69,7 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6
 
 
 #### 🧭 Tabla de contenidos (enlaces rápidos)
-- [01_el_proyecto_scipy.ipynb](01_el_proyecto_scipy.ipynb)
+- [01_el_ecosistema_de_datos_con_python.ipynb](01_el_ecosistema_de_datos_con_python.ipynb)
 - [02_conceptos_basicos_de_numpy.ipynb](02_conceptos_basicos_de_numpy.ipynb)
 - [03_gestion_de_arreglos_de_numpy.ipynb](03_gestion_de_arreglos_de_numpy.ipynb)
 - [04_arreglos_con_contenido_aleatorio.ipynb](04_arreglos_con_contenido_aleatorio.ipynb)
@@ -111,7 +109,7 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6
 - [38_introduccion_a_streamlit.ipynb](38_introduccion_a_streamlit.ipynb)
 
 #### 🔹 Módulo 1: Fundamentos Numéricos
-* `01` - El proyecto SciPy y el ecosistema de datos.
+* `01` - El ecosistema de datos con Python (NumPy, SciPy y herramientas clave).
 * `02` - Conceptos básicos de NumPy (arreglos y vectores).
 * `03` - Creación de arreglos con funciones especializadas y lectura/escritura de archivos.
 * `04` - Generación de datos sintéticos y aleatorios.
