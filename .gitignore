@@ -115,8 +115,8 @@ contexto_proyecto.md
 PLAN_*.md
 .claude/
 
-# Datos de ejemplo
-data_tmp/ # carpeta con datos de ejemplo, no se sube al repositorio
+# Datos de ejemplo: carpeta local, no se sube al repositorio
+data_tmp/
 
-# Graficos de ejemplo
-graph_tmp/ # carpeta con datos de ejemplo, no se sube al repositorio
+# Graficos de ejemplo: carpeta local, no se sube al repositorio
+graph_tmp/
