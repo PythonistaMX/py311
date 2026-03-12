@@ -120,3 +120,8 @@ data_tmp/
 
 # Graficos de ejemplo: carpeta local, no se sube al repositorio
 graph_tmp/
+
+# Archivos generados por 03_gestion_de_arreglos_de_numpy.ipynb
+arreglo.csv
+arreglo.npy
+arreglos.npz
