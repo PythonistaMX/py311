@@ -183,8 +183,11 @@ Si prefieres trabajar en tu máquina:
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/PythonistaMX/py311.git
+git clone --recurse-submodules https://github.com/PythonistaMX/py311.git
 cd py311
+
+# Si ya lo clonaste sin submódulos
+git submodule update --init --recursive
 
 # Crear entorno virtual
 python -m venv venv
@@ -195,6 +198,21 @@ pip install -r requirements.txt
 
 # Iniciar Jupyter
 jupyter lab
+```
+
+### Verificación recomendada
+
+Para validar el entorno de trabajo en local se recomienda ejecutar revisiones
+manuales de notebooks clave y del proyecto de Streamlit:
+
+```bash
+# Verificaciones de calidad en el proyecto de Streamlit
+cd streamlit-project
+ruff check .
+pytest
+
+# Volver al repositorio principal
+cd ..
 ```
 
 ---
