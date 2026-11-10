@@ -182,8 +182,8 @@ El entorno se iniciará automáticamente con:
 Si prefieres trabajar en tu máquina:
 
 ```bash
-# Clonar el repositorio
-git clone https://github.com/PythonistaMX/py311.git
+# Clonar el repositorio (con el submódulo streamlit-project)
+git clone --recurse-submodules https://github.com/PythonistaMX/py311.git
 cd py311
 
 # Crear entorno virtual
