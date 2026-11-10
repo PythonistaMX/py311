@@ -28,7 +28,7 @@ Py311 es el punto de entrada de una ruta progresiva de ingeniería de datos mode
 | Curso | Título | Estado |
 | :--- | :--- | :--- |
 | **Py311** | Fundamentos de Python para Ingeniería y Analítica de Datos | ✅ Este curso |
-| Py321 | Orquestación con Apache Airflow | ✅ Disponible: [PythonistaMX/py321](https://github.com/PythonistaMX/py321) |
+| Py321 | Orquestación con Apache Airflow | Próximamente |
 | Py331 | Spark, PySpark y SparkSQL | Próximamente |
 | Py341 | Pipelines batch y streaming con Apache Beam | Próximamente |
 | Py351 | Streaming con Python (RabbitMQ y Kafka) | Próximamente |
@@ -43,7 +43,7 @@ Un programa intensivo orientado a construir la base técnica necesaria para trab
 
 * **Dominar el ecosistema numérico:** NumPy, SciPy y álgebra lineal aplicada a datos.
 * **Manipular datos con Pandas moderno:** Tipos eficientes, limpieza, agregaciones y ventanas.
-* **Visualizar con precisión estadística:** Matplotlib, Seaborn y Plotnine (gramática de gráficos).
+* **Visualizar con precisión estadística:** Matplotlib y Seaborn, y como tema extra la gramática de gráficos de ggplot2 con plotnine.
 * **Optimizar memoria y rendimiento:** PyArrow como backend y Polars para análisis de alto rendimiento.
 * **Construir productos de datos:** Dashboards interactivos con Streamlit sin necesidad de desarrollo web.
 * **Escalar más allá de la memoria local:** Procesamiento paralelo y distribuido con Dask.
@@ -54,13 +54,13 @@ Todo el entorno se ejecuta en la nube mediante **GitHub Codespaces**, sin necesi
 
 ## 📅 Temario y Estructura
 
-El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6 bloques estratégicos:
+El curso consta de **15 sesiones de 2 horas** (30 horas totales), divididas en 6 bloques estratégicos, más un tema extra sobre la gramática de gráficos con *plotnine*:
 
 | Bloque | Temática Principal | Tecnologías Clave |
 | :--- | :--- | :--- |
 | **I. Fundamentos** | Computación numérica y álgebra lineal vectorial | `NumPy`, `SciPy` |
 | **II. Pandas Moderno** | Backend PyArrow, manipulación y limpieza de datos | `Pandas 3`, `PyArrow` |
-| **III. Visualización** | Gramática de gráficos, estadística y control fino | `Matplotlib`, `Seaborn`, `Plotnine` |
+| **III. Visualización** | Control fino y visualización estadística | `Matplotlib`, `Seaborn` |
 | **IV. Herramientas Modernas** | Formato Arrow, Polars y optimización de memoria | `PyArrow`, `Polars` |
 | **V. Escalado** | Procesamiento paralelo y escalabilidad distribuida | `Dask` |
 | **VI. Data Apps** | Dashboards interactivos sin desarrollo web | `Streamlit` |
@@ -97,17 +97,18 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6
 - [26_extraccion_y_almacenamiento.ipynb](26_extraccion_y_almacenamiento.ipynb)
 - [27_visualizacion_de_datos_con_pandas.ipynb](27_visualizacion_de_datos_con_pandas.ipynb)
 - [28_introduccion_a_matplotlib.ipynb](28_introduccion_a_matplotlib.ipynb)
-- [29_elementos_de_un_grafico.ipynb](29_elementos_de_un_grafico.ipynb)
-- [30_tipos_basicos_de_graficos.ipynb](30_tipos_basicos_de_graficos.ipynb)
-- [31_introduccion_a_seaborn.ipynb](31_introduccion_a_seaborn.ipynb)
-- [32_objetos_de_seaborn.ipynb](32_objetos_de_seaborn.ipynb)
-- [33_introduccion_a_plotnine.ipynb](33_introduccion_a_plotnine.ipynb)
+- [29_figuras_y_ejes_de_matplotlib.ipynb](29_figuras_y_ejes_de_matplotlib.ipynb)
+- [30_personalizacion_de_graficos_de_matplotlib.ipynb](30_personalizacion_de_graficos_de_matplotlib.ipynb)
+- [31_tipos_basicos_de_graficos.ipynb](31_tipos_basicos_de_graficos.ipynb)
+- [32_introduccion_a_seaborn.ipynb](32_introduccion_a_seaborn.ipynb)
+- [33_objetos_de_seaborn.ipynb](33_objetos_de_seaborn.ipynb)
 - [34_introduccion_a_pyarrow.ipynb](34_introduccion_a_pyarrow.ipynb)
 - [35_introduccion_a_polars.ipynb](35_introduccion_a_polars.ipynb)
 - [36_expresiones_de_polars.ipynb](36_expresiones_de_polars.ipynb)
 - [37_polars_avanzado.ipynb](37_polars_avanzado.ipynb)
 - [38_introduccion_a_dask.ipynb](38_introduccion_a_dask.ipynb)
 - [39_introduccion_a_streamlit.ipynb](39_introduccion_a_streamlit.ipynb)
+- [40_gramatica_de_graficos_con_plotnine.ipynb](40_gramatica_de_graficos_con_plotnine.ipynb) (tema extra)
 
 #### 🔹 Módulo 1: Fundamentos Numéricos
 * `01` - El ecosistema de datos con Python (NumPy, SciPy y herramientas clave).
@@ -142,13 +143,13 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6
 
 #### 🔹 Módulo 3: Visualización Estadística
 * `28` - Introducción a Matplotlib (fundamentos).
-* `29` - Elementos de un gráfico (títulos, ejes, leyendas, estilos).
-* `30` - Tipos básicos de gráficos (scatter, line, bar, histogramas).
-* `31` - Introducción a Seaborn (visualización estadística rápida).
-* `32` - Objetos especializados en Seaborn (regresión, correlación, distribuciones).
-* `33` - Plotnine (gramática de gráficos para reportes reproducibles).
+* `29` - Figuras, ejes y gráficos de líneas en Matplotlib (`figure`, `axes`, subplots, marcadores, colores, leyendas).
+* `30` - Personalización de gráficos de Matplotlib (títulos, etiquetas, límites, rejillas, marcas, guardado, estilos e imágenes).
+* `31` - Tipos básicos de gráficos (scatter, line, bar, histogramas).
+* `32` - Introducción a Seaborn (visualización estadística rápida).
+* `33` - Objetos especializados en Seaborn (regresión, correlación, distribuciones).
 
-> **📊 Nota:** Plotnine (basado en ggplot2) es ideal para reportes reproducibles y migración desde R. Seaborn para exploración iterativa. Matplotlib para control fino de bajo nivel.
+> **📊 Nota:** Seaborn para exploración iterativa; Matplotlib para control fino de bajo nivel. La gramática de gráficos (ggplot2/plotnine) se estudia en el tema extra `40`.
 
 #### 🔹 Módulo 4: Herramientas Modernas de Datos
 * `34` - **Introducción a PyArrow:** formato columnar, arrays, `pyarrow.compute`, tablas y schemas, Parquet, Feather y datos particionados, y Arrow en Pandas 3 y Polars.
@@ -163,6 +164,26 @@ Los notebooks `34` a `37` usan los mismos datos sintéticos de ventas (`data/ven
 
 #### 🔹 Módulo 6: Data Apps Interactivas
 * `39` - **Introducción a Streamlit:** dashboards web sin HTML/CSS/JavaScript.
+
+#### ⭐ Tema extra: Gramática de gráficos
+* `40` - **La gramática de gráficos con plotnine:** origen (Wilkinson y ggplot2), datos ordenados, mapeos estéticos, geometrías y capas, estadísticas, posiciones, escalas, coordenadas, facetas, temas, un caso práctico con los datos de ventas y equivalencias ggplot2 → plotnine.
+
+---
+
+## 📁 Estructura del repositorio
+
+| Ruta | Contenido |
+| :--- | :--- |
+| `01_*.ipynb` … `40_*.ipynb` | Notebooks del curso. |
+| `data/` | Datos de ejemplo. |
+| `scripts/` | Programas auxiliares, como el generador de los datos de ventas. |
+| `img/` | Imágenes usadas en los notebooks. |
+| `streamlit-project/` | Submódulo con la versión de referencia de la app del notebook `39` ([PythonistaMX/streamlit-project](https://github.com/PythonistaMX/streamlit-project)), con pruebas y CI/CD. |
+| `data_tmp/`, `mi_app_streamlit/` | Archivos que generan los notebooks al ejecutarse; están en `.gitignore`. |
+
+### Pruebas automáticas
+
+En cada *push* y *pull request* a `main`, el workflow **Notebooks Smoke Test** ejecuta todos los notebooks completos con las versiones fijadas en `requirements.txt`. Las celdas que muestran un error a propósito llevan la etiqueta `raises-exception`; cualquier otro error hace fallar la prueba. Consulta [CONTRIBUTING.md](CONTRIBUTING.md) para las convenciones de los notebooks.
 
 ---
 
@@ -203,10 +224,15 @@ jupyter lab
 
 ## 📖 Recursos Adicionales
 
+* [Documentación oficial de NumPy](https://numpy.org/doc/stable/)
 * [Documentación oficial de Pandas](https://pandas.pydata.org/docs/)
+* [Documentación oficial de Matplotlib](https://matplotlib.org/stable/)
+* [Documentación oficial de Seaborn](https://seaborn.pydata.org/)
+* [Documentación oficial de PyArrow](https://arrow.apache.org/docs/python/)
 * [Documentación oficial de Polars](https://docs.pola.rs/)
 * [Documentación oficial de Dask](https://docs.dask.org/)
 * [Documentación oficial de Streamlit](https://docs.streamlit.io/)
+* [Documentación oficial de plotnine](https://plotnine.org/) y el libro [*ggplot2: Elegant Graphics for Data Analysis*](https://ggplot2-book.org/)
 
 ---
 
