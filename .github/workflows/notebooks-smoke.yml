@@ -62,6 +62,9 @@ jobs:
               sys.exit(1)
           PY
 
+      - name: Verify data files (SHA-256)
+        run: python scripts/verificar_datos.py
+
       - name: Execute notebooks
         run: python "$RUNNER_TEMP/ejecutar.py"
 

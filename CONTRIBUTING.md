@@ -23,7 +23,7 @@ Gracias por contribuir al curso Py311.
 - **Sin salidas guardadas.** Limpia las salidas antes de hacer *commit* (en JupyterLab: *Edit → Clear Outputs of All Cells*).
 - **Errores intencionales.** Si una celda muestra un error a propósito, agrégale la etiqueta `raises-exception` (en JupyterLab: barra lateral derecha → *Common Tools* → *Cell Tags*). Sin esa etiqueta, el CI la considera una falla.
 - **Archivos generados.** Los archivos que crea un *notebook* se escriben en `data_tmp/`, que está en `.gitignore`. Usa nombres que no coincidan con los de otros *notebooks*. Si un *notebook* necesita escribir fuera de `data_tmp/`, agrega esos archivos a `.gitignore`.
-- **Datos.** Los datos de ejemplo van en `data/`. Si son sintéticos, incluye en `scripts/` el programa que los genera, con una semilla fija.
+- **Datos.** Los datos de ejemplo van en `data/` y los notebooks los leen de ahí, sin descargarlos. Registra cada archivo nuevo en `data/fuentes.json` (fuente, URL de origen, licencia y huella SHA-256) y comprueba con `python scripts/verificar_datos.py`. Si son sintéticos, incluye en `scripts/` el programa que los genera, con una semilla fija.
 
 ## Criterios para aprobar un PR
 
