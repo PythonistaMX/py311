@@ -1,10 +1,16 @@
 name: Notebooks Smoke Test
 
+# Ejecuta todos los notebooks completos. Las celdas que muestran un error a propósito
+# llevan la etiqueta "raises-exception"; cualquier otro error hace fallar el workflow.
+# 26_extraccion_y_almacenamiento descarga un archivo del INEGI, así que se ejecuta
+# en un paso aparte que no bloquea si el sitio no responde.
+
 on:
   pull_request:
     branches: [main]
   push:
     branches: [main]
+  workflow_dispatch:
 
 jobs:
   smoke-notebooks:
@@ -24,49 +30,41 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          pip install nbformat nbclient
+          pip install nbformat==5.11.1 nbclient==0.11.0
 
-      - name: Execute notebook smoke cells
+      - name: Write notebook runner
         run: |
-          python - <<'PY'
-          import copy
+          cat > "$RUNNER_TEMP/ejecutar.py" <<'PY'
+          import glob
+          import sys
+
           import nbformat
           from nbclient import NotebookClient
+          from nbclient.exceptions import CellExecutionError
 
-          NOTEBOOKS = [
-              "02_conceptos_basicos_de_numpy.ipynb",
-              "09_introduccion_a_pandas.ipynb",
-              "34_introduccion_a_polars.ipynb",
-              "37_introduccion_a_dask.ipynb",
-          ]
+          INTERNET = {"26_extraccion_y_almacenamiento.ipynb"}
+          if sys.argv[1:] == ["--internet"]:
+              NOTEBOOKS = sorted(INTERNET)
+          else:
+              NOTEBOOKS = [p for p in sorted(glob.glob("[0-9][0-9]_*.ipynb")) if p not in INTERNET]
 
-          MAX_CODE_CELLS = 8
-
+          fallas = []
           for path in NOTEBOOKS:
-              print(f"\\n[SMOKE] Ejecutando: {path}")
               nb = nbformat.read(path, as_version=4)
-
-              code_seen = 0
-              filtered_cells = []
-              for cell in nb.cells:
-                  if cell.get("cell_type") != "code":
-                      filtered_cells.append(cell)
-                      continue
-
-                  if code_seen < MAX_CODE_CELLS:
-                      filtered_cells.append(cell)
-                      code_seen += 1
-
-              smoke_nb = copy.deepcopy(nb)
-              smoke_nb.cells = filtered_cells
-
-              client = NotebookClient(
-                  smoke_nb,
-                  timeout=180,
-                  kernel_name="python3",
-                  allow_errors=False,
-              )
-              client.execute()
-
-              print(f"[OK] {path} (code cells ejecutadas: {code_seen})")
+              try:
+                  NotebookClient(nb, timeout=300, kernel_name="python3", allow_errors=False).execute()
+                  print(f"[OK] {path}")
+              except CellExecutionError as exc:
+                  print(f"[FALLA] {path}\n{exc}")
+                  fallas.append(path)
+          if fallas:
+              print("\n[SMOKE] Fallaron:", *fallas, sep="\n  - ")
+              sys.exit(1)
           PY
+
+      - name: Execute notebooks
+        run: python "$RUNNER_TEMP/ejecutar.py"
+
+      - name: Execute notebooks that download data
+        continue-on-error: true
+        run: python "$RUNNER_TEMP/ejecutar.py" --internet
