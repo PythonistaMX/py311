@@ -41,6 +41,7 @@ Guía operativa para impartir el curso con consistencia técnica y pedagógica.
 - Notebooks de la sesión abren y ejecutan celdas clave.
 - Dataset de ejemplo disponible (`data/`).
 - `streamlit-project/` ejecuta localmente: `streamlit run app.py`.
+- El notebook 39 escribe su versión de la app en `mi_app_streamlit/` (ignorada por git); el submódulo `streamlit-project/` no se modifica.
 - Pruebas del proyecto en verde: `ruff check .` y `pytest`.
 
 ## Checklist de cierre de módulo
