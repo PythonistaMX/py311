@@ -151,10 +151,12 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6
 > **📊 Nota:** Plotnine (basado en ggplot2) es ideal para reportes reproducibles y migración desde R. Seaborn para exploración iterativa. Matplotlib para control fino de bajo nivel.
 
 #### 🔹 Módulo 4: Herramientas Modernas de Datos
-* `34` - **Introducción a PyArrow:** arrays, tablas y backend para Pandas.
-* `35` - **Introducción a Polars:** API expresiva y evaluación lazy.
-* `36` - **Expresiones en Polars:** sistema de expresiones, tipos de datos, namespaces `.str` y `.dt`, y guía de traducción Pandas → Polars.
-* `37` - **Polars Avanzado:** window functions, optimización y decisiones arquitectónicas.
+* `34` - **Introducción a PyArrow:** formato columnar, arrays, `pyarrow.compute`, tablas y schemas, Parquet, Feather y datos particionados, y Arrow en Pandas 3 y Polars.
+* `35` - **Introducción a Polars:** dataframes, lectura y escritura, contextos, selección con selectores, filtros, nulos, agrupación y conversiones.
+* `36` - **Expresiones en Polars:** reglas de las expresiones, condicionales, tipos y `cast()`, `Categorical` y `Enum`, namespaces `.str`, `.dt` y `.list`, funciones de ventana y guía de traducción Pandas 3 → Polars.
+* `37` - **Polars Avanzado:** joins (incluido `join_asof`), pivot y unpivot, modo lazy y sus optimizaciones, motor streaming, particiones, SQL y una medición de rendimiento frente a Pandas.
+
+Los notebooks `34` a `37` usan los mismos datos sintéticos de ventas (`data/ventas.csv`, `data/tiendas.csv` y `data/tipo_cambio.csv`), que se regeneran con `python scripts/generar_datos_ventas.py`.
 
 #### 🔹 Módulo 5: Computación Distribuida
 * `38` - **Introducción a Dask:** procesamiento paralelo y escalabilidad out-of-core.

@@ -7,7 +7,7 @@ Guía operativa para impartir el curso con consistencia técnica y pedagógica.
 1. Sesión 1-2: Ecosistema y NumPy (01-08).
 2. Sesión 3-6: Pandas moderno (09-27).
 3. Sesión 7-8: Visualización (28-33).
-4. Sesión 9: PyArrow y Polars (34-37).
+4. Sesión 9: PyArrow y Polars (34-37). Si el tiempo no alcanza, 34 y 35 en clase; 36 y 37 como práctica guiada.
 5. Sesión 10: Dask (38).
 6. Sesión 11-12: Streamlit y proyecto integrador (39 + `streamlit-project/`).
 
@@ -39,7 +39,7 @@ Guía operativa para impartir el curso con consistencia técnica y pedagógica.
 
 - Entorno de Codespaces listo y dependencias instaladas.
 - Notebooks de la sesión abren y ejecutan celdas clave.
-- Dataset de ejemplo disponible (`data/`).
+- Dataset de ejemplo disponible (`data/`). Los datos de ventas de los notebooks 34-37 se regeneran con `python scripts/generar_datos_ventas.py` (semilla fija).
 - `streamlit-project/` ejecuta localmente: `streamlit run app.py`.
 - El notebook 39 escribe su versión de la app en `mi_app_streamlit/` (ignorada por git); el submódulo `streamlit-project/` no se modifica.
 - Pruebas del proyecto en verde: `ruff check .` y `pytest`.

@@ -1,0 +1,15 @@
+tienda_id,nombre,ciudad,estado,region,fecha_apertura,metros_cuadrados
+1,Centro Histórico,Ciudad de México,Ciudad de México,Centro,2015-03-01,850
+2,Polanco,Ciudad de México,Ciudad de México,Centro,2017-06-15,1200
+3,Coyoacán,Ciudad de México,Ciudad de México,Centro,2019-09-01,700
+4,Angelópolis,Puebla,Puebla,Centro,2018-02-20,950
+5,Andares,Zapopan,Jalisco,Occidente,2016-11-10,1100
+6,Chapultepec,Guadalajara,Jalisco,Occidente,2020-01-15,650
+7,Valle Oriente,San Pedro Garza García,Nuevo León,Norte,2014-08-01,1300
+8,Cumbres,Monterrey,Nuevo León,Norte,2021-04-12,600
+9,Zona Río,Tijuana,Baja California,Norte,2019-05-30,800
+10,Montejo,Mérida,Yucatán,Sureste,2017-10-05,900
+11,Cancún Centro,Cancún,Quintana Roo,Sureste,2022-02-01,750
+12,Juriquilla,Querétaro,Querétaro,Centro,2023-07-01,680
+13,Mazatlán Malecón,Mazatlán,Sinaloa,Occidente,2026-01-15,600
+14,Oaxaca Centro,Oaxaca de Juárez,Oaxaca,Sureste,2026-02-01,550
