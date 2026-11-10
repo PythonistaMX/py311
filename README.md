@@ -59,7 +59,7 @@ El curso consta de **12 sesiones de 2 horas** (24 horas totales), divididas en 6
 | Bloque | Temática Principal | Tecnologías Clave |
 | :--- | :--- | :--- |
 | **I. Fundamentos** | Computación numérica y álgebra lineal vectorial | `NumPy`, `SciPy` |
-| **II. Pandas Moderno** | Backend PyArrow, manipulación y limpieza de datos | `Pandas 2.0`, `PyArrow` |
+| **II. Pandas Moderno** | Backend PyArrow, manipulación y limpieza de datos | `Pandas 3`, `PyArrow` |
 | **III. Visualización** | Gramática de gráficos, estadística y control fino | `Matplotlib`, `Seaborn`, `Plotnine` |
 | **IV. Herramientas Modernas** | Formato Arrow, Polars y optimización de memoria | `PyArrow`, `Polars` |
 | **V. Escalado** | Procesamiento paralelo y escalabilidad distribuida | `Dask` |
