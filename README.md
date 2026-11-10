@@ -28,7 +28,7 @@ Py311 es el punto de entrada de una ruta progresiva de ingeniería de datos mode
 | Curso | Título | Estado |
 | :--- | :--- | :--- |
 | **Py311** | Fundamentos de Python para Ingeniería y Analítica de Datos | ✅ Este curso |
-| Py321 | Orquestación con Apache Airflow | 🚧 En preparación |
+| Py321 | Orquestación con Apache Airflow | ✅ Disponible: [PythonistaMX/py321](https://github.com/PythonistaMX/py321) |
 | Py331 | Spark, PySpark y SparkSQL | Próximamente |
 | Py341 | Pipelines batch y streaming con Apache Beam | Próximamente |
 | Py351 | Streaming con Python (RabbitMQ y Kafka) | Próximamente |
