@@ -146,10 +146,10 @@ El curso consta de **15 sesiones de 2 horas** (30 horas totales), divididas en 6
 * `29` - Figuras, ejes y gráficos de líneas en Matplotlib (`figure`, `axes`, subplots, marcadores, colores, leyendas).
 * `30` - Personalización de gráficos de Matplotlib (títulos, etiquetas, límites, rejillas, marcas, guardado, estilos e imágenes).
 * `31` - Tipos básicos de gráficos (scatter, line, bar, histogramas).
-* `32` - Introducción a Seaborn (visualización estadística rápida).
-* `33` - Objetos especializados en Seaborn (regresión, correlación, distribuciones).
+* `32` - Introducción a Seaborn: funciones relacionales, categóricas, de distribución, de regresión y matriciales; formatos largo y ancho; integración con Matplotlib; funciones a nivel de figura (`relplot`, `displot`, `catplot`, `lmplot`), rejillas y estética.
+* `33` - La interfaz de objetos de Seaborn (`seaborn.objects`): la gramática de gráficos en Seaborn, con marcas, estadísticas, movimientos, escalas, facetas y su equivalencia con plotnine.
 
-> **📊 Nota:** Seaborn para exploración iterativa; Matplotlib para control fino de bajo nivel. La gramática de gráficos (ggplot2/plotnine) se estudia en el tema extra `40`.
+> **📊 Nota:** Matplotlib para control fino de bajo nivel; las funciones de Seaborn para exploración rápida; `seaborn.objects` como introducción a la gramática de gráficos, que se estudia a fondo con plotnine en el tema extra `40`.
 
 #### 🔹 Módulo 4: Herramientas Modernas de Datos
 * `34` - **Introducción a PyArrow:** formato columnar, arrays, `pyarrow.compute`, tablas y schemas, Parquet, Feather y datos particionados, y Arrow en Pandas 3 y Polars.
