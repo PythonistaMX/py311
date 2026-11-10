@@ -127,3 +127,8 @@ arreglo.npy
 arreglos.npz
 # Aplicación que crea el notebook 39 (la versión de referencia es el submódulo streamlit-project/)
 mi_app_streamlit/
+
+# Imágenes que genera el notebook 29
+grafico.png
+grafica.png
+imagen_guardada.jpg
