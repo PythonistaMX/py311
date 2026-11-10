@@ -159,6 +159,8 @@ El curso consta de **15 sesiones de 2 horas** (30 horas totales), divididas en 6
 
 Los notebooks `34` a `37` usan los mismos datos sintéticos de ventas (`data/ventas.csv`, `data/tiendas.csv` y `data/tipo_cambio.csv`), que se regeneran con `python scripts/generar_datos_ventas.py`.
 
+Los notebooks nunca dependen de un enlace externo para obtener sus datos: cada archivo de `data/` está versionado en el repositorio y su procedencia (fuente, URL de origen, cobertura, licencia y huella SHA-256) se registra en [`data/fuentes.json`](data/fuentes.json). `python scripts/verificar_datos.py` comprueba la integridad de los archivos y, con `--enlaces`, informa qué URL de origen dejaron de responder; *GitHub Actions* lo ejecuta en cada PR y cada mes. La única excepción deliberada es el notebook `26`, cuyo tema es precisamente descargar datos del INEGI.
+
 #### 🔹 Módulo 5: Computación Distribuida
 * `38` - **Introducción a Dask:** procesamiento paralelo y escalabilidad out-of-core.
 
@@ -175,8 +177,8 @@ Los notebooks `34` a `37` usan los mismos datos sintéticos de ventas (`data/ven
 | Ruta | Contenido |
 | :--- | :--- |
 | `01_*.ipynb` … `40_*.ipynb` | Notebooks del curso. |
-| `data/` | Datos de ejemplo. |
-| `scripts/` | Programas auxiliares, como el generador de los datos de ventas. |
+| `data/` | Datos de ejemplo y su manifiesto de procedencia (`fuentes.json`). |
+| `scripts/` | Programas auxiliares: generador de los datos de ventas y verificador de los datos (`verificar_datos.py`). |
 | `img/` | Imágenes usadas en los notebooks. |
 | `streamlit-project/` | Submódulo con la versión de referencia de la app del notebook `39` ([PythonistaMX/streamlit-project](https://github.com/PythonistaMX/streamlit-project)), con pruebas y CI/CD. |
 | `data_tmp/`, `mi_app_streamlit/` | Archivos que generan los notebooks al ejecutarse; están en `.gitignore`. |

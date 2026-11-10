@@ -1,0 +1,57 @@
+{
+  "descripcion": "Procedencia de los datos que usan los notebooks. Los notebooks leen siempre la copia local; las URL sólo documentan el origen. Verificación: python scripts/verificar_datos.py",
+  "archivos": [
+    {
+      "archivo": "covid_casos_diarios_estado.csv",
+      "notebooks": ["38_introduccion_a_dask.ipynb"],
+      "origen": "externo",
+      "descripcion": "Casos confirmados diarios de COVID-19 por entidad federativa y total nacional. Una fila por día; columna 'index' con la fecha y una columna por entidad más 'Nacional' (la suma de las entidades).",
+      "cobertura": "2020-02-26 a 2022-04-30 (795 días, 32 entidades + Nacional)",
+      "fuente": "Secretaría de Salud, Dirección General de Epidemiología (DGE), datos abiertos COVID-19. Serie diaria por entidad publicada por el tablero CONAHCYT/CentroGeo, cuya actualización se pausó el 30 de abril de 2022.",
+      "urls": [
+        {"rol": "fuente primaria (microdatos e históricos)", "url": "https://www.gob.mx/salud/documentos/datos-abiertos-152127"},
+        {"rol": "tablero que publicaba la serie diaria por entidad (congelado desde 2022-04-30)", "url": "https://datos.covid-19.conacyt.mx/"},
+        {"rol": "copia de referencia de este archivo", "url": "https://github.com/PythonistaMX/py701/blob/main/data/data_covid.csv"},
+        {"rol": "respaldo descargable (copia idéntica)", "url": "https://raw.githubusercontent.com/PythonistaMX/py701/main/data/data_covid.csv"}
+      ],
+      "licencia": "Términos de Libre Uso MX (datos abiertos del Gobierno de México)",
+      "copiado": "2026-11-10, desde PythonistaMX/py701 (data/data_covid.csv, sin modificaciones)",
+      "sha256": "7c4728666b5428f32f6d424d83d75c949f58a7c4788ff7d6f348c0825c94fe02"
+    },
+    {
+      "archivo": "ITAEE.csv",
+      "notebooks": ["27_visualizacion_de_datos_con_pandas.ipynb"],
+      "origen": "externo",
+      "descripcion": "Índice Trimestral de la Actividad Económica Estatal (ITAEE), índice de volumen físico por entidad, exportado por el notebook 26 (dos filas de encabezado: año y periodo).",
+      "cobertura": "1980-2025, trimestral y anual, 32 entidades + nacional",
+      "fuente": "INEGI, Indicador Trimestral de la Actividad Económica Estatal.",
+      "urls": [
+        {"rol": "archivo que descarga el notebook 26", "url": "https://www.inegi.org.mx/contenidos/programas/itaee/2018/tabulados/ori/ITAEE_r_3.xlsx"},
+        {"rol": "página del programa", "url": "https://www.inegi.org.mx/programas/itaee/2018/"}
+      ],
+      "licencia": "Términos de Libre Uso de la Información del INEGI",
+      "sha256": "30160ee3f31953e4b43ef8e49a8f6977a38e628b90e56e10f5110708a6e22519"
+    },
+    {
+      "archivo": "ventas.csv",
+      "notebooks": ["34_introduccion_a_pyarrow.ipynb", "35_introduccion_a_polars.ipynb", "36_expresiones_de_polars.ipynb", "37_polars_avanzado.ipynb"],
+      "origen": "sintetico",
+      "descripcion": "Ventas sintéticas; se regeneran con python scripts/generar_datos_ventas.py (semilla fija).",
+      "sha256": "6c2796df274a098b90c486314197d08afdd7f1e1751f2258633f807a89a7eeef"
+    },
+    {
+      "archivo": "tiendas.csv",
+      "notebooks": ["34_introduccion_a_pyarrow.ipynb", "35_introduccion_a_polars.ipynb", "36_expresiones_de_polars.ipynb", "37_polars_avanzado.ipynb"],
+      "origen": "sintetico",
+      "descripcion": "Catálogo sintético de tiendas; lo genera scripts/generar_datos_ventas.py.",
+      "sha256": "9e2ce73c7a8e5a4edc725b56f9ac6882085a64e87b10d1731cec964bb7896e08"
+    },
+    {
+      "archivo": "tipo_cambio.csv",
+      "notebooks": ["34_introduccion_a_pyarrow.ipynb", "35_introduccion_a_polars.ipynb", "36_expresiones_de_polars.ipynb", "37_polars_avanzado.ipynb"],
+      "origen": "sintetico",
+      "descripcion": "Tipo de cambio sintético; lo genera scripts/generar_datos_ventas.py.",
+      "sha256": "ad28075e44fd21feb083d128fafb476d2d27b5900ad611f46c03f80fc6cef832"
+    }
+  ]
+}

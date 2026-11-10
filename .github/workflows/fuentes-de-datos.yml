@@ -1,0 +1,34 @@
+name: Fuentes de datos
+
+# Revisa cada mes que las URL de origen registradas en data/fuentes.json sigan
+# respondiendo. Los notebooks leen la copia local de data/, así que un enlace
+# roto no los rompe: este workflow sólo avisa para actualizar el manifiesto.
+# La integridad (SHA-256) sí es obligatoria y se revisa también en cada PR.
+
+on:
+  schedule:
+    - cron: "17 14 3 * *"   # día 3 de cada mes
+  pull_request:
+    paths:
+      - "data/**"
+      - "scripts/verificar_datos.py"
+  workflow_dispatch:
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Integridad de los datos
+        run: python scripts/verificar_datos.py
+
+      - name: Enlaces de origen (informativo)
+        continue-on-error: true
+        run: python scripts/verificar_datos.py --enlaces

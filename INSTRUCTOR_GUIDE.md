@@ -52,7 +52,7 @@ Guía operativa para impartir el curso con consistencia técnica y pedagógica.
 
 - Entorno de Codespaces listo y dependencias instaladas.
 - Notebooks de la sesión abren y ejecutan celdas clave; el workflow *Notebooks Smoke Test* de `main` está en verde.
-- Dataset de ejemplo disponible (`data/`). Los datos de ventas de los notebooks 34-37 se regeneran con `python scripts/generar_datos_ventas.py` (semilla fija).
+- Dataset de ejemplo disponible (`data/`). Los datos de ventas de los notebooks 34-37 se regeneran con `python scripts/generar_datos_ventas.py` (semilla fija). La serie de COVID-19 del notebook 38 (`data/covid_casos_diarios_estado.csv`) es real y está versionada: la clase no depende de que el portal de origen siga en línea. `python scripts/verificar_datos.py` confirma que los archivos están completos.
 - `streamlit-project/` ejecuta localmente: `streamlit run app.py`.
 - El notebook 39 escribe su versión de la app en `mi_app_streamlit/` (ignorada por git); el submódulo `streamlit-project/` no se modifica.
 - Pruebas del proyecto en verde: `ruff check .` y `pytest`.

@@ -1,0 +1,4 @@
+# Los datos de data/ se verifican con SHA-256 (scripts/verificar_datos.py).
+# Se desactiva la conversión de fin de línea para que el hash sea el mismo en
+# Windows, macOS y Linux.
+data/** -text
