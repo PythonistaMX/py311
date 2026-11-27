@@ -43,7 +43,7 @@ Un programa intensivo orientado a construir la base técnica necesaria para trab
 * **Dominar el ecosistema numérico:** NumPy, SciPy y álgebra lineal aplicada a datos.
 * **Manipular datos con Pandas moderno:** Tipos eficientes, limpieza, agregaciones y ventanas.
 * **Visualizar con precisión estadística:** Matplotlib y Seaborn, y como tema extra la gramática de gráficos de ggplot2 con plotnine.
-* **Optimizar memoria y rendimiento:** PyArrow como backend y Polars para análisis de alto rendimiento.
+* **Optimizar memoria y rendimiento:** PyArrow como formato común y Polars para análisis de alto rendimiento, incluido el procesamiento de datos más grandes que la memoria con consultas diferidas y *streaming*.
 * **Ver un producto de datos en acción:** una demo de *dashboard* interactivo con Streamlit cierra el curso.
 
 Todo el entorno se ejecuta en la nube mediante **GitHub Codespaces**, sin necesidad de instalación local.
@@ -59,7 +59,7 @@ El curso consta de **14 sesiones de 2 horas** (28 horas totales), divididas en 4
 | **I. Fundamentos** | Computación numérica y álgebra lineal vectorial | `NumPy`, `SciPy` |
 | **II. Pandas Moderno** | Backend PyArrow, manipulación y limpieza de datos | `Pandas 3`, `PyArrow` |
 | **III. Visualización** | Control fino y visualización estadística | `Matplotlib`, `Seaborn` |
-| **IV. Herramientas Modernas** | Formato Arrow, Polars y optimización de memoria | `PyArrow`, `Polars` |
+| **IV. Arrow y Polars** | Formato Arrow, Polars, consultas diferidas y datos más grandes que la memoria | `PyArrow`, `Polars` |
 | *Demo* | Un *dashboard* interactivo sin desarrollo web | `Streamlit` |
 
 ### 📚 Contenidos
@@ -99,10 +99,11 @@ El curso consta de **14 sesiones de 2 horas** (28 horas totales), divididas en 4
 - [31_tipos_basicos_de_graficos.ipynb](31_tipos_basicos_de_graficos.ipynb)
 - [32_introduccion_a_seaborn.ipynb](32_introduccion_a_seaborn.ipynb)
 - [33_objetos_de_seaborn.ipynb](33_objetos_de_seaborn.ipynb)
-- [34_introduccion_a_pyarrow.ipynb](34_introduccion_a_pyarrow.ipynb)
+- [34_introduccion_a_pyarrow.ipynb](34_introduccion_a_pyarrow.ipynb) (incluye autoestudio)
 - [35_introduccion_a_polars.ipynb](35_introduccion_a_polars.ipynb)
-- [36_expresiones_de_polars.ipynb](36_expresiones_de_polars.ipynb)
-- [37_polars_avanzado.ipynb](37_polars_avanzado.ipynb)
+- [36_expresiones_de_polars.ipynb](36_expresiones_de_polars.ipynb) (incluye autoestudio)
+- [37_combinacion_y_remodelado_con_polars.ipynb](37_combinacion_y_remodelado_con_polars.ipynb) (incluye autoestudio)
+- [38_consultas_diferidas_y_datos_grandes.ipynb](38_consultas_diferidas_y_datos_grandes.ipynb) (incluye autoestudio)
 - [39_introduccion_a_streamlit.ipynb](39_introduccion_a_streamlit.ipynb) (demo)
 - [40_gramatica_de_graficos_con_plotnine.ipynb](40_gramatica_de_graficos_con_plotnine.ipynb) (tema extra)
 
@@ -147,20 +148,38 @@ El curso consta de **14 sesiones de 2 horas** (28 horas totales), divididas en 4
 
 > **📊 Nota:** Matplotlib para control fino de bajo nivel; las funciones de Seaborn para exploración rápida; `seaborn.objects` como introducción a la gramática de gráficos, que se estudia a fondo con plotnine en el tema extra `40`.
 
-#### 🔹 Módulo 4: Herramientas Modernas de Datos
-* `34` - **Introducción a PyArrow:** formato columnar, arrays, `pyarrow.compute`, tablas y schemas, Parquet, Feather y datos particionados, y Arrow en Pandas 3 y Polars.
-* `35` - **Introducción a Polars:** dataframes, lectura y escritura, contextos, selección con selectores, filtros, nulos, agrupación y conversiones.
-* `36` - **Expresiones en Polars:** reglas de las expresiones, condicionales, tipos y `cast()`, `Categorical` y `Enum`, namespaces `.str`, `.dt` y `.list`, funciones de ventana y guía de traducción Pandas 3 → Polars.
-* `37` - **Polars Avanzado:** joins (incluido `join_asof`), pivot y unpivot, modo lazy y sus optimizaciones, motor streaming, particiones, SQL y una medición de rendimiento frente a Pandas.
+#### 🔹 Módulo 4: Arrow y Polars
+* `34` - **Introducción a PyArrow:** formato columnar, arrays, `pyarrow.compute`, tablas y schemas, Parquet y Feather, y Arrow en Pandas 3 y Polars. *Autoestudio:* tipos anidados, ChunkedArray y RecordBatch, y conjuntos de datos particionados con `pyarrow.dataset`.
+* `35` - **Introducción a Polars:** dataframes, lectura y escritura, contextos, selección con selectores, filtros, nulos, agrupación, y la integración de Polars con Pandas, PyArrow y NumPy (cuándo se copian los datos, nulo y `NaN`).
+* `36` - **Expresiones en Polars:** reglas de las expresiones, condicionales, tipos y `cast()`, `Categorical` y `Enum`, namespaces `.str` y `.dt`, funciones de ventana y guía de traducción Pandas 3 → Polars. *Autoestudio:* listas y structs.
+* `37` - **Combinación y remodelado de tablas con Polars:** joins y `pivot()`/`unpivot()`. *Autoestudio:* combinación por la clave más cercana (`join_asof`).
+* `38` - **Consultas diferidas y datos grandes:** modo diferido, `scan_csv()` y `scan_parquet()`, lectura del plan con `explain()` y sus optimizaciones, `collect()` y el motor streaming, `sink_parquet()`/`sink_csv()`, conjuntos particionados con el esquema de Hive y un ejemplo completo con un archivo de ventas grande generado con NumPy. *Autoestudio:* SQL, `pl.collect_all()`, `pl.PartitionBy` y `collect_batches()`, y una medición de rendimiento frente a Pandas.
 
-Los notebooks `34` a `37` usan los mismos datos sintéticos de ventas (`data/ventas.csv`, `data/tiendas.csv` y `data/tipo_cambio.csv`), que se regeneran con `python scripts/generar_datos_ventas.py`.
+Los notebooks `34` a `38` usan los mismos datos sintéticos de ventas (`data/ventas.csv`, `data/tiendas.csv` y `data/tipo_cambio.csv`), que se regeneran con `python scripts/generar_datos_ventas.py`. El notebook `38` genera además, con NumPy y sin descargas, un archivo de ventas grande en `data_tmp/`: por omisión, un millón de renglones (unos 63 MB en CSV); la variable de entorno `PY311_RENGLONES` cambia el tamaño.
+
+#### 📘 Autoestudio
+
+Algunas secciones avanzadas de los notebooks `34` a `38` no se ven en clase: llevan el título «📘 Autoestudio», un aviso con lo que se aprende, los requisitos y el tiempo estimado, y terminan con un ejercicio y una celda que comprueba el resultado con `assert`. Ninguna sección de clase depende de ellas.
+
+| Notebook | Sección | Requisitos (en clase) | Tiempo |
+| :--- | :--- | :--- | :---: |
+| [`34`](34_introduccion_a_pyarrow.ipynb) | Tipos anidados | 34: arrays y `pyarrow.compute` | 10 min |
+| [`34`](34_introduccion_a_pyarrow.ipynb) | ChunkedArray y RecordBatch | 34: arrays | 10 min |
+| [`34`](34_introduccion_a_pyarrow.ipynb) | Conjuntos de datos particionados con PyArrow | 34: tablas y Parquet | 10 min |
+| [`36`](36_expresiones_de_polars.ipynb) | Listas y structs | 36: expresiones y `.str`; recomendado: «Tipos anidados» del 34 | 15 min |
+| [`37`](37_combinacion_y_remodelado_con_polars.ipynb) | Combinación por la clave más cercana (`join_asof`) | 37: joins; 22: fechas | 10 min |
+| [`38`](38_consultas_diferidas_y_datos_grandes.ipynb) | SQL en Polars | 37: joins; 38: modo diferido y ejemplo completo | 15 min |
+| [`38`](38_consultas_diferidas_y_datos_grandes.ipynb) | Varias consultas a la vez (`pl.collect_all`) | 38: plan y ejecución | 5 min |
+| [`38`](38_consultas_diferidas_y_datos_grandes.ipynb) | Destinos particionados y lotes (`pl.PartitionBy`, `collect_batches()`) | 38: `sink_parquet()` y ejemplo completo | 10 min |
+| [`38`](38_consultas_diferidas_y_datos_grandes.ipynb) | Medición de rendimiento: Pandas y Polars | 38 completo; 24: `groupby` | 20 min |
+| | | **Total** | **≈ 105 min** |
 
 Los notebooks nunca dependen de un enlace externo para obtener sus datos: cada archivo de `data/` está versionado en el repositorio y su procedencia (fuente, URL de origen, cobertura, licencia y huella SHA-256) se registra en [`data/fuentes.json`](data/fuentes.json). `python scripts/verificar_datos.py` comprueba la integridad de los archivos y, con `--enlaces`, informa qué URL de origen dejaron de responder; *GitHub Actions* lo ejecuta en cada PR y cada mes. La única excepción deliberada es el notebook `26`, cuyo tema es precisamente descargar datos del INEGI.
 
 #### 🎬 Demo: una *data app* con Streamlit
 * `39` - **Demo de Streamlit:** un *dashboard* web sin HTML, CSS ni JavaScript, construido con *Polars* y los gráficos de *Matplotlib* y *Seaborn* del curso. Es una demostración de cierre: no se evalúa y ningún *notebook* depende de ella.
 
-> **Nota sobre la numeración:** el número `38` no se usa. La demo conserva el `39` porque la app de referencia ([PythonistaMX/streamlit-project](https://github.com/PythonistaMX/streamlit-project)) lo cita como N39, y el tema extra conserva el `40`.
+> **Nota sobre la numeración:** la demo conserva el `39` porque la app de referencia ([PythonistaMX/streamlit-project](https://github.com/PythonistaMX/streamlit-project)) lo cita como N39, y el tema extra conserva el `40`.
 
 #### ⭐ Tema extra: Gramática de gráficos
 * `40` - **La gramática de gráficos con plotnine:** origen (Wilkinson y ggplot2), datos ordenados, mapeos estéticos, geometrías y capas, estadísticas, posiciones, escalas, coordenadas, facetas, temas, un caso práctico con los datos de ventas y equivalencias ggplot2 → plotnine.
@@ -180,7 +199,7 @@ Los notebooks nunca dependen de un enlace externo para obtener sus datos: cada a
 
 ### Pruebas automáticas
 
-En cada *push* y *pull request* a `main`, el workflow **Notebooks Smoke Test** ejecuta todos los notebooks completos con las versiones fijadas en `requirements.txt`. Las celdas que muestran un error a propósito llevan la etiqueta `raises-exception`; cualquier otro error hace fallar la prueba. Consulta [CONTRIBUTING.md](CONTRIBUTING.md) para las convenciones de los notebooks.
+En cada *push* y *pull request* a `main`, el workflow **Notebooks Smoke Test** ejecuta todos los notebooks completos con las versiones fijadas en `requirements.txt`, incluidas las secciones de autoestudio y sus soluciones. Para que termine en pocos segundos, define `PY311_RENGLONES=20000`, de modo que el notebook `38` genera un archivo grande reducido. Las celdas que muestran un error a propósito llevan la etiqueta `raises-exception`; cualquier otro error hace fallar la prueba. Consulta [CONTRIBUTING.md](CONTRIBUTING.md) para las convenciones de los notebooks.
 
 ---
 

@@ -17,21 +17,21 @@
     },
     {
       "archivo": "ventas.csv",
-      "notebooks": ["34_introduccion_a_pyarrow.ipynb", "35_introduccion_a_polars.ipynb", "36_expresiones_de_polars.ipynb", "37_polars_avanzado.ipynb"],
+      "notebooks": ["34_introduccion_a_pyarrow.ipynb", "35_introduccion_a_polars.ipynb", "36_expresiones_de_polars.ipynb", "37_combinacion_y_remodelado_con_polars.ipynb", "38_consultas_diferidas_y_datos_grandes.ipynb"],
       "origen": "sintetico",
       "descripcion": "Ventas sintéticas; se regeneran con python scripts/generar_datos_ventas.py (semilla fija).",
       "sha256": "6c2796df274a098b90c486314197d08afdd7f1e1751f2258633f807a89a7eeef"
     },
     {
       "archivo": "tiendas.csv",
-      "notebooks": ["34_introduccion_a_pyarrow.ipynb", "35_introduccion_a_polars.ipynb", "36_expresiones_de_polars.ipynb", "37_polars_avanzado.ipynb"],
+      "notebooks": ["34_introduccion_a_pyarrow.ipynb", "35_introduccion_a_polars.ipynb", "36_expresiones_de_polars.ipynb", "37_combinacion_y_remodelado_con_polars.ipynb", "38_consultas_diferidas_y_datos_grandes.ipynb"],
       "origen": "sintetico",
       "descripcion": "Catálogo sintético de tiendas; lo genera scripts/generar_datos_ventas.py.",
       "sha256": "9e2ce73c7a8e5a4edc725b56f9ac6882085a64e87b10d1731cec964bb7896e08"
     },
     {
       "archivo": "tipo_cambio.csv",
-      "notebooks": ["34_introduccion_a_pyarrow.ipynb", "35_introduccion_a_polars.ipynb", "36_expresiones_de_polars.ipynb", "37_polars_avanzado.ipynb"],
+      "notebooks": ["34_introduccion_a_pyarrow.ipynb", "35_introduccion_a_polars.ipynb", "36_expresiones_de_polars.ipynb", "37_combinacion_y_remodelado_con_polars.ipynb", "38_consultas_diferidas_y_datos_grandes.ipynb"],
       "origen": "sintetico",
       "descripcion": "Tipo de cambio sintético; lo genera scripts/generar_datos_ventas.py.",
       "sha256": "ad28075e44fd21feb083d128fafb476d2d27b5900ad611f46c03f80fc6cef832"

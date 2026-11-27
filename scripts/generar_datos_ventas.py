@@ -1,4 +1,4 @@
-"""Genera los datos de ejemplo de los notebooks 34 a 37 (PyArrow y Polars).
+"""Genera los datos de ejemplo de los notebooks 34 a 38 (PyArrow y Polars).
 
 Crea en ``data/``:
 

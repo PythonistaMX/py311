@@ -5,7 +5,9 @@ Los notebooks leen estos archivos directamente; ninguno necesita descargar nada 
 | Archivo | Notebooks | Origen |
 | :--- | :--- | :--- |
 | `ITAEE.csv` | 27 | INEGI, Indicador Trimestral de la Actividad Económica Estatal (exportado por el notebook 26). |
-| `ventas.csv`, `tiendas.csv`, `tipo_cambio.csv` | 34-37 | Sintéticos; se regeneran con `python scripts/generar_datos_ventas.py`. |
+| `ventas.csv`, `tiendas.csv`, `tipo_cambio.csv` | 34-38 | Sintéticos; se regeneran con `python scripts/generar_datos_ventas.py`. |
+
+El notebook `38` genera además, con NumPy y semilla fija, un archivo de ventas grande en `data_tmp/` (no versionado, en `.gitignore`). Su tamaño se controla con la variable de entorno `PY311_RENGLONES`: un millón de renglones por omisión (unos 63 MB en CSV) y 20,000 en la prueba automática.
 
 ## Verificación
 
