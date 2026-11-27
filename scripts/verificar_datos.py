@@ -46,6 +46,17 @@ def verificar_integridad(archivos: list[dict]) -> list[str]:
     return errores
 
 
+def archivos_sin_manifiesto(archivos: list[dict]) -> list[str]:
+    """Archivos de datos en data/ que no aparecen en el manifiesto."""
+    registrados = {entrada["archivo"] for entrada in archivos}
+    ignorados = {MANIFIESTO.name, "README.md"}
+    return sorted(
+        f"{ruta.name}: no está en {MANIFIESTO.name}"
+        for ruta in DATOS.iterdir()
+        if ruta.is_file() and ruta.name not in registrados | ignorados
+    )
+
+
 def revisar_url(url: str, timeout: float = 20) -> str:
     peticion = urllib.request.Request(url, headers={"User-Agent": "py311-verificar-datos"})
     try:
@@ -78,7 +89,7 @@ def main() -> int:
 
     archivos = json.loads(MANIFIESTO.read_text(encoding="utf-8"))["archivos"]
 
-    errores = verificar_integridad(archivos)
+    errores = verificar_integridad(archivos) + archivos_sin_manifiesto(archivos)
     if args.enlaces:
         rotos = revisar_enlaces(archivos)
         if rotos:
