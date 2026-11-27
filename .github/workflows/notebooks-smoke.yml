@@ -2,7 +2,7 @@ name: Notebooks Smoke Test
 
 # Ejecuta todos los notebooks completos. Las celdas que muestran un error a propósito
 # llevan la etiqueta "raises-exception"; cualquier otro error hace fallar el workflow.
-# 26_extraccion_y_almacenamiento descarga un archivo del INEGI, así que se ejecuta
+# 26_extraccion_y_almacenamiento descarga datos de la API del Banco Mundial, así que se ejecuta
 # en un paso aparte que no bloquea si el sitio no responde.
 # PY311_RENGLONES reduce el archivo grande que genera 38_consultas_diferidas_y_datos_grandes
 # (en clase, un millón de renglones por omisión) para que la prueba termine en pocos segundos.

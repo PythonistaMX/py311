@@ -1,0 +1,865 @@
+codigo,pais,region,año,pib
+ARG,Argentina,América Latina y el Caribe,1990,265817211205.311
+ARG,Argentina,América Latina y el Caribe,1991,290094591011.844
+ARG,Argentina,América Latina y el Caribe,1992,313120244489.89
+ARG,Argentina,América Latina y el Caribe,1993,338817957426.035
+ARG,Argentina,América Latina y el Caribe,1994,358592053441.545
+ARG,Argentina,América Latina y el Caribe,1995,348389357874.283
+ARG,Argentina,América Latina y el Caribe,1996,367643757074.802
+ARG,Argentina,América Latina y el Caribe,1997,397463514160.866
+ARG,Argentina,América Latina y el Caribe,1998,412766570325.764
+ARG,Argentina,América Latina y el Caribe,1999,398792535409.293
+ARG,Argentina,América Latina y el Caribe,2000,395646066535.875
+ARG,Argentina,América Latina y el Caribe,2001,378202665751.853
+ARG,Argentina,América Latina y el Caribe,2002,336999433710.193
+ARG,Argentina,América Latina y el Caribe,2003,366780211148.674
+ARG,Argentina,América Latina y el Caribe,2004,399898899166.738
+ARG,Argentina,América Latina y el Caribe,2005,435296589745.339
+ARG,Argentina,América Latina y el Caribe,2006,470325565798.353
+ARG,Argentina,América Latina y el Caribe,2007,512690850741.56
+ARG,Argentina,América Latina y el Caribe,2008,533491913656.279
+ARG,Argentina,América Latina y el Caribe,2009,501917060966.235
+ARG,Argentina,América Latina y el Caribe,2010,552738161802.463
+ARG,Argentina,América Latina y el Caribe,2011,585924294024.785
+ARG,Argentina,América Latina y el Caribe,2012,579910247223.428
+ARG,Argentina,América Latina y el Caribe,2013,593858966307.156
+ARG,Argentina,América Latina y el Caribe,2014,578937574935.696
+ARG,Argentina,América Latina y el Caribe,2015,594749285413.212
+ARG,Argentina,América Latina y el Caribe,2016,582376550428.09
+ARG,Argentina,América Latina y el Caribe,2017,598790850843.677
+ARG,Argentina,América Latina y el Caribe,2018,583118120294.002
+ARG,Argentina,América Latina y el Caribe,2019,571450737224.442
+ARG,Argentina,América Latina y el Caribe,2020,514874343768.066
+ARG,Argentina,América Latina y el Caribe,2021,568636554720.066
+ARG,Argentina,América Latina y el Caribe,2022,602872713790.916
+ARG,Argentina,América Latina y el Caribe,2023,591684674129.454
+ARG,Argentina,América Latina y el Caribe,2024,583738758865.705
+ARG,Argentina,América Latina y el Caribe,2025,609232576079.322
+AUS,Australia,Asia oriental y el Pacífico,1990,630990273460.742
+AUS,Australia,Asia oriental y el Pacífico,1991,628563287009.097
+AUS,Australia,Asia oriental y el Pacífico,1992,631285380039.566
+AUS,Australia,Asia oriental y el Pacífico,1993,656826136947.271
+AUS,Australia,Asia oriental y el Pacífico,1994,682960226532.486
+AUS,Australia,Asia oriental y el Pacífico,1995,709528553282.314
+AUS,Australia,Asia oriental y el Pacífico,1996,736956619705.757
+AUS,Australia,Asia oriental y el Pacífico,1997,765830271632.661
+AUS,Australia,Asia oriental y el Pacífico,1998,801646726961.596
+AUS,Australia,Asia oriental y el Pacífico,1999,841955290889.975
+AUS,Australia,Asia oriental y el Pacífico,2000,874926744105.928
+AUS,Australia,Asia oriental y el Pacífico,2001,892700520464.398
+AUS,Australia,Asia oriental y el Pacífico,2002,927960453450.18
+AUS,Australia,Asia oriental y el Pacífico,2003,956646310281.468
+AUS,Australia,Asia oriental y el Pacífico,2004,997006658239.536
+AUS,Australia,Asia oriental y el Pacífico,2005,1028467016034.95
+AUS,Australia,Asia oriental y el Pacífico,2006,1056965077770.63
+AUS,Australia,Asia oriental y el Pacífico,2007,1097018464974.4
+AUS,Australia,Asia oriental y el Pacífico,2008,1136774249983.46
+AUS,Australia,Asia oriental y el Pacífico,2009,1158996461663.32
+AUS,Australia,Asia oriental y el Pacífico,2010,1184610839239.74
+AUS,Australia,Asia oriental y el Pacífico,2011,1212979128949.21
+AUS,Australia,Asia oriental y el Pacífico,2012,1260921781880.75
+AUS,Australia,Asia oriental y el Pacífico,2013,1294392358274.42
+AUS,Australia,Asia oriental y el Pacífico,2014,1328061960035.21
+AUS,Australia,Asia oriental y el Pacífico,2015,1356805839935.9
+AUS,Australia,Asia oriental y el Pacífico,2016,1394194533274.64
+AUS,Australia,Asia oriental y el Pacífico,2017,1426167740135.16
+AUS,Australia,Asia oriental y el Pacífico,2018,1467158231105.1
+AUS,Australia,Asia oriental y el Pacífico,2019,1499347932643.95
+AUS,Australia,Asia oriental y el Pacífico,2020,1497345824797.34
+AUS,Australia,Asia oriental y el Pacífico,2021,1527396783519.68
+AUS,Australia,Asia oriental y el Pacífico,2022,1592357665099.43
+AUS,Australia,Asia oriental y el Pacífico,2023,1649424913623.6
+AUS,Australia,Asia oriental y el Pacífico,2024,1672078242948.22
+AUS,Australia,Asia oriental y el Pacífico,2025,1694657951604.12
+BGD,Bangladesh,Asia meridional,1990,52852405164.9835
+BGD,Bangladesh,Asia meridional,1991,54694431891.2081
+BGD,Bangladesh,Asia meridional,1992,57671277832.2235
+BGD,Bangladesh,Asia meridional,1993,60388495684.6196
+BGD,Bangladesh,Asia meridional,1994,62737684522.6707
+BGD,Bangladesh,Asia meridional,1995,65950655693.3725
+BGD,Bangladesh,Asia meridional,1996,68933550573.3629
+BGD,Bangladesh,Asia meridional,1997,72028595646.2459
+BGD,Bangladesh,Asia meridional,1998,75757535399.2044
+BGD,Bangladesh,Asia meridional,1999,79295530763.5123
+BGD,Bangladesh,Asia meridional,2000,83492876905.7611
+BGD,Bangladesh,Asia meridional,2001,87732050538.1162
+BGD,Bangladesh,Asia meridional,2002,91094928770.2862
+BGD,Bangladesh,Asia meridional,2003,95412434316.9993
+BGD,Bangladesh,Asia meridional,2004,100411600213.555
+BGD,Bangladesh,Asia meridional,2005,106974447115.636
+BGD,Bangladesh,Asia meridional,2006,114111680586.242
+BGD,Bangladesh,Asia meridional,2007,122166366935.51
+BGD,Bangladesh,Asia meridional,2008,129513195397.247
+BGD,Bangladesh,Asia meridional,2009,136047297736.462
+BGD,Bangladesh,Asia meridional,2010,143627564998.204
+BGD,Bangladesh,Asia meridional,2011,152912195327.661
+BGD,Bangladesh,Asia meridional,2012,162884301114.117
+BGD,Bangladesh,Asia meridional,2013,172679520662.469
+BGD,Bangladesh,Asia meridional,2014,183145728910.398
+BGD,Bangladesh,Asia meridional,2015,195146608978.131
+BGD,Bangladesh,Asia meridional,2016,209028320490.615
+BGD,Bangladesh,Asia meridional,2017,222803809377.443
+BGD,Bangladesh,Asia meridional,2018,239111739541.452
+BGD,Bangladesh,Asia meridional,2019,257958323968.613
+BGD,Bangladesh,Asia meridional,2020,266852772253.895
+BGD,Bangladesh,Asia meridional,2021,285368829855.224
+BGD,Bangladesh,Asia meridional,2022,305629528154.311
+BGD,Bangladesh,Asia meridional,2023,323279976841.364
+BGD,Bangladesh,Asia meridional,2024,336932927922.21
+BGD,Bangladesh,Asia meridional,2025,348691572810.162
+BRA,Brasil,América Latina y el Caribe,1990,917211118029.012
+BRA,Brasil,América Latina y el Caribe,1991,926678475666.292
+BRA,Brasil,América Latina y el Caribe,1992,921636677088.89
+BRA,Brasil,América Latina y el Caribe,1993,967024426395.984
+BRA,Brasil,América Latina y el Caribe,1994,1023623112443.65
+BRA,Brasil,América Latina y el Caribe,1995,1066858840298.13
+BRA,Brasil,América Latina y el Caribe,1996,1090424301689.88
+BRA,Brasil,América Latina y el Caribe,1997,1127442527329.51
+BRA,Brasil,América Latina y el Caribe,1998,1131254386851.73
+BRA,Brasil,América Latina y el Caribe,1999,1136547951100.23
+BRA,Brasil,América Latina y el Caribe,2000,1186419100640.61
+BRA,Brasil,América Latina y el Caribe,2001,1202909097020.67
+BRA,Brasil,América Latina y el Caribe,2002,1239639467497.76
+BRA,Brasil,América Latina y el Caribe,2003,1253781634016.71
+BRA,Brasil,América Latina y el Caribe,2004,1325999012757.63
+BRA,Brasil,América Latina y el Caribe,2005,1368459252277.73
+BRA,Brasil,América Latina y el Caribe,2006,1422677453370.7
+BRA,Brasil,América Latina y el Caribe,2007,1509032133942.18
+BRA,Brasil,América Latina y el Caribe,2008,1585905180197.0
+BRA,Brasil,América Latina y el Caribe,2009,1583909921137.42
+BRA,Brasil,América Latina y el Caribe,2010,1703150236756.78
+BRA,Brasil,América Latina y el Caribe,2011,1770840632844.1
+BRA,Brasil,América Latina y el Caribe,2012,1804861597828.48
+BRA,Brasil,América Latina y el Caribe,2013,1859094488272.12
+BRA,Brasil,América Latina y el Caribe,2014,1868463501662.3
+BRA,Brasil,América Latina y el Caribe,2015,1802212206814.5
+BRA,Brasil,América Latina y el Caribe,2016,1743173232416.64
+BRA,Brasil,América Latina y el Caribe,2017,1766233131666.66
+BRA,Brasil,América Latina y el Caribe,2018,1797736844969.16
+BRA,Brasil,América Latina y el Caribe,2019,1819683217699.38
+BRA,Brasil,América Latina y el Caribe,2020,1760056587795.46
+BRA,Brasil,América Latina y el Caribe,2021,1843881119920.2
+BRA,Brasil,América Latina y el Caribe,2022,1899505377558.02
+BRA,Brasil,América Latina y el Caribe,2023,1961080794855.6
+BRA,Brasil,América Latina y el Caribe,2024,2028136327872.37
+BRA,Brasil,América Latina y el Caribe,2025,2074494382804.15
+CAN,Canadá,América del Norte,1990,877825083275.001
+CAN,Canadá,América del Norte,1991,859469276531.644
+CAN,Canadá,América del Norte,1992,867122560316.335
+CAN,Canadá,América del Norte,1993,890168135899.429
+CAN,Canadá,América del Norte,1994,930172731125.229
+CAN,Canadá,América del Norte,1995,955123017248.51
+CAN,Canadá,América del Norte,1996,971254674627.055
+CAN,Canadá,América del Norte,1997,1012825994794.92
+CAN,Canadá,América del Norte,1998,1052254162075.79
+CAN,Canadá,América del Norte,1999,1106350585213.86
+CAN,Canadá,América del Norte,2000,1163200843613.23
+CAN,Canadá,América del Norte,2001,1185012000891.58
+CAN,Canadá,América del Norte,2002,1220553536588.13
+CAN,Canadá,América del Norte,2003,1242601434048.71
+CAN,Canadá,América del Norte,2004,1281027191102.52
+CAN,Canadá,América del Norte,2005,1322153985116.97
+CAN,Canadá,América del Norte,2006,1357031663572.77
+CAN,Canadá,América del Norte,2007,1384849517992.3
+CAN,Canadá,América del Norte,2008,1398634398326.82
+CAN,Canadá,América del Norte,2009,1357862999005.37
+CAN,Canadá,América del Norte,2010,1399831914632.5
+CAN,Canadá,América del Norte,2011,1443747363549.13
+CAN,Canadá,América del Norte,2012,1469094677743.48
+CAN,Canadá,América del Norte,2013,1503263081057.7
+CAN,Canadá,América del Norte,2014,1546458845944.07
+CAN,Canadá,América del Norte,2015,1556510380200.23
+CAN,Canadá,América del Norte,2016,1572675533072.03
+CAN,Canadá,América del Norte,2017,1620387912547.73
+CAN,Canadá,América del Norte,2018,1664834560154.15
+CAN,Canadá,América del Norte,2019,1696606794629.52
+CAN,Canadá,América del Norte,2020,1611127783961.78
+CAN,Canadá,América del Norte,2021,1706998394665.32
+CAN,Canadá,América del Norte,2022,1787149136135.45
+CAN,Canadá,América del Norte,2023,1822053687169.68
+CAN,Canadá,América del Norte,2024,1859337753256.2
+CAN,Canadá,América del Norte,2025,1891740160107.82
+CHL,Chile,América Latina y el Caribe,1990,71089876109.5537
+CHL,Chile,América Latina y el Caribe,1991,76603750426.1864
+CHL,Chile,América Latina y el Caribe,1992,85414661278.3917
+CHL,Chile,América Latina y el Caribe,1993,91125130548.8196
+CHL,Chile,América Latina y el Caribe,1994,95751374590.6832
+CHL,Chile,América Latina y el Caribe,1995,104613573720.419
+CHL,Chile,América Latina y el Caribe,1996,112056685779.901
+CHL,Chile,América Latina y el Caribe,1997,120339623825.598
+CHL,Chile,América Latina y el Caribe,1998,125370887065.113
+CHL,Chile,América Latina y el Caribe,1999,125027832953.909
+CHL,Chile,América Latina y el Caribe,2000,131243743563.397
+CHL,Chile,América Latina y el Caribe,2001,135383217071.739
+CHL,Chile,América Latina y el Caribe,2002,139719269577.32
+CHL,Chile,América Latina y el Caribe,2003,146318553366.968
+CHL,Chile,América Latina y el Caribe,2004,156084225513.955
+CHL,Chile,América Latina y el Caribe,2005,165194933117.629
+CHL,Chile,América Latina y el Caribe,2006,175189211415.667
+CHL,Chile,América Latina y el Caribe,2007,184243394522.927
+CHL,Chile,América Latina y el Caribe,2008,191225100461.158
+CHL,Chile,América Latina y el Caribe,2009,189087132632.604
+CHL,Chile,América Latina y el Caribe,2010,200151851762.225
+CHL,Chile,América Latina y el Caribe,2011,212609096429.355
+CHL,Chile,América Latina y el Caribe,2012,225695909224.96
+CHL,Chile,América Latina y el Caribe,2013,233163076995.037
+CHL,Chile,América Latina y el Caribe,2014,237342873662.271
+CHL,Chile,América Latina y el Caribe,2015,242450355830.884
+CHL,Chile,América Latina y el Caribe,2016,246700604515.86
+CHL,Chile,América Latina y el Caribe,2017,250050047209.619
+CHL,Chile,América Latina y el Caribe,2018,260027117802.785
+CHL,Chile,América Latina y el Caribe,2019,261702273348.86
+CHL,Chile,América Latina y el Caribe,2020,245634546877.039
+CHL,Chile,América Latina y el Caribe,2021,273483125955.671
+CHL,Chile,América Latina y el Caribe,2022,279127595176.477
+CHL,Chile,América Latina y el Caribe,2023,281017358307.658
+CHL,Chile,América Latina y el Caribe,2024,288900250332.819
+CHL,Chile,América Latina y el Caribe,2025,296005043455.575
+CHN,China,Asia oriental y el Pacífico,1990,1041177931705.26
+CHN,China,Asia oriental y el Pacífico,1991,1138794946993.44
+CHN,China,Asia oriental y el Pacífico,1992,1301615550876.41
+CHN,China,Asia oriental y el Pacífico,1993,1482879870958.35
+CHN,China,Asia oriental y el Pacífico,1994,1676880778212.51
+CHN,China,Asia oriental y el Pacífico,1995,1861596132617.78
+CHN,China,Asia oriental y el Pacífico,1996,2047258472826.1
+CHN,China,Asia oriental y el Pacífico,1997,2237604266165.63
+CHN,China,Asia oriental y el Pacífico,1998,2414901854973.07
+CHN,China,Asia oriental y el Pacífico,1999,2601845161729.03
+CHN,China,Asia oriental y el Pacífico,2000,2824916263542.96
+CHN,China,Asia oriental y el Pacífico,2001,3060063619716.51
+CHN,China,Asia oriental y el Pacífico,2002,3342692586001.97
+CHN,China,Asia oriental y el Pacífico,2003,3680766226629.83
+CHN,China,Asia oriental y el Pacífico,2004,4054011719388.36
+CHN,China,Asia oriental y el Pacífico,2005,4518338478814.27
+CHN,China,Asia oriental y el Pacífico,2006,5091050723394.27
+CHN,China,Asia oriental y el Pacífico,2007,5811473655332.24
+CHN,China,Asia oriental y el Pacífico,2008,6373372030110.07
+CHN,China,Asia oriental y el Pacífico,2009,6972857785771.39
+CHN,China,Asia oriental y el Pacífico,2010,7711401293675.62
+CHN,China,Asia oriental y el Pacífico,2011,8441058131256.55
+CHN,China,Asia oriental y el Pacífico,2012,9104341297809.09
+CHN,China,Asia oriental y el Pacífico,2013,9812516071429.73
+CHN,China,Asia oriental y el Pacífico,2014,10544628617502.6
+CHN,China,Asia oriental y el Pacífico,2015,11280814787468.9
+CHN,China,Asia oriental y el Pacífico,2016,12044942062503.5
+CHN,China,Asia oriental y el Pacífico,2017,12874987827480.3
+CHN,China,Asia oriental y el Pacífico,2018,13745054545709.3
+CHN,China,Asia oriental y el Pacífico,2019,14579018970009.3
+CHN,China,Asia oriental y el Pacífico,2020,14920095680400.9
+CHN,China,Asia oriental y el Pacífico,2021,16198805195731.6
+CHN,China,Asia oriental y el Pacífico,2022,16706452162504.0
+CHN,China,Asia oriental y el Pacífico,2023,17611274170444.3
+CHN,China,Asia oriental y el Pacífico,2024,18484494644731.6
+CHN,China,Asia oriental y el Pacífico,2025,19401316126585.1
+COL,Colombia,América Latina y el Caribe,1990,120488417446.261
+COL,Colombia,América Latina y el Caribe,1991,122900122761.671
+COL,Colombia,América Latina y el Caribe,1992,127871346008.238
+COL,Colombia,América Latina y el Caribe,1993,134757742185.312
+COL,Colombia,América Latina y el Caribe,1994,142593449287.222
+COL,Colombia,América Latina y el Caribe,1995,150011784497.792
+COL,Colombia,América Latina y el Caribe,1996,153095808839.253
+COL,Colombia,América Latina y el Caribe,1997,158347444690.971
+COL,Colombia,América Latina y el Caribe,1998,159249683235.263
+COL,Colombia,América Latina y el Caribe,1999,152554802278.5
+COL,Colombia,América Latina y el Caribe,2000,157016818928.93
+COL,Colombia,América Latina y el Caribe,2001,159651401476.819
+COL,Colombia,América Latina y el Caribe,2002,163649041384.447
+COL,Colombia,América Latina y el Caribe,2003,170061255792.911
+COL,Colombia,América Latina y el Caribe,2004,179130660092.783
+COL,Colombia,América Latina y el Caribe,2005,187780451739.376
+COL,Colombia,América Latina y el Caribe,2006,200393418124.055
+COL,Colombia,América Latina y el Caribe,2007,213896316785.023
+COL,Colombia,América Latina y el Caribe,2008,220919487240.849
+COL,Colombia,América Latina y el Caribe,2009,223437193184.792
+COL,Colombia,América Latina y el Caribe,2010,233479933032.173
+COL,Colombia,América Latina y el Caribe,2011,249701866578.277
+COL,Colombia,América Latina y el Caribe,2012,259471791121.288
+COL,Colombia,América Latina y el Caribe,2013,272793056063.57
+COL,Colombia,América Latina y el Caribe,2014,285066097496.814
+COL,Colombia,América Latina y el Caribe,2015,293492370193.166
+COL,Colombia,América Latina y el Caribe,2016,299618678572.191
+COL,Colombia,América Latina y el Caribe,2017,303691577641.583
+COL,Colombia,América Latina y el Caribe,2018,311479214511.795
+COL,Colombia,América Latina y el Caribe,2019,321405606655.842
+COL,Colombia,América Latina y el Caribe,2020,298309675728.093
+COL,Colombia,América Latina y el Caribe,2021,330530695024.886
+COL,Colombia,América Latina y el Caribe,2022,354752900899.02
+COL,Colombia,América Latina y el Caribe,2023,357739280193.385
+COL,Colombia,América Latina y el Caribe,2024,363081426935.517
+COL,Colombia,América Latina y el Caribe,2025,372674094475.955
+DEU,Alemania,Europa y Asia central,1990,2364190062225.0
+DEU,Alemania,Europa y Asia central,1991,2484959073005.6
+DEU,Alemania,Europa y Asia central,1992,2534996542114.29
+DEU,Alemania,Europa y Asia central,1993,2510330187123.32
+DEU,Alemania,Europa y Asia central,1994,2575519839599.45
+DEU,Alemania,Europa y Asia central,1995,2614281254585.26
+DEU,Alemania,Europa y Asia central,1996,2641414240990.66
+DEU,Alemania,Europa y Asia central,1997,2690394576515.06
+DEU,Alemania,Europa y Asia central,1998,2746774816494.42
+DEU,Alemania,Europa y Asia central,1999,2805269313430.67
+DEU,Alemania,Europa y Asia central,2000,2885963533943.47
+DEU,Alemania,Europa y Asia central,2001,2933181986968.52
+DEU,Alemania,Europa y Asia central,2002,2926486831428.63
+DEU,Alemania,Europa y Asia central,2003,2910982263391.97
+DEU,Alemania,Europa y Asia central,2004,2944810405337.25
+DEU,Alemania,Europa y Asia central,2005,2970886268370.04
+DEU,Alemania,Europa y Asia central,2006,3085761005285.65
+DEU,Alemania,Europa y Asia central,2007,3174912263837.68
+DEU,Alemania,Europa y Asia central,2008,3203102383827.36
+DEU,Alemania,Europa y Asia central,2009,3025504625850.04
+DEU,Alemania,Europa y Asia central,2010,3150598283304.25
+DEU,Alemania,Europa y Asia central,2011,3268996785218.57
+DEU,Alemania,Europa y Asia central,2012,3284148978797.69
+DEU,Alemania,Europa y Asia central,2013,3297186905208.25
+DEU,Alemania,Europa y Asia central,2014,3369071713224.27
+DEU,Alemania,Europa y Asia central,2015,3425099578746.09
+DEU,Alemania,Europa y Asia central,2016,3501212900675.89
+DEU,Alemania,Europa y Asia central,2017,3599173571724.7
+DEU,Alemania,Europa y Asia central,2018,3640049243667.4
+DEU,Alemania,Europa y Asia central,2019,3675639268112.03
+DEU,Alemania,Europa y Asia central,2020,3523764998709.97
+DEU,Alemania,Europa y Asia central,2021,3661544208117.2
+DEU,Alemania,Europa y Asia central,2022,3727790994177.62
+DEU,Alemania,Europa y Asia central,2023,3695372350062.48
+DEU,Alemania,Europa y Asia central,2024,3677048776153.86
+DEU,Alemania,Europa y Asia central,2025,3685858188650.63
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",1990,115166183182.787
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",1991,116462268700.452
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",1992,121671461982.01
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",1993,125200896556.916
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",1994,130175343748.458
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",1995,136218680413.819
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",1996,143014263359.029
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",1997,150869114035.837
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",1998,159280817658.317
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",1999,168922784450.994
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",2000,179683172290.126
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",2001,186035425185.306
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",2002,190482051409.279
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",2003,196565009504.224
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",2004,204608590453.732
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",2005,213758163784.665
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",2006,228387426639.909
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",2007,244575133304.554
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",2008,262077623378.478
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",2009,274326082660.557
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",2010,288446290410.386
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",2011,293536132736.188
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",2012,300070833530.761
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",2013,306628779734.432
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",2014,315569804751.828
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",2015,329366576819.407
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",2016,343682967577.042
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",2017,358053111989.475
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",2018,377141312302.884
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",2019,398080548970.536
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",2020,412213064650.314
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",2021,425777537422.894
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",2022,453827104224.859
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",2023,470892276432.179
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",2024,482189779212.902
+EGY,"Egipto, República Árabe de","Oriente Medio, Norte de África, Afganistán y Pakistán",2025,503367605841.295
+ESP,España,Europa y Asia central,1990,745271992216.377
+ESP,España,Europa y Asia central,1991,764246620838.292
+ESP,España,Europa y Asia central,1992,771348118766.823
+ESP,España,Europa y Asia central,1993,763391725887.252
+ESP,España,Europa y Asia central,1994,781584842222.945
+ESP,España,Europa y Asia central,1995,803136997375.095
+ESP,España,Europa y Asia central,1996,824078081163.909
+ESP,España,Europa y Asia central,1997,853640231891.445
+ESP,España,Europa y Asia central,1998,890363642200.019
+ESP,España,Europa y Asia central,1999,929618577227.575
+ESP,España,Europa y Asia central,2000,977964704474.031
+ESP,España,Europa y Asia central,2001,1016292009754.12
+ESP,España,Europa y Asia central,2002,1044295490089.67
+ESP,España,Europa y Asia central,2003,1074990358774.14
+ESP,España,Europa y Asia central,2004,1108471271904.22
+ESP,España,Europa y Asia central,2005,1147835587310.16
+ESP,España,Europa y Asia central,2006,1194247574981.13
+ESP,España,Europa y Asia central,2007,1236446314615.43
+ESP,España,Europa y Asia central,2008,1245931907237.16
+ESP,España,Europa y Asia central,2009,1198983535018.34
+ESP,España,Europa y Asia central,2010,1200112046037.65
+ESP,España,Europa y Asia central,2011,1192432281393.69
+ESP,España,Europa y Asia central,2012,1158267740898.69
+ESP,España,Europa y Asia central,2013,1141735527746.35
+ESP,España,Europa y Asia central,2014,1159095455877.44
+ESP,España,Europa y Asia central,2015,1206164777553.12
+ESP,España,Europa y Asia central,2016,1241326362266.48
+ESP,España,Europa y Asia central,2017,1277275696051.09
+ESP,España,Europa y Asia central,2018,1307871701701.25
+ESP,España,Europa y Asia central,2019,1333521400432.69
+ESP,España,Europa y Asia central,2020,1187633217292.02
+ESP,España,Europa y Asia central,2021,1267004457826.92
+ESP,España,Europa y Asia central,2022,1347716659731.45
+ESP,España,Europa y Asia central,2023,1380882052539.27
+ESP,España,Europa y Asia central,2024,1428595035672.37
+ESP,España,Europa y Asia central,2025,1468952188359.05
+ETH,Etiopía,África al sur del Sahara,1990,12715524549.8114
+ETH,Etiopía,África al sur del Sahara,1991,11807956564.2102
+ETH,Etiopía,África al sur del Sahara,1992,10783913879.266
+ETH,Etiopía,África al sur del Sahara,1993,12201225772.2542
+ETH,Etiopía,África al sur del Sahara,1994,12590440553.1192
+ETH,Etiopía,África al sur del Sahara,1995,13361921235.3205
+ETH,Etiopía,África al sur del Sahara,1996,15022296788.5679
+ETH,Etiopía,África al sur del Sahara,1997,15493081576.9196
+ETH,Etiopía,África al sur del Sahara,1998,14957309259.7395
+ETH,Etiopía,África al sur del Sahara,1999,15729427374.8572
+ETH,Etiopía,África al sur del Sahara,2000,16684709707.888
+ETH,Etiopía,África al sur del Sahara,2001,18069758569.7896
+ETH,Etiopía,África al sur del Sahara,2002,18343465847.9802
+ETH,Etiopía,África al sur del Sahara,2003,17946997565.4188
+ETH,Etiopía,África al sur del Sahara,2004,20382872320.545
+ETH,Etiopía,África al sur del Sahara,2005,22791876293.8269
+ETH,Etiopía,África al sur del Sahara,2006,25261313883.9249
+ETH,Etiopía,África al sur del Sahara,2007,28155292189.364
+ETH,Etiopía,África al sur del Sahara,2008,31192831993.2611
+ETH,Etiopía,África al sur del Sahara,2009,33938597623.7578
+ETH,Etiopía,África al sur del Sahara,2010,38198074328.8086
+ETH,Etiopía,África al sur del Sahara,2011,42467968231.3241
+ETH,Etiopía,África al sur del Sahara,2012,46140518129.2398
+ETH,Etiopía,África al sur del Sahara,2013,51023232360.2629
+ETH,Etiopía,África al sur del Sahara,2014,56256936828.9833
+ETH,Etiopía,África al sur del Sahara,2015,62103418181.8182
+ETH,Etiopía,África al sur del Sahara,2016,67961933367.1549
+ETH,Etiopía,África al sur del Sahara,2017,74461941569.3207
+ETH,Etiopía,África al sur del Sahara,2018,79537377550.6924
+ETH,Etiopía,África al sur del Sahara,2019,86189951997.3118
+ETH,Etiopía,África al sur del Sahara,2020,91412658764.8075
+ETH,Etiopía,África al sur del Sahara,2021,96569731966.5325
+ETH,Etiopía,África al sur del Sahara,2022,101708941223.239
+ETH,Etiopía,África al sur del Sahara,2023,108415879001.877
+ETH,Etiopía,África al sur del Sahara,2024,116669335366.646
+ETH,Etiopía,África al sur del Sahara,2025,128069700729.493
+FRA,Francia,Europa y Asia central,1990,1630899060963.07
+FRA,Francia,Europa y Asia central,1991,1651067777785.17
+FRA,Francia,Europa y Asia central,1992,1676098974378.87
+FRA,Francia,Europa y Asia central,1993,1670081815758.79
+FRA,Francia,Europa y Asia central,1994,1709890902349.41
+FRA,Francia,Europa y Asia central,1995,1749300344479.7
+FRA,Francia,Europa y Asia central,1996,1773739467493.06
+FRA,Francia,Europa y Asia central,1997,1818562957062.05
+FRA,Francia,Europa y Asia central,1998,1881350558837.76
+FRA,Francia,Europa y Asia central,1999,1945303460549.75
+FRA,Francia,Europa y Asia central,2000,2025858476151.37
+FRA,Francia,Europa y Asia central,2001,2064338989612.96
+FRA,Francia,Europa y Asia central,2002,2086380974762.6
+FRA,Francia,Europa y Asia central,2003,2106573536968.08
+FRA,Francia,Europa y Asia central,2004,2166995343501.89
+FRA,Francia,Europa y Asia central,2005,2207920477337.34
+FRA,Francia,Europa y Asia central,2006,2267844862926.15
+FRA,Francia,Europa y Asia central,2007,2325232266328.63
+FRA,Francia,Europa y Asia central,2008,2334072135222.36
+FRA,Francia,Europa y Asia central,2009,2268145064848.79
+FRA,Francia,Europa y Asia central,2010,2313515332182.54
+FRA,Francia,Europa y Asia central,2011,2369909039106.43
+FRA,Francia,Europa y Asia central,2012,2374265767668.09
+FRA,Francia,Europa y Asia central,2013,2392826743357.49
+FRA,Francia,Europa y Asia central,2014,2416703156974.4
+FRA,Francia,Europa y Asia central,2015,2442483452642.5
+FRA,Francia,Europa y Asia central,2016,2463489569347.31
+FRA,Francia,Europa y Asia central,2017,2514819204088.14
+FRA,Francia,Europa y Asia central,2018,2556210832760.02
+FRA,Francia,Europa y Asia central,2019,2608036638906.12
+FRA,Francia,Europa y Asia central,2020,2413981867676.36
+FRA,Francia,Europa y Asia central,2021,2580120255051.75
+FRA,Francia,Europa y Asia central,2022,2650215998256.03
+FRA,Francia,Europa y Asia central,2023,2688358302961.22
+FRA,Francia,Europa y Asia central,2024,2720362347819.81
+FRA,Francia,Europa y Asia central,2025,2743239233772.68
+IDN,Indonesia,Asia oriental y el Pacífico,1990,269915108912.607
+IDN,Indonesia,Asia oriental y el Pacífico,1991,288571594912.183
+IDN,Indonesia,Asia oriental y el Pacífico,1992,307321553097.314
+IDN,Indonesia,Asia oriental y el Pacífico,1993,327286415428.63
+IDN,Indonesia,Asia oriental y el Pacífico,1994,351963716551.494
+IDN,Indonesia,Asia oriental y el Pacífico,1995,380895160093.945
+IDN,Indonesia,Asia oriental y el Pacífico,1996,410674256276.219
+IDN,Indonesia,Asia oriental y el Pacífico,1997,429975448805.372
+IDN,Indonesia,Asia oriental y el Pacífico,1998,373533751956.055
+IDN,Indonesia,Asia oriental y el Pacífico,1999,376488874892.846
+IDN,Indonesia,Asia oriental y el Pacífico,2000,395012382597.556
+IDN,Indonesia,Asia oriental y el Pacífico,2001,409404526219.842
+IDN,Indonesia,Asia oriental y el Pacífico,2002,427825582126.161
+IDN,Indonesia,Asia oriental y el Pacífico,2003,448277224148.753
+IDN,Indonesia,Asia oriental y el Pacífico,2004,470829486219.898
+IDN,Indonesia,Asia oriental y el Pacífico,2005,497631790442.44
+IDN,Indonesia,Asia oriental y el Pacífico,2006,525006275302.523
+IDN,Indonesia,Asia oriental y el Pacífico,2007,558318040161.892
+IDN,Indonesia,Asia oriental y el Pacífico,2008,591893632243.067
+IDN,Indonesia,Asia oriental y el Pacífico,2009,619291626017.383
+IDN,Indonesia,Asia oriental y el Pacífico,2010,657835433773.518
+IDN,Indonesia,Asia oriental y el Pacífico,2011,698422460479.197
+IDN,Indonesia,Asia oriental y el Pacífico,2012,740537688618.414
+IDN,Indonesia,Asia oriental y el Pacífico,2013,781691320690.699
+IDN,Indonesia,Asia oriental y el Pacífico,2014,820828013230.588
+IDN,Indonesia,Asia oriental y el Pacífico,2015,860854232686.214
+IDN,Indonesia,Asia oriental y el Pacífico,2016,904181621780.388
+IDN,Indonesia,Asia oriental y el Pacífico,2017,950021694164.001
+IDN,Indonesia,Asia oriental y el Pacífico,2018,999178586309.021
+IDN,Indonesia,Asia oriental y el Pacífico,2019,1049330233997.45
+IDN,Indonesia,Asia oriental y el Pacífico,2020,1027656193885.38
+IDN,Indonesia,Asia oriental y el Pacífico,2021,1065709127396.86
+IDN,Indonesia,Asia oriental y el Pacífico,2022,1122268412650.2
+IDN,Indonesia,Asia oriental y el Pacífico,2023,1178929850175.16
+IDN,Indonesia,Asia oriental y el Pacífico,2024,1238260376381.51
+IDN,Indonesia,Asia oriental y el Pacífico,2025,1301511819008.36
+IND,India,Asia meridional,1990,465242841650.512
+IND,India,Asia meridional,1991,470159674240.679
+IND,India,Asia meridional,1992,495935689516.747
+IND,India,Asia meridional,1993,519496484318.718
+IND,India,Asia meridional,1994,554089360742.694
+IND,India,Asia meridional,1995,596058814159.964
+IND,India,Asia meridional,1996,641058406951.43
+IND,India,Asia meridional,1997,667020123970.576
+IND,India,Asia meridional,1998,708271422045.356
+IND,India,Asia meridional,1999,770923380748.906
+IND,India,Asia meridional,2000,800534479629.68
+IND,India,Asia meridional,2001,839151992858.488
+IND,India,Asia meridional,2002,871073127574.186
+IND,India,Asia meridional,2003,939542798331.655
+IND,India,Asia meridional,2004,1013982178696.23
+IND,India,Asia meridional,2005,1094324353137.75
+IND,India,Asia meridional,2006,1182534912725.95
+IND,India,Asia meridional,2007,1273126725470.22
+IND,India,Asia meridional,2008,1312424303400.29
+IND,India,Asia meridional,2009,1415605643151.34
+IND,India,Asia meridional,2010,1535897931719.55
+IND,India,Asia meridional,2011,1616399198833.97
+IND,India,Asia meridional,2012,1704596203504.08
+IND,India,Asia meridional,2013,1813453530765.84
+IND,India,Asia meridional,2014,1947834564909.58
+IND,India,Asia meridional,2015,2103588360044.94
+IND,India,Asia meridional,2016,2277267041549.85
+IND,India,Asia meridional,2017,2432016068498.23
+IND,India,Asia meridional,2018,2588974770244.48
+IND,India,Asia meridional,2019,2689205295885.26
+IND,India,Asia meridional,2020,2533830417086.36
+IND,India,Asia meridional,2021,2779348258938.28
+IND,India,Asia meridional,2022,2990839011962.06
+IND,India,Asia meridional,2023,3206485223026.3
+IND,India,Asia meridional,2024,3434122552914.77
+IND,India,Asia meridional,2025,3693970992045.56
+JPN,Japón,Asia oriental y el Pacífico,1990,3569102682109.45
+JPN,Japón,Asia oriental y el Pacífico,1991,3691076650696.96
+JPN,Japón,Asia oriental y el Pacífico,1992,3722379548990.98
+JPN,Japón,Asia oriental y el Pacífico,1993,3703100606521.69
+JPN,Japón,Asia oriental y el Pacífico,1994,3739874853041.49
+JPN,Japón,Asia oriental y el Pacífico,1995,3827464796307.93
+JPN,Japón,Asia oriental y el Pacífico,1996,3945177225076.82
+JPN,Japón,Asia oriental y el Pacífico,1997,3998948850264.62
+JPN,Japón,Asia oriental y el Pacífico,1998,3928061846959.68
+JPN,Japón,Asia oriental y el Pacífico,1999,3914407888319.42
+JPN,Japón,Asia oriental y el Pacífico,2000,4030991750950.9
+JPN,Japón,Asia oriental y el Pacífico,2001,4042464298381.04
+JPN,Japón,Asia oriental y el Pacífico,2002,4045899940482.26
+JPN,Japón,Asia oriental y el Pacífico,2003,4101737784188.63
+JPN,Japón,Asia oriental y el Pacífico,2004,4188405380395.49
+JPN,Japón,Asia oriental y el Pacífico,2005,4265818895379.49
+JPN,Japón,Asia oriental y el Pacífico,2006,4331781612600.87
+JPN,Japón,Asia oriental y el Pacífico,2007,4406651221892.01
+JPN,Japón,Asia oriental y el Pacífico,2008,4355242255151.66
+JPN,Japón,Asia oriental y el Pacífico,2009,4096717638451.29
+JPN,Japón,Asia oriental y el Pacífico,2010,4266176556594.72
+JPN,Japón,Asia oriental y el Pacífico,2011,4257628936826.67
+JPN,Japón,Asia oriental y el Pacífico,2012,4327834450517.28
+JPN,Japón,Asia oriental y el Pacífico,2013,4414273272427.52
+JPN,Japón,Asia oriental y el Pacífico,2014,4454262857599.7
+JPN,Japón,Asia oriental y el Pacífico,2015,4534438580494.94
+JPN,Japón,Asia oriental y el Pacífico,2016,4566405760116.54
+JPN,Japón,Asia oriental y el Pacífico,2017,4640539102852.95
+JPN,Japón,Asia oriental y el Pacífico,2018,4679247874199.03
+JPN,Japón,Asia oriental y el Pacífico,2019,4664812538574.46
+JPN,Japón,Asia oriental y el Pacífico,2020,4465005582812.98
+JPN,Japón,Asia oriental y el Pacífico,2021,4624147102598.69
+JPN,Japón,Asia oriental y el Pacífico,2022,4685724442189.07
+JPN,Japón,Asia oriental y el Pacífico,2023,4719498455389.44
+JPN,Japón,Asia oriental y el Pacífico,2024,4708167683577.82
+JPN,Japón,Asia oriental y el Pacífico,2025,4764341438831.9
+KEN,Kenya,África al sur del Sahara,1990,30431959354.312
+KEN,Kenya,África al sur del Sahara,1991,30869676465.3409
+KEN,Kenya,África al sur del Sahara,1992,30622875266.9484
+KEN,Kenya,África al sur del Sahara,1993,30731034422.1691
+KEN,Kenya,África al sur del Sahara,1994,31540116338.6072
+KEN,Kenya,África al sur del Sahara,1995,32929842156.6672
+KEN,Kenya,África al sur del Sahara,1996,34295389782.3606
+KEN,Kenya,África al sur del Sahara,1997,34458259247.3522
+KEN,Kenya,África al sur del Sahara,1998,35592009621.64
+KEN,Kenya,África al sur del Sahara,1999,36412543752.2683
+KEN,Kenya,África al sur del Sahara,2000,36630908098.8264
+KEN,Kenya,África al sur del Sahara,2001,38015522174.3133
+KEN,Kenya,África al sur del Sahara,2002,38223413680.2696
+KEN,Kenya,África al sur del Sahara,2003,39344305939.1787
+KEN,Kenya,África al sur del Sahara,2004,41352557259.2179
+KEN,Kenya,África al sur del Sahara,2005,43795114731.9782
+KEN,Kenya,África al sur del Sahara,2006,46629751036.7518
+KEN,Kenya,África al sur del Sahara,2007,49824229272.6978
+KEN,Kenya,África al sur del Sahara,2008,49939962360.0343
+KEN,Kenya,África al sur del Sahara,2009,51591446859.569
+KEN,Kenya,África al sur del Sahara,2010,55748929986.1062
+KEN,Kenya,África al sur del Sahara,2011,58603891851.295
+KEN,Kenya,África al sur del Sahara,2012,61281315911.5794
+KEN,Kenya,África al sur del Sahara,2013,63608687382.8764
+KEN,Kenya,África al sur del Sahara,2014,66801914096.6185
+KEN,Kenya,África al sur del Sahara,2015,70120446896.8359
+KEN,Kenya,África al sur del Sahara,2016,73074983895.0953
+KEN,Kenya,África al sur del Sahara,2017,75879571212.3885
+KEN,Kenya,África al sur del Sahara,2018,80165208728.3956
+KEN,Kenya,África al sur del Sahara,2019,84264984851.3549
+KEN,Kenya,África al sur del Sahara,2020,84035138346.859
+KEN,Kenya,África al sur del Sahara,2021,90413816676.9795
+KEN,Kenya,África al sur del Sahara,2022,94807911027.625
+KEN,Kenya,África al sur del Sahara,2023,100230916344.516
+KEN,Kenya,África al sur del Sahara,2024,104901873444.36
+KEN,Kenya,África al sur del Sahara,2025,109761569108.182
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",1990,41636515790.1878
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",1991,44641043473.6915
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",1992,43704591004.544
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",1993,43380918430.9002
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",1994,47974090254.8843
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",1995,45380875814.1028
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",1996,50995795428.8466
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",1997,50199902853.4782
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",1998,53833649265.2898
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",1999,54747239388.7725
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",2000,56160912155.7573
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",2001,60497559620.7789
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",2002,62754238001.606
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",2003,66626866131.8459
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",2004,69672633474.8662
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",2005,71896757928.9618
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",2006,77498104932.5221
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",2007,80164867241.3167
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",2008,84721870674.8237
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",2009,87895356582.8232
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",2010,90971304769.4422
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",2011,95997146621.9656
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",2012,98936909179.3524
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",2013,103015299181.348
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",2014,105816536606.04
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",2015,110413823841.592
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",2016,110989284688.174
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",2017,116603009678.139
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",2018,120177639735.159
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",2019,123651944968.713
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",2020,114775951852.213
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",2021,124135631043.727
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",2022,126385828220.594
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",2023,131006044306.041
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",2024,135975581947.965
+MAR,Marruecos,"Oriente Medio, Norte de África, Afganistán y Pakistán",2025,142223991027.897
+NGA,Nigeria,África al sur del Sahara,1990,153178750575.345
+NGA,Nigeria,África al sur del Sahara,1991,153727670613.164
+NGA,Nigeria,África al sur del Sahara,1992,160847095650.819
+NGA,Nigeria,África al sur del Sahara,1993,157573666209.803
+NGA,Nigeria,África al sur del Sahara,1994,154713823159.567
+NGA,Nigeria,África al sur del Sahara,1995,154601400724.996
+NGA,Nigeria,África al sur del Sahara,1996,161088358074.5
+NGA,Nigeria,África al sur del Sahara,1997,165819683303.955
+NGA,Nigeria,África al sur del Sahara,1998,170099910681.009
+NGA,Nigeria,África al sur del Sahara,1999,171093510004.065
+NGA,Nigeria,África al sur del Sahara,2000,179675448843.378
+NGA,Nigeria,África al sur del Sahara,2001,190308075298.043
+NGA,Nigeria,África al sur del Sahara,2002,219480696548.107
+NGA,Nigeria,África al sur del Sahara,2003,235606371240.474
+NGA,Nigeria,África al sur del Sahara,2004,257401275803.853
+NGA,Nigeria,África al sur del Sahara,2005,273974099482.97
+NGA,Nigeria,África al sur del Sahara,2006,290575362867.529
+NGA,Nigeria,África al sur del Sahara,2007,309727563830.114
+NGA,Nigeria,África al sur del Sahara,2008,330679000570.877
+NGA,Nigeria,África al sur del Sahara,2009,357255424171.506
+NGA,Nigeria,África al sur del Sahara,2010,385856064172.751
+NGA,Nigeria,África al sur del Sahara,2011,406337011591.485
+NGA,Nigeria,África al sur del Sahara,2012,423525315758.166
+NGA,Nigeria,África al sur del Sahara,2013,451780110047.004
+NGA,Nigeria,África al sur del Sahara,2014,480286163931.207
+NGA,Nigeria,África al sur del Sahara,2015,493026682800.63
+NGA,Nigeria,África al sur del Sahara,2016,485055087455.971
+NGA,Nigeria,África al sur del Sahara,2017,488964081501.001
+NGA,Nigeria,África al sur del Sahara,2018,498365674277.795
+NGA,Nigeria,África al sur del Sahara,2019,509371727741.802
+NGA,Nigeria,África al sur del Sahara,2020,476930359899.737
+NGA,Nigeria,África al sur del Sahara,2021,482220722032.144
+NGA,Nigeria,África al sur del Sahara,2022,503047012789.736
+NGA,Nigeria,África al sur del Sahara,2023,519727567204.567
+NGA,Nigeria,África al sur del Sahara,2024,540886022091.974
+NGA,Nigeria,África al sur del Sahara,2025,562593735122.067
+POL,Polonia,Europa y Asia central,1990,194797367584.792
+POL,Polonia,Europa y Asia central,1991,181131204775.169
+POL,Polonia,Europa y Asia central,1992,185686615837.644
+POL,Polonia,Europa y Asia central,1993,192628157713.225
+POL,Polonia,Europa y Asia central,1994,202823584825.574
+POL,Polonia,Europa y Asia central,1995,218906804615.997
+POL,Polonia,Europa y Asia central,1996,232246717071.23
+POL,Polonia,Europa y Asia central,1997,247015068311.447
+POL,Polonia,Europa y Asia central,1998,258431144714.153
+POL,Polonia,Europa y Asia central,1999,270575301764.16
+POL,Polonia,Europa y Asia central,2000,283174187558.032
+POL,Polonia,Europa y Asia central,2001,286667833930.23
+POL,Polonia,Europa y Asia central,2002,292117946677.278
+POL,Polonia,Europa y Asia central,2003,302410346199.761
+POL,Polonia,Europa y Asia central,2004,317805438387.054
+POL,Polonia,Europa y Asia central,2005,328168510412.522
+POL,Polonia,Europa y Asia central,2006,348521872927.444
+POL,Polonia,Europa y Asia central,2007,372083512402.176
+POL,Polonia,Europa y Asia central,2008,388394800371.402
+POL,Polonia,Europa y Asia central,2009,398551823849.317
+POL,Polonia,Europa y Asia central,2010,411181642127.603
+POL,Polonia,Europa y Asia central,2011,432791139408.41
+POL,Polonia,Europa y Asia central,2012,439333996551.267
+POL,Polonia,Europa y Asia central,2013,442340098156.254
+POL,Polonia,Europa y Asia central,2014,459682079851.439
+POL,Polonia,Europa y Asia central,2015,480054118583.367
+POL,Polonia,Europa y Asia central,2016,494605411858.337
+POL,Polonia,Europa y Asia central,2017,520089746650.75
+POL,Polonia,Europa y Asia central,2018,552573816155.989
+POL,Polonia,Europa y Asia central,2019,577884228677.544
+POL,Polonia,Europa y Asia central,2020,566120997479.772
+POL,Polonia,Europa y Asia central,2021,605337233054.782
+POL,Polonia,Europa y Asia central,2022,637150470884.733
+POL,Polonia,Europa y Asia central,2023,638740867489.057
+POL,Polonia,Europa y Asia central,2024,658084600079.586
+POL,Polonia,Europa y Asia central,2025,681596153335.986
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",1990,275795698496.001
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",1991,298468230594.601
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",1992,312139812825.371
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",1993,313325431978.059
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",1994,316311316729.837
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",1995,317297284499.134
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",1996,327782952467.117
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",1997,336460414155.988
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",1998,345894131084.973
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",1999,343703259654.365
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",2000,359919640768.117
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",2001,361159899361.903
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",2002,358673710260.03
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",2003,390124853185.866
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",2004,423796550560.486
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",2005,448990815757.244
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",2006,463868057904.565
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",2007,474136491554.825
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",2008,503713066804.231
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",2009,498339873323.225
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",2010,523453786400.721
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",2011,585005778521.172
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",2012,618711318317.787
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",2013,636936313349.28
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",2014,662570908159.594
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",2015,693414400000.0
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",2016,705230509999.152
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",2017,713567089638.542
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",2018,736593549189.516
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",2019,748759049109.6
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",2020,720270347023.097
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",2021,767229070838.89
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",2022,859301066620.788
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",2023,863963569239.897
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",2024,886849365316.209
+SAU,Arabia Saudita,"Oriente Medio, Norte de África, Afganistán y Pakistán",2025,926779452930.387
+USA,Estados Unidos,América del Norte,1990,9785238027483.98
+USA,Estados Unidos,América del Norte,1991,9774639354974.79
+USA,Estados Unidos,América del Norte,1992,10118950749880.0
+USA,Estados Unidos,América del Norte,1993,10397403618008.9
+USA,Estados Unidos,América del Norte,1994,10816317372731.7
+USA,Estados Unidos,América del Norte,1995,11106673921189.1
+USA,Estados Unidos,América del Norte,1996,11525703481707.7
+USA,Estados Unidos,América del Norte,1997,12038266260881.9
+USA,Estados Unidos,América del Norte,1998,12577957790986.1
+USA,Estados Unidos,América del Norte,1999,13180243872422.8
+USA,Estados Unidos,América del Norte,2000,13717679619695.1
+USA,Estados Unidos,América del Norte,2001,13848757307490.4
+USA,Estados Unidos,América del Norte,2002,14084248131472.2
+USA,Estados Unidos,América del Norte,2003,14477988212190.1
+USA,Estados Unidos,América del Norte,2004,15035068144287.0
+USA,Estados Unidos,América del Norte,2005,15558822251170.7
+USA,Estados Unidos,América del Norte,2006,15992063823764.9
+USA,Estados Unidos,América del Norte,2007,16312522122670.3
+USA,Estados Unidos,América del Norte,2008,16331051067547.5
+USA,Estados Unidos,América del Norte,2009,15910281498142.2
+USA,Estados Unidos,América del Norte,2010,16339094225608.8
+USA,Estados Unidos,América del Norte,2011,16594704135237.8
+USA,Estados Unidos,América del Norte,2012,16974575729644.7
+USA,Estados Unidos,América del Norte,2013,17334068402849.7
+USA,Estados Unidos,América del Norte,2014,17771549056393.4
+USA,Estados Unidos,América del Norte,2015,18295019000000.0
+USA,Estados Unidos,América del Norte,2016,18627887993795.5
+USA,Estados Unidos,América del Norte,2017,19085691123385.5
+USA,Estados Unidos,América del Norte,2018,19651869117636.5
+USA,Estados Unidos,América del Norte,2019,20159639089819.0
+USA,Estados Unidos,América del Norte,2020,19740041204593.2
+USA,Estados Unidos,América del Norte,2021,20954452976799.5
+USA,Estados Unidos,América del Norte,2022,21483388181185.0
+USA,Estados Unidos,América del Norte,2023,22113788823329.1
+USA,Estados Unidos,América del Norte,2024,22731468331925.1
+USA,Estados Unidos,América del Norte,2025,23222782186839.4
+WLD,Mundo,Agregados,1990,36054803450838.3
+WLD,Mundo,Agregados,1991,36496540148779.4
+WLD,Mundo,Agregados,1992,37249545850069.7
+WLD,Mundo,Agregados,1993,37941652466089.8
+WLD,Mundo,Agregados,1994,39237825663961.5
+WLD,Mundo,Agregados,1995,40484832492067.8
+WLD,Mundo,Agregados,1996,41936713327029.1
+WLD,Mundo,Agregados,1997,43612835337831.4
+WLD,Mundo,Agregados,1998,44825818551442.7
+WLD,Mundo,Agregados,1999,46429941035573.2
+WLD,Mundo,Agregados,2000,48550490166230.6
+WLD,Mundo,Agregados,2001,49536038159389.3
+WLD,Mundo,Agregados,2002,50684736953402.6
+WLD,Mundo,Agregados,2003,52242868476707.5
+WLD,Mundo,Agregados,2004,54591383204955.8
+WLD,Mundo,Agregados,2005,56807330097271.9
+WLD,Mundo,Agregados,2006,59357487895115.9
+WLD,Mundo,Agregados,2007,61987756942770.2
+WLD,Mundo,Agregados,2008,63284295644439.1
+WLD,Mundo,Agregados,2009,62440691845650.1
+WLD,Mundo,Agregados,2010,65263543198396.9
+WLD,Mundo,Agregados,2011,67426584814614.5
+WLD,Mundo,Agregados,2012,69279085457391.3
+WLD,Mundo,Agregados,2013,71281076205614.5
+WLD,Mundo,Agregados,2014,73539611353222.6
+WLD,Mundo,Agregados,2015,75839351828606.2
+WLD,Mundo,Agregados,2016,77955073125299.8
+WLD,Mundo,Agregados,2017,80641861942532.2
+WLD,Mundo,Agregados,2018,83292262266946.2
+WLD,Mundo,Agregados,2019,85524752058522.0
+WLD,Mundo,Agregados,2020,83056326526016.6
+WLD,Mundo,Agregados,2021,88442603118342.4
+WLD,Mundo,Agregados,2022,91485038370116.5
+WLD,Mundo,Agregados,2023,94100947773550.0
+WLD,Mundo,Agregados,2024,96829887869984.6
+WLD,Mundo,Agregados,2025,99658553419775.2
+ZAF,Sudáfrica,África al sur del Sahara,1990,185160422891.731
+ZAF,Sudáfrica,África al sur del Sahara,1991,183275036203.752
+ZAF,Sudáfrica,África al sur del Sahara,1992,179358388483.382
+ZAF,Sudáfrica,África al sur del Sahara,1993,181570878123.149
+ZAF,Sudáfrica,África al sur del Sahara,1994,187381146228.486
+ZAF,Sudáfrica,África al sur del Sahara,1995,193189961762.588
+ZAF,Sudáfrica,África al sur del Sahara,1996,201497130113.101
+ZAF,Sudáfrica,África al sur del Sahara,1997,206736055498.991
+ZAF,Sudáfrica,África al sur del Sahara,1998,207769735777.192
+ZAF,Sudáfrica,África al sur del Sahara,1999,212756209430.574
+ZAF,Sudáfrica,África al sur del Sahara,2000,221691970228.101
+ZAF,Sudáfrica,África al sur del Sahara,2001,227677653424.683
+ZAF,Sudáfrica,África al sur del Sahara,2002,236102579035.79
+ZAF,Sudáfrica,África al sur del Sahara,2003,243065422272.369
+ZAF,Sudáfrica,África al sur del Sahara,2004,254135982543.496
+ZAF,Sudáfrica,África al sur del Sahara,2005,267546870424.295
+ZAF,Sudáfrica,África al sur del Sahara,2006,282539679229.874
+ZAF,Sudáfrica,África al sur del Sahara,2007,297685145427.081
+ZAF,Sudáfrica,África al sur del Sahara,2008,307184409060.741
+ZAF,Sudáfrica,África al sur del Sahara,2009,302459639039.778
+ZAF,Sudáfrica,África al sur del Sahara,2010,311653604140.269
+ZAF,Sudáfrica,África al sur del Sahara,2011,321528523981.702
+ZAF,Sudáfrica,África al sur del Sahara,2012,329233094599.263
+ZAF,Sudáfrica,África al sur del Sahara,2013,337416077838.151
+ZAF,Sudáfrica,África al sur del Sahara,2014,342186555600.731
+ZAF,Sudáfrica,África al sur del Sahara,2015,346709790458.563
+ZAF,Sudáfrica,África al sur del Sahara,2016,349013858372.625
+ZAF,Sudáfrica,África al sur del Sahara,2017,353055253707.071
+ZAF,Sudáfrica,África al sur del Sahara,2018,358551560868.533
+ZAF,Sudáfrica,África al sur del Sahara,2019,359483563936.676
+ZAF,Sudáfrica,África al sur del Sahara,2020,337307318679.639
+ZAF,Sudáfrica,África al sur del Sahara,2021,353695896167.047
+ZAF,Sudáfrica,África al sur del Sahara,2022,360975440918.611
+ZAF,Sudáfrica,África al sur del Sahara,2023,363885280375.697
+ZAF,Sudáfrica,África al sur del Sahara,2024,365831497261.341
+ZAF,Sudáfrica,África al sur del Sahara,2025,369909150542.474

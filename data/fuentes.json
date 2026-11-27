@@ -2,18 +2,20 @@
   "descripcion": "Procedencia de los datos que usan los notebooks. Los notebooks leen siempre la copia local; las URL sólo documentan el origen. Verificación: python scripts/verificar_datos.py",
   "archivos": [
     {
-      "archivo": "ITAEE.csv",
+      "archivo": "pib_banco_mundial.csv",
       "notebooks": ["27_visualizacion_de_datos_con_pandas.ipynb"],
       "origen": "externo",
-      "descripcion": "Índice Trimestral de la Actividad Económica Estatal (ITAEE), índice de volumen físico por entidad, exportado por el notebook 26 (dos filas de encabezado: año y periodo).",
-      "cobertura": "1980-2025, trimestral y anual, 32 entidades + nacional",
-      "fuente": "INEGI, Indicador Trimestral de la Actividad Económica Estatal.",
+      "descripcion": "PIB anual por país en dólares estadounidenses a precios constantes de 2015, en formato largo (columnas codigo, pais, region, año, pib). Lo genera python scripts/descargar_banco_mundial.py; el notebook 26 descarga el mismo indicador para 12 países.",
+      "cobertura": "1990-2025, anual; 23 países de las siete regiones del Banco Mundial (CAN, USA, ARG, BRA, CHL, COL, DEU, ESP, FRA, POL, AUS, CHN, IDN, JPN, BGD, IND, EGY, MAR, SAU, ETH, KEN, NGA, ZAF) y el agregado mundial (WLD); 864 renglones",
+      "fuente": "Banco Mundial, World Bank Open Data, indicador NY.GDP.MKTP.KD, PIB (US$ a precios constantes de 2015). Página del indicador: https://data.worldbank.org/indicator/NY.GDP.MKTP.KD",
+      "consulta": "2026-11-27",
+      "actualizacion_fuente": "2026-11-11",
       "urls": [
-        {"rol": "archivo que descarga el notebook 26", "url": "https://www.inegi.org.mx/contenidos/programas/itaee/2018/tabulados/ori/ITAEE_r_3.xlsx"},
-        {"rol": "página del programa", "url": "https://www.inegi.org.mx/programas/itaee/2018/"}
+        {"rol": "consulta de la API que hace scripts/descargar_banco_mundial.py (sin claves)", "url": "https://api.worldbank.org/v2/es/country/CAN;USA;ARG;BRA;CHL;COL;DEU;ESP;FRA;POL;AUS;CHN;IDN;JPN;BGD;IND;EGY;MAR;SAU;ETH;KEN;NGA;ZAF;WLD/indicator/NY.GDP.MKTP.KD?format=json&date=1990:2025&per_page=2000"},
+        {"rol": "licencia", "url": "https://datacatalog.worldbank.org/public-licenses"}
       ],
-      "licencia": "Términos de Libre Uso de la Información del INEGI",
-      "sha256": "30160ee3f31953e4b43ef8e49a8f6977a38e628b90e56e10f5110708a6e22519"
+      "licencia": "Creative Commons Atribución 4.0 Internacional (CC BY 4.0)",
+      "sha256": "9fa787266dd19e9171fd30ab0c4cc2f483a897ce29d27214da70677653e007de"
     },
     {
       "archivo": "ventas.csv",

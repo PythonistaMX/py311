@@ -174,7 +174,7 @@ Algunas secciones avanzadas de los notebooks `34` a `38` no se ven en clase: lle
 | [`38`](38_consultas_diferidas_y_datos_grandes.ipynb) | Medición de rendimiento: Pandas y Polars | 38 completo; 24: `groupby` | 20 min |
 | | | **Total** | **≈ 105 min** |
 
-Los notebooks nunca dependen de un enlace externo para obtener sus datos: cada archivo de `data/` está versionado en el repositorio y su procedencia (fuente, URL de origen, cobertura, licencia y huella SHA-256) se registra en [`data/fuentes.json`](data/fuentes.json). `python scripts/verificar_datos.py` comprueba la integridad de los archivos y, con `--enlaces`, informa qué URL de origen dejaron de responder; *GitHub Actions* lo ejecuta en cada PR y cada mes. La única excepción deliberada es el notebook `26`, cuyo tema es precisamente descargar datos del INEGI.
+Los notebooks nunca dependen de un enlace externo para obtener sus datos: cada archivo de `data/` está versionado en el repositorio y su procedencia (fuente, URL de origen, cobertura, licencia y huella SHA-256) se registra en [`data/fuentes.json`](data/fuentes.json). `python scripts/verificar_datos.py` comprueba la integridad de los archivos y, con `--enlaces`, informa qué URL de origen dejaron de responder; *GitHub Actions* lo ejecuta en cada PR y cada mes. La única excepción deliberada es el notebook `26`, cuyo tema es precisamente descargar datos de la API del Banco Mundial (*World Bank Open Data*, licencia CC BY 4.0).
 
 #### 🎬 Demo: una *data app* con Streamlit
 * `39` - **Demo de Streamlit:** un *dashboard* web sin HTML, CSS ni JavaScript, construido con *Polars* y los gráficos de *Matplotlib* y *Seaborn* del curso. Es una demostración de cierre: no se evalúa y ningún *notebook* depende de ella.

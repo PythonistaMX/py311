@@ -28,7 +28,7 @@ Gracias por contribuir al curso Py311.
 ## Criterios para aprobar un PR
 
 - El contenido debe mantener consistencia con la ruta didáctica del curso.
-- El CI (*Notebooks Smoke Test*) debe pasar: ejecuta todos los *notebooks* completos con las versiones de `requirements.txt`. El *notebook* `26`, que descarga datos del INEGI, se ejecuta en un paso que no bloquea.
+- El CI (*Notebooks Smoke Test*) debe pasar: ejecuta todos los *notebooks* completos con las versiones de `requirements.txt`. El *notebook* `26`, que descarga datos de la API del Banco Mundial, se ejecuta en un paso que no bloquea.
 - En `streamlit-project/` deben pasar:
   - `ruff check .`
   - `pytest --cov=src --cov-report=term-missing`
