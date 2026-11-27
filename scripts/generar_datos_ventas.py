@@ -4,11 +4,15 @@ Crea en ``data/``:
 
 * ``ventas.csv``: 20,000 ventas de una cadena de tiendas, 2024-2025.
 * ``tiendas.csv``: catálogo de 14 tiendas.
-* ``tipo_cambio.csv``: tipo de cambio USD/MXN en días hábiles.
+* ``tipo_cambio.csv``: tipo de cambio de ejemplo (unidades monetarias por dólar
+  estadounidense) en días hábiles.
 
 Los datos son sintéticos y se generan con una semilla fija, así que el
-resultado es siempre el mismo. Algunos defectos son intencionales, para
-los ejemplos de limpieza y de joins:
+resultado es siempre el mismo. No corresponden a ningún país: tiendas,
+ciudades y estados tienen nombres genéricos, los importes están en
+unidades monetarias (UM) sin moneda concreta y los correos usan los
+dominios reservados para ejemplos (RFC 2606). Algunos defectos son
+intencionales, para los ejemplos de limpieza y de joins:
 
 * ``descuento`` tiene valores nulos.
 * Algunos correos tienen mayúsculas o espacios de más.
@@ -32,43 +36,45 @@ DATA = Path(__file__).resolve().parent.parent / "data"
 
 TIENDAS = [
     # tienda_id, nombre, ciudad, estado, region, fecha_apertura, metros_cuadrados
-    (1, "Centro Histórico", "Ciudad de México", "Ciudad de México", "Centro", "2015-03-01", 850),
-    (2, "Polanco", "Ciudad de México", "Ciudad de México", "Centro", "2017-06-15", 1200),
-    (3, "Coyoacán", "Ciudad de México", "Ciudad de México", "Centro", "2019-09-01", 700),
-    (4, "Angelópolis", "Puebla", "Puebla", "Centro", "2018-02-20", 950),
-    (5, "Andares", "Zapopan", "Jalisco", "Occidente", "2016-11-10", 1100),
-    (6, "Chapultepec", "Guadalajara", "Jalisco", "Occidente", "2020-01-15", 650),
-    (7, "Valle Oriente", "San Pedro Garza García", "Nuevo León", "Norte", "2014-08-01", 1300),
-    (8, "Cumbres", "Monterrey", "Nuevo León", "Norte", "2021-04-12", 600),
-    (9, "Zona Río", "Tijuana", "Baja California", "Norte", "2019-05-30", 800),
-    (10, "Montejo", "Mérida", "Yucatán", "Sureste", "2017-10-05", 900),
-    (11, "Cancún Centro", "Cancún", "Quintana Roo", "Sureste", "2022-02-01", 750),
-    (12, "Juriquilla", "Querétaro", "Querétaro", "Centro", "2023-07-01", 680),
-    (13, "Mazatlán Malecón", "Mazatlán", "Sinaloa", "Occidente", "2026-01-15", 600),
-    (14, "Oaxaca Centro", "Oaxaca de Juárez", "Oaxaca", "Sureste", "2026-02-01", 550),
+    # Nombres, ciudades y estados son genéricos y no corresponden a ningún país.
+    (1, "Tienda Centro 1", "Ciudad A", "Estado 1", "Centro", "2015-03-01", 850),
+    (2, "Tienda Centro 2", "Ciudad A", "Estado 1", "Centro", "2017-06-15", 1200),
+    (3, "Tienda Centro 3", "Ciudad A", "Estado 1", "Centro", "2019-09-01", 700),
+    (4, "Tienda Centro 4", "Ciudad B", "Estado 2", "Centro", "2018-02-20", 950),
+    (5, "Tienda Oeste 1", "Ciudad C", "Estado 3", "Oeste", "2016-11-10", 1100),
+    (6, "Tienda Oeste 2", "Ciudad D", "Estado 3", "Oeste", "2020-01-15", 650),
+    (7, "Tienda Norte 1", "Ciudad E", "Estado 4", "Norte", "2014-08-01", 1300),
+    (8, "Tienda Norte 2", "Ciudad F", "Estado 4", "Norte", "2021-04-12", 600),
+    (9, "Tienda Norte 3", "Ciudad G", "Estado 5", "Norte", "2019-05-30", 800),
+    (10, "Tienda Sur 1", "Ciudad H", "Estado 6", "Sur", "2017-10-05", 900),
+    (11, "Tienda Sur 2", "Ciudad I", "Estado 7", "Sur", "2022-02-01", 750),
+    (12, "Tienda Centro 5", "Ciudad J", "Estado 8", "Centro", "2023-07-01", 680),
+    (13, "Tienda Oeste 3", "Ciudad K", "Estado 9", "Oeste", "2026-01-15", 600),
+    (14, "Tienda Sur 3", "Ciudad L", "Estado 10", "Sur", "2026-02-01", 550),
 ]
 
 PRODUCTOS = [
-    # producto, categoria, precio de lista (MXN)
+    # producto, categoria, precio de lista (unidades monetarias)
     ("Audífonos inalámbricos", "Electrónica", 1499.0),
-    ("Bocina portátil", "Electrónica", 899.0),
+    ("Altavoz portátil", "Electrónica", 899.0),
     ("Cargador USB-C", "Electrónica", 349.0),
     ("Teclado mecánico", "Electrónica", 1899.0),
     ("Juego de sartenes", "Hogar", 1299.0),
     ("Cafetera de goteo", "Hogar", 799.0),
     ("Toallas de baño", "Hogar", 299.0),
-    ("Cuaderno profesional", "Papelería", 65.0),
-    ("Plumas de gel (12)", "Papelería", 120.0),
+    ("Cuaderno de espiral", "Papelería", 65.0),
+    ("Bolígrafos de gel (12)", "Papelería", 120.0),
     ("Mochila escolar", "Papelería", 649.0),
     ("Balón de fútbol", "Deportes", 459.0),
-    ("Tapete de yoga", "Deportes", 389.0),
+    ("Colchoneta de yoga", "Deportes", 389.0),
 ]
 
 NOMBRES = ["ana", "luis", "sofia", "carlos", "maria", "jorge", "lucia", "diego", "elena", "pablo",
            "valeria", "miguel", "fernanda", "ricardo", "paula", "andres", "camila", "javier"]
 APELLIDOS = ["garcia", "lopez", "martinez", "hernandez", "perez", "sanchez", "ramirez", "torres",
              "flores", "rivera", "gomez", "diaz", "morales", "castro"]
-DOMINIOS = ["correo.mx", "mail.com", "ejemplo.org"]
+# Dominios reservados para ejemplos (RFC 2606).
+DOMINIOS = ["example.com", "example.org", "example.net"]
 
 
 def generar_ventas(rng: np.random.Generator) -> pl.DataFrame:
@@ -93,7 +99,7 @@ def generar_ventas(rng: np.random.Generator) -> pl.DataFrame:
     producto = [PRODUCTOS[i][0] for i in idx_producto]
     categoria = [PRODUCTOS[i][1] for i in idx_producto]
     precio = np.array([PRODUCTOS[i][2] for i in idx_producto])
-    # Variación de precio de ±5 %, redondeada a centavos.
+    # Variación de precio de ±5 %, redondeada a dos decimales.
     precio_unitario = np.round(precio * rng.uniform(0.95, 1.05, N_VENTAS), 2)
 
     cantidad = rng.choice([1, 1, 1, 2, 2, 3, 4, 5], N_VENTAS)
@@ -141,12 +147,12 @@ def generar_tipo_cambio(rng: np.random.Generator) -> pl.DataFrame:
     dia = date(2024, 1, 1)
     while dia <= date(2025, 12, 31):
         if dia.weekday() < 5:  # sólo días hábiles (lunes a viernes)
-            # Paseo aleatorio que tiende a regresar a 18.5.
+            # Paseo aleatorio que tiende a regresar a 18.5 (valor de ejemplo).
             valor = round(valor + 0.03 * (18.5 - valor) + rng.normal(0, 0.08), 4)
             fechas.append(dia)
             valores.append(valor)
         dia += timedelta(days=1)
-    return pl.DataFrame({"fecha": fechas, "usd_mxn": valores})
+    return pl.DataFrame({"fecha": fechas, "tipo_cambio": valores})
 
 
 def main() -> None:

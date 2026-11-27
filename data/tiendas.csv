@@ -1,15 +1,15 @@
 tienda_id,nombre,ciudad,estado,region,fecha_apertura,metros_cuadrados
-1,Centro Histórico,Ciudad de México,Ciudad de México,Centro,2015-03-01,850
-2,Polanco,Ciudad de México,Ciudad de México,Centro,2017-06-15,1200
-3,Coyoacán,Ciudad de México,Ciudad de México,Centro,2019-09-01,700
-4,Angelópolis,Puebla,Puebla,Centro,2018-02-20,950
-5,Andares,Zapopan,Jalisco,Occidente,2016-11-10,1100
-6,Chapultepec,Guadalajara,Jalisco,Occidente,2020-01-15,650
-7,Valle Oriente,San Pedro Garza García,Nuevo León,Norte,2014-08-01,1300
-8,Cumbres,Monterrey,Nuevo León,Norte,2021-04-12,600
-9,Zona Río,Tijuana,Baja California,Norte,2019-05-30,800
-10,Montejo,Mérida,Yucatán,Sureste,2017-10-05,900
-11,Cancún Centro,Cancún,Quintana Roo,Sureste,2022-02-01,750
-12,Juriquilla,Querétaro,Querétaro,Centro,2023-07-01,680
-13,Mazatlán Malecón,Mazatlán,Sinaloa,Occidente,2026-01-15,600
-14,Oaxaca Centro,Oaxaca de Juárez,Oaxaca,Sureste,2026-02-01,550
+1,Tienda Centro 1,Ciudad A,Estado 1,Centro,2015-03-01,850
+2,Tienda Centro 2,Ciudad A,Estado 1,Centro,2017-06-15,1200
+3,Tienda Centro 3,Ciudad A,Estado 1,Centro,2019-09-01,700
+4,Tienda Centro 4,Ciudad B,Estado 2,Centro,2018-02-20,950
+5,Tienda Oeste 1,Ciudad C,Estado 3,Oeste,2016-11-10,1100
+6,Tienda Oeste 2,Ciudad D,Estado 3,Oeste,2020-01-15,650
+7,Tienda Norte 1,Ciudad E,Estado 4,Norte,2014-08-01,1300
+8,Tienda Norte 2,Ciudad F,Estado 4,Norte,2021-04-12,600
+9,Tienda Norte 3,Ciudad G,Estado 5,Norte,2019-05-30,800
+10,Tienda Sur 1,Ciudad H,Estado 6,Sur,2017-10-05,900
+11,Tienda Sur 2,Ciudad I,Estado 7,Sur,2022-02-01,750
+12,Tienda Centro 5,Ciudad J,Estado 8,Centro,2023-07-01,680
+13,Tienda Oeste 3,Ciudad K,Estado 9,Oeste,2026-01-15,600
+14,Tienda Sur 3,Ciudad L,Estado 10,Sur,2026-02-01,550

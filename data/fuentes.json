@@ -19,22 +19,22 @@
       "archivo": "ventas.csv",
       "notebooks": ["34_introduccion_a_pyarrow.ipynb", "35_introduccion_a_polars.ipynb", "36_expresiones_de_polars.ipynb", "37_polars_avanzado.ipynb", "38_consultas_diferidas_y_datos_grandes.ipynb"],
       "origen": "sintetico",
-      "descripcion": "Ventas sintéticas; se regeneran con python scripts/generar_datos_ventas.py (semilla fija).",
-      "sha256": "6c2796df274a098b90c486314197d08afdd7f1e1751f2258633f807a89a7eeef"
+      "descripcion": "Ventas sintéticas, sin país concreto: importes en unidades monetarias (UM) y correos en dominios de ejemplo (RFC 2606); se regeneran con python scripts/generar_datos_ventas.py (semilla fija).",
+      "sha256": "204a2bb94f02a429210289364f45c038b0c1a58b53766f8ed004a8a3bc11e58e"
     },
     {
       "archivo": "tiendas.csv",
       "notebooks": ["34_introduccion_a_pyarrow.ipynb", "35_introduccion_a_polars.ipynb", "36_expresiones_de_polars.ipynb", "37_polars_avanzado.ipynb", "38_consultas_diferidas_y_datos_grandes.ipynb"],
       "origen": "sintetico",
-      "descripcion": "Catálogo sintético de tiendas; lo genera scripts/generar_datos_ventas.py.",
-      "sha256": "9e2ce73c7a8e5a4edc725b56f9ac6882085a64e87b10d1731cec964bb7896e08"
+      "descripcion": "Catálogo sintético de tiendas con nombres, ciudades y estados genéricos; lo genera scripts/generar_datos_ventas.py.",
+      "sha256": "61d60f27e9fb36f2ffe4910ad2a883a79c8b8be1cb495c6708c230b06ffa91d3"
     },
     {
       "archivo": "tipo_cambio.csv",
       "notebooks": ["34_introduccion_a_pyarrow.ipynb", "35_introduccion_a_polars.ipynb", "36_expresiones_de_polars.ipynb", "37_polars_avanzado.ipynb", "38_consultas_diferidas_y_datos_grandes.ipynb"],
       "origen": "sintetico",
-      "descripcion": "Tipo de cambio sintético; lo genera scripts/generar_datos_ventas.py.",
-      "sha256": "ad28075e44fd21feb083d128fafb476d2d27b5900ad611f46c03f80fc6cef832"
+      "descripcion": "Tipo de cambio de ejemplo (columna tipo_cambio: unidades monetarias por dólar estadounidense), sintético y en días hábiles; lo genera scripts/generar_datos_ventas.py.",
+      "sha256": "69ca603c737de1ec99eb263e68cb45ab1f9d76ef191b243153c4efcb635afc77"
     }
   ]
 }
