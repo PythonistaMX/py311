@@ -6,14 +6,10 @@
     "ghcr.io/devcontainers/features/github-cli:1": {}
   },
 
-  "forwardPorts": [8501, 8787],
+  "forwardPorts": [8501],
   "portsAttributes": {
     "8501": {
       "label": "Streamlit App",
-      "onAutoForward": "notify"
-    },
-    "8787": {
-      "label": "Dask Dashboard",
       "onAutoForward": "notify"
     }
   },

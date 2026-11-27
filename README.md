@@ -6,7 +6,7 @@
 [![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![Polars](https://img.shields.io/badge/Backend-Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white)](https://pola.rs/)
 
-Este repositorio contiene el material oficial del curso **Py311**, primer curso de la ruta de Ingeniería de Datos con Python. Cubre los fundamentos de computación numérica, manipulación y visualización de datos, y presenta las herramientas modernas de análisis y escalado que se usarán a lo largo de toda la ruta.
+Este repositorio contiene el material oficial del curso **Py311**, primer curso de la ruta de Ingeniería de Datos con Python. Cubre los fundamentos de computación numérica, manipulación y visualización de datos, y presenta las herramientas modernas de análisis que se usarán a lo largo de toda la ruta.
 
 ---
 
@@ -45,8 +45,7 @@ Un programa intensivo orientado a construir la base técnica necesaria para trab
 * **Manipular datos con Pandas moderno:** Tipos eficientes, limpieza, agregaciones y ventanas.
 * **Visualizar con precisión estadística:** Matplotlib y Seaborn, y como tema extra la gramática de gráficos de ggplot2 con plotnine.
 * **Optimizar memoria y rendimiento:** PyArrow como backend y Polars para análisis de alto rendimiento.
-* **Construir productos de datos:** Dashboards interactivos con Streamlit sin necesidad de desarrollo web.
-* **Escalar más allá de la memoria local:** Procesamiento paralelo y distribuido con Dask.
+* **Ver un producto de datos en acción:** una demo de *dashboard* interactivo con Streamlit cierra el curso.
 
 Todo el entorno se ejecuta en la nube mediante **GitHub Codespaces**, sin necesidad de instalación local.
 
@@ -54,7 +53,7 @@ Todo el entorno se ejecuta en la nube mediante **GitHub Codespaces**, sin necesi
 
 ## 📅 Temario y Estructura
 
-El curso consta de **15 sesiones de 2 horas** (30 horas totales), divididas en 6 bloques estratégicos, más un tema extra sobre la gramática de gráficos con *plotnine*:
+El curso consta de **14 sesiones de 2 horas** (28 horas totales), divididas en 4 bloques, más una demo de *Streamlit* al final de la última sesión y un tema extra sobre la gramática de gráficos con *plotnine*:
 
 | Bloque | Temática Principal | Tecnologías Clave |
 | :--- | :--- | :--- |
@@ -62,8 +61,7 @@ El curso consta de **15 sesiones de 2 horas** (30 horas totales), divididas en 6
 | **II. Pandas Moderno** | Backend PyArrow, manipulación y limpieza de datos | `Pandas 3`, `PyArrow` |
 | **III. Visualización** | Control fino y visualización estadística | `Matplotlib`, `Seaborn` |
 | **IV. Herramientas Modernas** | Formato Arrow, Polars y optimización de memoria | `PyArrow`, `Polars` |
-| **V. Escalado** | Procesamiento paralelo y escalabilidad distribuida | `Dask` |
-| **VI. Data Apps** | Dashboards interactivos sin desarrollo web | `Streamlit` |
+| *Demo* | Un *dashboard* interactivo sin desarrollo web | `Streamlit` |
 
 ### 📚 Contenidos
 
@@ -106,8 +104,7 @@ El curso consta de **15 sesiones de 2 horas** (30 horas totales), divididas en 6
 - [35_introduccion_a_polars.ipynb](35_introduccion_a_polars.ipynb)
 - [36_expresiones_de_polars.ipynb](36_expresiones_de_polars.ipynb)
 - [37_polars_avanzado.ipynb](37_polars_avanzado.ipynb)
-- [38_introduccion_a_dask.ipynb](38_introduccion_a_dask.ipynb)
-- [39_introduccion_a_streamlit.ipynb](39_introduccion_a_streamlit.ipynb)
+- [39_introduccion_a_streamlit.ipynb](39_introduccion_a_streamlit.ipynb) (demo)
 - [40_gramatica_de_graficos_con_plotnine.ipynb](40_gramatica_de_graficos_con_plotnine.ipynb) (tema extra)
 
 #### 🔹 Módulo 1: Fundamentos Numéricos
@@ -161,11 +158,10 @@ Los notebooks `34` a `37` usan los mismos datos sintéticos de ventas (`data/ven
 
 Los notebooks nunca dependen de un enlace externo para obtener sus datos: cada archivo de `data/` está versionado en el repositorio y su procedencia (fuente, URL de origen, cobertura, licencia y huella SHA-256) se registra en [`data/fuentes.json`](data/fuentes.json). `python scripts/verificar_datos.py` comprueba la integridad de los archivos y, con `--enlaces`, informa qué URL de origen dejaron de responder; *GitHub Actions* lo ejecuta en cada PR y cada mes. La única excepción deliberada es el notebook `26`, cuyo tema es precisamente descargar datos del INEGI.
 
-#### 🔹 Módulo 5: Computación Distribuida
-* `38` - **Introducción a Dask:** procesamiento paralelo y escalabilidad out-of-core.
+#### 🎬 Demo: una *data app* con Streamlit
+* `39` - **Demo de Streamlit:** un *dashboard* web sin HTML, CSS ni JavaScript, construido con *Polars* y los gráficos de *Matplotlib* y *Seaborn* del curso. Es una demostración de cierre: no se evalúa y ningún *notebook* depende de ella.
 
-#### 🔹 Módulo 6: Data Apps Interactivas
-* `39` - **Introducción a Streamlit:** dashboards web sin HTML/CSS/JavaScript.
+> **Nota sobre la numeración:** el número `38` no se usa. La demo conserva el `39` porque la app de referencia ([PythonistaMX/streamlit-project](https://github.com/PythonistaMX/streamlit-project)) lo cita como N39, y el tema extra conserva el `40`.
 
 #### ⭐ Tema extra: Gramática de gráficos
 * `40` - **La gramática de gráficos con plotnine:** origen (Wilkinson y ggplot2), datos ordenados, mapeos estéticos, geometrías y capas, estadísticas, posiciones, escalas, coordenadas, facetas, temas, un caso práctico con los datos de ventas y equivalencias ggplot2 → plotnine.
@@ -180,7 +176,7 @@ Los notebooks nunca dependen de un enlace externo para obtener sus datos: cada a
 | `data/` | Datos de ejemplo y su manifiesto de procedencia (`fuentes.json`). |
 | `scripts/` | Programas auxiliares: generador de los datos de ventas y verificador de los datos (`verificar_datos.py`). |
 | `img/` | Imágenes usadas en los notebooks. |
-| `streamlit-project/` | Submódulo con la versión de referencia de la app del notebook `39` ([PythonistaMX/streamlit-project](https://github.com/PythonistaMX/streamlit-project)), con pruebas y CI/CD. |
+| `streamlit-project/` | Submódulo con la versión de referencia de la app de la demo `39` ([PythonistaMX/streamlit-project](https://github.com/PythonistaMX/streamlit-project)), con pruebas y CI/CD. |
 | `data_tmp/`, `mi_app_streamlit/` | Archivos que generan los notebooks al ejecutarse; están en `.gitignore`. |
 
 ### Pruebas automáticas
@@ -200,7 +196,7 @@ En cada *push* y *pull request* a `main`, el workflow **Notebooks Smoke Test** e
 El entorno se iniciará automáticamente con:
 * Python 3.11
 * JupyterLab
-* Todas las librerías instaladas (Polars, Dask, Streamlit, etc.)
+* Todas las librerías instaladas (Polars, Streamlit, etc.)
 * Puertos configurados para visualizar tus apps.
 
 ### Ejecución Local (Opcional)
@@ -232,7 +228,6 @@ jupyter lab
 * [Documentación oficial de Seaborn](https://seaborn.pydata.org/)
 * [Documentación oficial de PyArrow](https://arrow.apache.org/docs/python/)
 * [Documentación oficial de Polars](https://docs.pola.rs/)
-* [Documentación oficial de Dask](https://docs.dask.org/)
 * [Documentación oficial de Streamlit](https://docs.streamlit.io/)
 * [Documentación oficial de plotnine](https://plotnine.org/) y el libro [*ggplot2: Elegant Graphics for Data Analysis*](https://ggplot2-book.org/)
 

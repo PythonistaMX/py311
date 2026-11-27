@@ -2,7 +2,7 @@
 
 Guía operativa para impartir el curso con consistencia técnica y pedagógica.
 
-## Estructura sugerida (15 sesiones, 2 horas)
+## Estructura sugerida (14 sesiones de 2 horas, 28 horas)
 
 | Sesión | Notebooks | Tema |
 | :--- | :--- | :--- |
@@ -19,8 +19,7 @@ Guía operativa para impartir el curso con consistencia técnica y pedagógica.
 | 11 | 32-33 | Seaborn |
 | 12 | 34 | PyArrow |
 | 13 | 35-36 | Fundamentos y expresiones de Polars |
-| 14 | 37-38 | Polars avanzado y Dask |
-| 15 | 39 | Streamlit y proyecto integrador (`streamlit-project/`) |
+| 14 | 37, 39 | Polars avanzado (unos 90 min) y demo de Streamlit (unos 30 min, con `streamlit-project/`) |
 | Extra | 40 | Gramática de gráficos con plotnine: sesión adicional o estudio independiente |
 
 ## Resultados de aprendizaje por bloque
@@ -29,22 +28,21 @@ Guía operativa para impartir el curso con consistencia técnica y pedagógica.
 - Pandas: limpiar, transformar, agregar y analizar series temporales.
 - Visualización: seleccionar y construir gráficos con criterio con Matplotlib y Seaborn.
 - Herramientas modernas: usar Arrow/Polars para rendimiento e interoperabilidad.
-- Escalado: entender el paso a computación paralela con Dask.
-- Data Apps: publicar un dashboard funcional en Streamlit.
+- Demo de Streamlit (no evaluada): reconocer cómo un análisis se convierte en una *data app*.
 - Tema extra: describir cualquier gráfico con los componentes de la gramática de gráficos (datos, mapeos, geometrías, estadísticas, escalas, coordenadas, facetas y temas) y construirlo con plotnine.
 
 ## Evaluación sugerida
 
 - 40% ejercicios guiados por notebook.
 - 20% quiz técnico (conceptos y lectura de código).
-- 40% proyecto final en Streamlit.
+- 40% proyecto final: un análisis reproducible en *notebook* con un conjunto de datos de `data/` (fuera de sesión). Presentarlo como app de Streamlit es opcional.
 
 ## Rúbrica del proyecto final (100 puntos)
 
-- 25 pts: Corrección funcional (app ejecuta sin errores).
+- 25 pts: Corrección funcional (el *notebook* se ejecuta de principio a fin sin errores).
 - 20 pts: Calidad de datos (carga, limpieza, validaciones).
 - 20 pts: Análisis y visualización (claridad de métricas y gráficos).
-- 15 pts: UX básica (navegación, filtros, feedback al usuario).
+- 15 pts: Comunicación de resultados (narrativa, títulos y conclusiones).
 - 10 pts: Calidad de código (modularidad, nombres, legibilidad).
 - 10 pts: Evidencia de pruebas y/o lint.
 
@@ -52,9 +50,9 @@ Guía operativa para impartir el curso con consistencia técnica y pedagógica.
 
 - Entorno de Codespaces listo y dependencias instaladas.
 - Notebooks de la sesión abren y ejecutan celdas clave; el workflow *Notebooks Smoke Test* de `main` está en verde.
-- Dataset de ejemplo disponible (`data/`). Los datos de ventas de los notebooks 34-37 se regeneran con `python scripts/generar_datos_ventas.py` (semilla fija). La serie de COVID-19 del notebook 38 (`data/covid_casos_diarios_estado.csv`) es real y está versionada: la clase no depende de que el portal de origen siga en línea. `python scripts/verificar_datos.py` confirma que los archivos están completos.
+- Dataset de ejemplo disponible (`data/`). Los datos de ventas de los notebooks 34-37 se regeneran con `python scripts/generar_datos_ventas.py` (semilla fija). `python scripts/verificar_datos.py` confirma que los archivos están completos.
 - `streamlit-project/` ejecuta localmente: `streamlit run app.py`.
-- El notebook 39 escribe su versión de la app en `mi_app_streamlit/` (ignorada por git); el submódulo `streamlit-project/` no se modifica.
+- La demo `39` escribe su versión de la app en `mi_app_streamlit/` (ignorada por git); el submódulo `streamlit-project/` no se modifica.
 - Pruebas del proyecto en verde: `ruff check .` y `pytest`.
 
 ## Checklist de cierre de módulo

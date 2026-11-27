@@ -4,7 +4,6 @@ Los notebooks leen estos archivos directamente; ninguno necesita descargar nada 
 
 | Archivo | Notebooks | Origen |
 | :--- | :--- | :--- |
-| `covid_casos_diarios_estado.csv` | 38 | Casos confirmados diarios de COVID-19 por entidad, 2020-02-26 a 2022-04-30. Secretaría de Salud, DGE (datos abiertos); serie publicada por el tablero CONAHCYT, congelado desde el 30 de abril de 2022. |
 | `ITAEE.csv` | 27 | INEGI, Indicador Trimestral de la Actividad Económica Estatal (exportado por el notebook 26). |
 | `ventas.csv`, `tiendas.csv`, `tipo_cambio.csv` | 34-37 | Sintéticos; se regeneran con `python scripts/generar_datos_ventas.py`. |
 

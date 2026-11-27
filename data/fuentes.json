@@ -2,23 +2,6 @@
   "descripcion": "Procedencia de los datos que usan los notebooks. Los notebooks leen siempre la copia local; las URL sólo documentan el origen. Verificación: python scripts/verificar_datos.py",
   "archivos": [
     {
-      "archivo": "covid_casos_diarios_estado.csv",
-      "notebooks": ["38_introduccion_a_dask.ipynb"],
-      "origen": "externo",
-      "descripcion": "Casos confirmados diarios de COVID-19 por entidad federativa y total nacional. Una fila por día; columna 'index' con la fecha y una columna por entidad más 'Nacional' (la suma de las entidades).",
-      "cobertura": "2020-02-26 a 2022-04-30 (795 días, 32 entidades + Nacional)",
-      "fuente": "Secretaría de Salud, Dirección General de Epidemiología (DGE), datos abiertos COVID-19. Serie diaria por entidad publicada por el tablero CONAHCYT/CentroGeo, cuya actualización se pausó el 30 de abril de 2022.",
-      "urls": [
-        {"rol": "fuente primaria (microdatos e históricos)", "url": "https://www.gob.mx/salud/documentos/datos-abiertos-152127"},
-        {"rol": "tablero que publicaba la serie diaria por entidad (congelado desde 2022-04-30)", "url": "https://datos.covid-19.conacyt.mx/"},
-        {"rol": "copia de referencia de este archivo", "url": "https://github.com/PythonistaMX/py701/blob/main/data/data_covid.csv"},
-        {"rol": "respaldo descargable (copia idéntica)", "url": "https://raw.githubusercontent.com/PythonistaMX/py701/main/data/data_covid.csv"}
-      ],
-      "licencia": "Términos de Libre Uso MX (datos abiertos del Gobierno de México)",
-      "copiado": "2026-11-10, desde PythonistaMX/py701 (data/data_covid.csv, sin modificaciones)",
-      "sha256": "7c4728666b5428f32f6d424d83d75c949f58a7c4788ff7d6f348c0825c94fe02"
-    },
-    {
       "archivo": "ITAEE.csv",
       "notebooks": ["27_visualizacion_de_datos_con_pandas.ipynb"],
       "origen": "externo",
