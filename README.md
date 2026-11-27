@@ -155,7 +155,7 @@ El curso consta de **14 sesiones de 2 horas** (28 horas totales), divididas en 4
 * `37` - **Combinación y remodelado de tablas con Polars:** joins y `pivot()`/`unpivot()`. *Autoestudio:* combinación por la clave más cercana (`join_asof`).
 * `38` - **Consultas diferidas y datos grandes:** modo diferido, `scan_csv()` y `scan_parquet()`, lectura del plan con `explain()` y sus optimizaciones, `collect()` y el motor streaming, `sink_parquet()`/`sink_csv()`, conjuntos particionados con el esquema de Hive y un ejemplo completo con un archivo de ventas grande generado con NumPy. *Autoestudio:* SQL, `pl.collect_all()`, `pl.PartitionBy` y `collect_batches()`, y una medición de rendimiento frente a Pandas.
 
-Los notebooks `34` a `38` usan los mismos datos sintéticos de ventas (`data/ventas.csv`, `data/tiendas.csv` y `data/tipo_cambio.csv`), que se regeneran con `python scripts/generar_datos_ventas.py`. El notebook `38` genera además, con NumPy y sin descargas, un archivo de ventas grande en `data_tmp/`: por omisión, un millón de renglones (unos 63 MB en CSV); la variable de entorno `PY311_RENGLONES` cambia el tamaño.
+Los notebooks `34` a `38` usan los mismos datos sintéticos de ventas (`data/ventas.csv`, `data/tiendas.csv` y `data/tipo_cambio.csv`), que se regeneran con `python scripts/generar_datos_ventas.py`. Estos datos no corresponden a ningún país: tiendas, ciudades y estados con nombres genéricos, importes en unidades monetarias (UM) y correos en dominios reservados para ejemplos (RFC 2606). El notebook `38` genera además, con NumPy y sin descargas, un archivo de ventas grande en `data_tmp/`: por omisión, un millón de renglones (unos 63 MB en CSV); la variable de entorno `PY311_RENGLONES` cambia el tamaño.
 
 #### 📘 Autoestudio
 
