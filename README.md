@@ -102,7 +102,7 @@ El curso consta de **14 sesiones de 2 horas** (28 horas totales), divididas en 4
 - [34_introduccion_a_pyarrow.ipynb](34_introduccion_a_pyarrow.ipynb) (incluye autoestudio)
 - [35_introduccion_a_polars.ipynb](35_introduccion_a_polars.ipynb)
 - [36_expresiones_de_polars.ipynb](36_expresiones_de_polars.ipynb) (incluye autoestudio)
-- [37_combinacion_y_remodelado_con_polars.ipynb](37_combinacion_y_remodelado_con_polars.ipynb) (incluye autoestudio)
+- [37_polars_avanzado.ipynb](37_polars_avanzado.ipynb) (incluye autoestudio)
 - [38_consultas_diferidas_y_datos_grandes.ipynb](38_consultas_diferidas_y_datos_grandes.ipynb) (incluye autoestudio)
 - [39_introduccion_a_streamlit.ipynb](39_introduccion_a_streamlit.ipynb) (demo)
 - [40_gramatica_de_graficos_con_plotnine.ipynb](40_gramatica_de_graficos_con_plotnine.ipynb) (tema extra)
@@ -167,7 +167,7 @@ Algunas secciones avanzadas de los notebooks `34` a `38` no se ven en clase: lle
 | [`34`](34_introduccion_a_pyarrow.ipynb) | ChunkedArray y RecordBatch | 34: arrays | 10 min |
 | [`34`](34_introduccion_a_pyarrow.ipynb) | Conjuntos de datos particionados con PyArrow | 34: tablas y Parquet | 10 min |
 | [`36`](36_expresiones_de_polars.ipynb) | Listas y structs | 36: expresiones y `.str`; recomendado: «Tipos anidados» del 34 | 15 min |
-| [`37`](37_combinacion_y_remodelado_con_polars.ipynb) | Combinación por la clave más cercana (`join_asof`) | 37: joins; 22: fechas | 10 min |
+| [`37`](37_polars_avanzado.ipynb) | Combinación por la clave más cercana (`join_asof`) | 37: joins; 22: fechas | 10 min |
 | [`38`](38_consultas_diferidas_y_datos_grandes.ipynb) | SQL en Polars | 37: joins; 38: modo diferido y ejemplo completo | 15 min |
 | [`38`](38_consultas_diferidas_y_datos_grandes.ipynb) | Varias consultas a la vez (`pl.collect_all`) | 38: plan y ejecución | 5 min |
 | [`38`](38_consultas_diferidas_y_datos_grandes.ipynb) | Destinos particionados y lotes (`pl.PartitionBy`, `collect_batches()`) | 38: `sink_parquet()` y ejemplo completo | 10 min |
