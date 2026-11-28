@@ -10,7 +10,7 @@ pyarrow==26.0.1      # Motor de backend
 polars==2.1.0        # Nuevo motor DataFrame
 openpyxl==3.1.5      # Para leer/escribir archivos Excel
 xlrd==2.0.2          # Para leer archivos Excel antiguos
-xlsxwriter==3.3.1    # Para escribir archivos Excel con formato avanzado
+xlsxwriter==3.3.4    # Para escribir archivos Excel con formato avanzado
 
 # Visualización
 matplotlib==3.11.2
