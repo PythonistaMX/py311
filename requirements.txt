@@ -4,7 +4,7 @@
 
 # Core Científico
 numpy==2.4.6
-scipy==1.17.1
+scipy==1.18.1
 pandas==3.1.1        # Necesario para soporte robusto de PyArrow
 pyarrow==26.0.1      # Motor de backend
 polars==2.1.0        # Nuevo motor DataFrame
