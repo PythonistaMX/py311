@@ -22,4 +22,4 @@ streamlit==1.67.0    # Framework web para apps interactivas
 jupyter==1.1.1
 ipykernel==7.4.0
 jupyterlab==4.6.6
-watchdog==7.1.0      # Mejora el reload automático de Streamlit
+watchdog==7.1.1      # Mejora el reload automático de Streamlit
